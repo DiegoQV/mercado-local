@@ -1,6 +1,6 @@
 "use client";
 
-import React, { use } from "react";
+import React, { use, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, Info, CheckCircle2, ChevronRight, Store, ShoppingBag } from "lucide-react";
@@ -8,7 +8,6 @@ import { MOCK_PRODUCTS, CATEGORY_STOCK_IMAGES } from "@/lib/mockData";
 import { Product, MotorProduct, OutfitProduct, AbarrotesProduct, GadgetProduct, FerreteriaProduct, FarmaciaProduct } from "@/types/product";
 import { cn } from "@/lib/utils";
 import { useCart } from "@/context/CartContext";
-import { useState } from "react";
 
 interface PageProps {
   params: Promise<{ id: string }>;

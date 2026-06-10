@@ -55,3 +55,8 @@ export interface TecnologiaProduct extends BaseProduct {
 }
 
 export type Product = AbarrotesProduct | ModaProduct | RepuestosProduct | TecnologiaProduct;
+
+export interface CartItem {
+  product: Product;
+  quantity: number;
+}

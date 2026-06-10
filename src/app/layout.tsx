@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   description: "La plataforma unificada de comercio local para tu ciudad. Abarrotes, Repuestos, Moda y Tecnología en un solo lugar.",
 };
 
+import { CartProvider } from "@/context/CartContext";
+import CartButton from "@/components/CartButton";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -23,7 +26,12 @@ export default function RootLayout({
       lang="es"
       className={`${outfit.variable} font-sans h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#f9fafb]">{children}</body>
+      <body className="min-h-full flex flex-col bg-[#f9fafb]">
+        <CartProvider>
+          {children}
+          <CartButton />
+        </CartProvider>
+      </body>
     </html>
   );
 }

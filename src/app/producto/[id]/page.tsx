@@ -3,10 +3,11 @@
 import React, { use } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, MessageCircle, Info, CheckCircle2, ChevronRight, Store } from "lucide-react";
+import { ArrowLeft, Info, CheckCircle2, ChevronRight, Store, ShoppingBag } from "lucide-react";
 import { MOCK_PRODUCTS } from "@/lib/mockData";
 import { Product, RepuestosProduct, ModaProduct, AbarrotesProduct, TecnologiaProduct } from "@/types/product";
 import { cn } from "@/lib/utils";
+import { useCart } from "@/context/CartContext";
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -15,6 +16,7 @@ interface PageProps {
 export default function ProductDetailPage({ params }: PageProps) {
   const resolvedParams = use(params);
   const productId = resolvedParams.id;
+  const { addToCart } = useCart();
   
   const product = MOCK_PRODUCTS.find((p) => p.id === productId);
 
@@ -27,11 +29,8 @@ export default function ProductDetailPage({ params }: PageProps) {
     );
   }
 
-  const handleWhatsAppAction = () => {
-    const message = `¡Hola! Vi tu producto "${product.name}" con precio S/${product.price.toFixed(2)} en el Mercado Digital de la ciudad y estoy muy interesado. ¿Tienen disponibilidad en su tienda ${product.storeName}?`;
-    const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/${product.whatsappNumber}?text=${encodedMessage}`;
-    window.open(whatsappUrl, "_blank");
+  const handleAddToCart = () => {
+    addToCart(product);
   };
 
   return (
@@ -185,14 +184,14 @@ export default function ProductDetailPage({ params }: PageProps) {
         </div>
       </div>
 
-      {/* Fixed WhatsApp CTA */}
+      {/* Fixed CTA */}
       <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white via-white to-white/0 z-50">
         <button
-          onClick={handleWhatsAppAction}
-          className="w-full bg-[#25D366] text-white py-5 rounded-[2rem] font-bold text-lg flex items-center justify-center gap-3 shadow-xl active:scale-[0.98] transition-all"
+          onClick={handleAddToCart}
+          className="w-full bg-[#6366f1] text-white py-5 rounded-[2rem] font-bold text-lg flex items-center justify-center gap-3 shadow-xl shadow-indigo-100 active:scale-[0.98] transition-all"
         >
-          <MessageCircle size={24} fill="currentColor" />
-          Pedir por WhatsApp
+          <ShoppingBag size={24} />
+          Añadir al Carrito
         </button>
       </div>
     </main>

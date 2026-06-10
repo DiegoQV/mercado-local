@@ -1,200 +1,173 @@
-import { Product } from "@/types/product";
+import { Product, Category } from "@/types/product";
 
-export const MOCK_PRODUCTS: Product[] = [
-  // ABARROTES
-  {
-    id: "ab-001",
-    name: "Café Orgánico de la Sierra",
-    price: 15.50,
-    description: "Café de grano selecto, tostado artesanalmente en las montañas locales. Aroma intenso y sabor equilibrado.",
-    image: "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=600&q=80",
-    category: "abarrotes",
-    storeName: "La Despensa de Doña Rosa",
-    whatsappNumber: "573101234567",
-    attributes: {
-      unit: "500g"
-    }
-  },
-  {
-    id: "ab-002",
-    name: "Miel de Abeja Pura",
-    price: 12.00,
-    description: "Miel 100% natural, extraída directamente de colmenas locales sin aditivos ni conservantes.",
-    image: "https://images.unsplash.com/photo-1587049352851-8d4e89133924?auto=format&fit=crop&w=600&q=80",
-    category: "abarrotes",
-    storeName: "El Panal Dorado",
-    whatsappNumber: "573209876543",
-    attributes: {
-      unit: "750ml"
-    }
-  },
-  {
-    id: "ab-003",
-    name: "Queso Costeño Fresco",
-    price: 8.50,
-    description: "Queso artesanal semi-salado, ideal para acompañar tus platos tradicionales locales.",
-    image: "https://images.unsplash.com/photo-1624806992066-5ffcf7ca186b?auto=format&fit=crop&w=600&q=80",
-    category: "abarrotes",
-    storeName: "Lácteos El Corral",
-    whatsappNumber: "573005554433",
-    attributes: {
-      unit: "1kg"
-    }
-  },
+interface StoreDefinition {
+  id: string;
+  name: string;
+  category: Category;
+  whatsapp: string;
+}
 
-  // REPUESTOS
-  {
-    id: "rp-001",
-    name: "Pastillas de Freno Cerámicas",
-    price: 45.00,
-    description: "Pastillas de alto rendimiento para frenado silencioso y duradero. Kit para las dos ruedas delanteras.",
-    image: "/images/brake-pads.png",
-    category: "repuestos",
-    storeName: "Repuestos El Pistón",
-    whatsappNumber: "573152223344",
-    attributes: {
-      compatibility: {
-        brand: "Toyota",
-        model: "Corolla",
-        year: 2022
-      }
-    }
-  },
-  {
-    id: "rp-002",
-    name: "Kit de Luces LED H4",
-    price: 32.50,
-    description: "Bombillos LED de alta intensidad 6000K (luz blanca). Fácil instalación plug & play.",
-    image: "/images/led-h4.png",
-    category: "repuestos",
-    storeName: "Techno-Auto Local",
-    whatsappNumber: "573118889900",
-    attributes: {
-      compatibility: {
-        brand: "Chevrolet",
-        model: "Onix",
-        year: 2021
-      }
-    }
-  },
-  {
-    id: "rp-003",
-    name: "Cadena de Tracción Reforzada",
-    price: 28.00,
-    description: "Cadena de alta resistencia para motocicletas, lubricada de fábrica para mayor vida útil.",
-    image: "/images/moto-chain.png",
-    category: "repuestos",
-    storeName: "Moto-Repuestos Central",
-    whatsappNumber: "573121112233",
-    attributes: {
-      compatibility: {
-        brand: "Yamaha",
-        model: "FZ-25",
-        year: 2023
-      }
-    }
-  },
+const STORES: StoreDefinition[] = [
+  // Abarrotes
+  { id: 'store-aba-1', name: 'Minimarket La Alameda', category: 'abarrotes', whatsapp: '978410457' },
+  { id: 'store-aba-2', name: 'Bodega El Vecino', category: 'abarrotes', whatsapp: '978410457' },
+  { id: 'store-aba-3', name: 'Super Dulce Hogar', category: 'abarrotes', whatsapp: '978410457' },
+  { id: 'store-aba-4', name: 'Abarrotes Don Lucho', category: 'abarrotes', whatsapp: '978410457' },
+  { id: 'store-aba-5', name: 'Mercadito Chachapoyano', category: 'abarrotes', whatsapp: '978410457' },
+  
+  // Motor
+  { id: 'store-mot-1', name: 'Repuestos Amazonas', category: 'motor', whatsapp: '978410457' },
+  { id: 'store-mot-2', name: 'Motoservice El Rayo', category: 'motor', whatsapp: '978410457' },
+  { id: 'store-mot-3', name: 'La Casa del Motor', category: 'motor', whatsapp: '978410457' },
+  { id: 'store-mot-4', name: 'Lubricantes San Juan', category: 'motor', whatsapp: '978410457' },
+  { id: 'store-mot-5', name: 'Accesorios ChachaMotos', category: 'motor', whatsapp: '978410457' },
 
-  // MODA
-  {
-    id: "mo-001",
-    name: "Chaqueta Denim Urbana",
-    price: 55.00,
-    description: "Chaqueta de mezclilla premium con diseño moderno y corte ajustado.",
-    image: "/images/denim-jacket.png",
-    category: "moda",
-    storeName: "Boutique Estilo Libre",
-    whatsappNumber: "573183334455",
-    attributes: {
-      sizes: ["S", "M", "L", "XL"],
-      colors: ["Azul Classic", "Negro Lavado"]
-    }
-  },
-  {
-    id: "mo-002",
-    name: "Vestido Floral de Verano",
-    price: 42.00,
-    description: "Vestido ligero y fresco con estampado botánico, perfecto para el clima local.",
-    image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?auto=format&fit=crop&w=600&q=80",
-    category: "moda",
-    storeName: "Modas del Sol",
-    whatsappNumber: "573017778899",
-    attributes: {
-      sizes: ["XS", "S", "M"],
-      colors: ["Blanco/Rojo", "Azul/Verde"]
-    }
-  },
-  {
-    id: "mo-003",
-    name: "Tenis Deportivos 'Neo-Flex'",
-    price: 75.00,
-    description: "Calzado ultra-ligero para running o uso diario, con tecnología de amortiguación avanzada.",
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600&q=80",
-    category: "moda",
-    storeName: "Sport Center Digital",
-    whatsappNumber: "573149996655",
-    attributes: {
-      sizes: ["38", "39", "40", "41", "42"],
-      colors: ["Gris Espacial", "Naranja Eléctrico"]
-    }
-  },
+  // Outfit
+  { id: 'store-out-1', name: 'Novedades Kuélap', category: 'outfit', whatsapp: '978410457' },
+  { id: 'store-out-2', name: 'Boutique Elegancia', category: 'outfit', whatsapp: '978410457' },
+  { id: 'store-out-3', name: 'Moda Urbana Chacha', category: 'outfit', whatsapp: '978410457' },
+  { id: 'store-out-4', name: 'Sport Center Amazonas', category: 'outfit', whatsapp: '978410457' },
+  { id: 'store-out-5', name: 'Ropa & Estilo Local', category: 'outfit', whatsapp: '978410457' },
 
-  // TECNOLOGIA
-  {
-    id: "te-001",
-    name: "Audífonos Noise-Cancelling Pro",
-    price: 120.00,
-    description: "Auriculares inalámbricos con cancelación activa de ruido y 30 horas de batería.",
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
-    category: "tecnologia",
-    storeName: "Smart-Tech Store",
-    whatsappNumber: "573164445566",
-    attributes: {
-      brand: "AudioMax",
-      warrantyMonths: 12,
-      specs: {
-        "Bluetooth": "5.2",
-        "Driver": "40mm",
-        "Charging": "USB-C"
-      }
-    }
-  },
-  {
-    id: "te-002",
-    name: "Teclado Mecánico RGB",
-    price: 85.00,
-    description: "Teclado gamer con switches táctiles, retroiluminación personalizable y estructura de aluminio.",
-    image: "/images/rgb-keyboard.png",
-    category: "tecnologia",
-    storeName: "PC Master Local",
-    whatsappNumber: "573216667788",
-    attributes: {
-      brand: "ForgeKeys",
-      warrantyMonths: 6,
-      specs: {
-        "Switches": "Brown",
-        "Layout": "ES-ISO",
-        "Connection": "Wired"
-      }
-    }
-  },
-  {
-    id: "te-003",
-    name: "Banco de Energía 20,000mAh",
-    price: 35.00,
-    description: "Powerbank de alta capacidad con carga rápida y múltiples salidas para todos tus dispositivos.",
-    image: "/images/powerbank.png",
-    category: "tecnologia",
-    storeName: "Conecta-T",
-    whatsappNumber: "573132228899",
-    attributes: {
-      brand: "PowerSwift",
-      warrantyMonths: 3,
-      specs: {
-        "Capacity": "20,000mAh",
-        "Max Output": "22.5W",
-        "Ports": "2x USB-A, 1x USB-C"
-      }
-    }
-  }
+  // Gadgets
+  { id: 'store-gad-1', name: 'Cyber Mundo', category: 'gadgets', whatsapp: '978410457' },
+  { id: 'store-gad-2', name: 'Tech Solutions Chachapoyas', category: 'gadgets', whatsapp: '978410457' },
+  { id: 'store-gad-3', name: 'Móvil Store Pro', category: 'gadgets', whatsapp: '978410457' },
+  { id: 'store-gad-4', name: 'Gaming Zone Amazonas', category: 'gadgets', whatsapp: '978410457' },
+  { id: 'store-gad-5', name: 'Audio & Video Local', category: 'gadgets', whatsapp: '978410457' },
+
+  // Ferreteria
+  { id: 'store-fer-1', name: 'Ferretería El Progreso', category: 'ferreteria', whatsapp: '978410457' },
+  { id: 'store-fer-2', name: 'Materiales Amazonas', category: 'ferreteria', whatsapp: '978410457' },
+  { id: 'store-fer-3', name: 'Construya Bien', category: 'ferreteria', whatsapp: '978410457' },
+  { id: 'store-fer-4', name: 'Pinturas & Metales', category: 'ferreteria', whatsapp: '978410457' },
+  { id: 'store-fer-5', name: 'Herramientas del Norte', category: 'ferreteria', whatsapp: '978410457' },
+
+  // Farmacia
+  { id: 'store-far-1', name: 'Botica Amazonas', category: 'farmacia', whatsapp: '978410457' },
+  { id: 'store-far-2', name: 'Farmacia San Lucas', category: 'farmacia', whatsapp: '978410457' },
+  { id: 'store-far-3', name: 'FarmaSalud Chacha', category: 'farmacia', whatsapp: '978410457' },
+  { id: 'store-far-4', name: 'Botica de la Esperanza', category: 'farmacia', whatsapp: '978410457' },
+  { id: 'store-far-5', name: 'Droguería Médica Amazonas', category: 'farmacia', whatsapp: '978410457' },
 ];
+
+const DICTIONARIES = {
+  abarrotes: {
+    nouns: ['Arroz Extra', 'Aceite Vegetal', 'Fideos Cortos', 'Leche Evaporada', 'Azúcar Rubia', 'Café Tostado', 'Atún en Trozos', 'Harina Preparada', 'Sal Marina', 'Galletas Soda'],
+    brands: ['Costeño', 'Primor', 'Don Vittorio', 'Gloria', 'Paramonga', 'Altomayo', 'Real', 'Blanca Flor', 'Lobos', 'San Jorge'],
+    range: [3.5, 45.0],
+    keywords: 'grocery,food,supermarket'
+  },
+  motor: {
+    nouns: ['Aceite de Motor', 'Bujía Iridium', 'Pastillas de Freno', 'Kit de Arrastre', 'Filtro de Aire', 'Batería de Gel', 'Neumático Delantero', 'Cadena Reforzada', 'Espejo Retrovisor', 'Casco Integral'],
+    brands: ['Motul', 'NGK', 'Fras-le', 'Escruton', 'Bosch', 'Yamaha', 'Michelin', 'DID', 'Honda', 'LS2'],
+    range: [15.0, 450.0],
+    keywords: 'motorcycle,engine,parts'
+  },
+  outfit: {
+    nouns: ['Polo Urban', 'Jean Slim', 'Casaca Cortaviento', 'Zapatillas Running', 'Gorra Snapback', 'Camisa Manga Larga', 'Short Deportivo', 'Reloj de Pulsera', 'Billetera Cuero', 'Lentes de Sol'],
+    brands: ['Premium', 'Urban Style', 'North Face Alpha', 'Nike Air', 'Adidas Originals', 'Tommy Hilfiger', 'Levis', 'Diesel', 'Gucci Style', 'Ray-Ban'],
+    range: [25.0, 350.0],
+    keywords: 'fashion,clothing,outfit'
+  },
+  gadgets: {
+    nouns: ['Smartphone 5G', 'Auriculares Bluetooth', 'Cargador Rápido', 'Smartwatch Pro', 'Cable USB-C', 'Power Bank 20k', 'Teclado Mecánico', 'Mouse Gamer', 'Parlante Portátil', 'Tablet Full HD'],
+    brands: ['Xiaomi', 'Samsung', 'Apple', 'Huawei', 'Motorola', 'Adata', 'Logitech', 'Razer', 'JBL', 'Lenovo'],
+    range: [12.0, 1800.0],
+    keywords: 'technology,gadget,phone'
+  },
+  ferreteria: {
+    nouns: ['Martillo de Carpintero', 'Pintura Látex', 'Tornillos Drywall', 'Cinta Métrica', 'Taladro Percutor', 'Destornillador Phillips', 'Pegamento PVC', 'Alicate de Presión', 'Malla Metálica', 'Escalera de Aluminio'],
+    brands: ['Tramontina', 'Ceresita', 'Forte', 'Stanley', 'Bosch Pro', 'Truper', 'Soldimix', 'Starrett', 'Prodac', 'National'],
+    range: [5.0, 550.0],
+    keywords: 'hardware,tools,construction'
+  },
+  farmacia: {
+    nouns: ['Paracetamol 500mg', 'Amoxicilina 250mg', 'Alcohol en Gel', 'Mascarillas KN95', 'Jarabe Multivitamínico', 'Crema Anti-inflamatoria', 'Termómetro Digital', 'Gasa Estéril', 'Suero Oral', 'Vitaminas C'],
+    brands: ['Genfar', 'Mibe', 'Quimica Suiza', '3M', 'Bayer', 'Voltaren', 'Omron', 'Huggies', 'Lansier', 'Farmindustria'],
+    range: [2.5, 85.0],
+    keywords: 'pharmacy,medicine,health'
+  }
+};
+
+const generateMocks = (): Product[] => {
+  const products: Product[] = [];
+
+  STORES.forEach((store) => {
+    const dict = DICTIONARIES[store.category];
+    
+    for (let i = 1; i <= 20; i++) {
+       const noun = dict.nouns[Math.floor(Math.random() * dict.nouns.length)];
+       const brand = dict.brands[Math.floor(Math.random() * dict.brands.length)];
+       const price = Math.random() * (dict.range[1] - dict.range[0]) + dict.range[0];
+       
+       const product: any = {
+         id: `prod-${store.id}-${i}`,
+         name: `${noun} ${brand}`,
+         price: parseFloat(price.toFixed(2)),
+         description: `Producto de alta calidad disponible en ${store.name}. Ideal para tus necesidades diarias en Chachapoyas.`,
+         image: `https://images.unsplash.com/photo-1?auto=format&fit=crop&w=600&q=80&keywords=${dict.keywords},${noun.replace(/ /g, ',')}`, // Note: Unsplash needs real IDs, but keywords in query sometimes work with specific API endpoints. Using a simpler approach for now.
+         category: store.category,
+         storeName: store.name,
+         whatsappNumber: store.whatsapp,
+       };
+
+       // Add specific attributes
+       switch(store.category) {
+         case 'abarrotes':
+           product.attributes = { unit: i % 3 === 0 ? 'kg' : (i % 2 === 0 ? 'litro' : 'unidad') };
+           break;
+         case 'motor':
+           product.attributes = { 
+             compatibility: { 
+               brand: brand, 
+               model: 'Universal', 
+               year: 2020 + (i % 5) 
+             } 
+           };
+           break;
+         case 'outfit':
+           product.attributes = { 
+             sizes: ['S', 'M', 'L', 'XL'], 
+             colors: ['Negro', 'Blanco', 'Azul'] 
+           };
+           break;
+         case 'gadgets':
+           product.attributes = { brand: brand, warrantyMonths: 12 };
+           break;
+         case 'ferreteria':
+           product.attributes = { brand: brand, material: 'Acero/Industrial' };
+           break;
+         case 'farmacia':
+           product.attributes = { prescriptionRequired: i % 5 === 0 };
+           break;
+       }
+
+       products.push(product as Product);
+    }
+  });
+
+  return products;
+};
+
+// Fixed Unsplash URL strategy to ensure valid images
+const getUnsplashUrl = (category: Category, index: number) => {
+  const categoryIds: Record<Category, string[]> = {
+    abarrotes: ['1542838132102-2b29ae130e8a', '1543083477048-b3986427d2d1', '1516594773460-a60187a503c4'],
+    motor: ['1444491741275-3747c34c99d4', '1558981403-c5f91cbba522', '1586936893354-362ad6ae47fd'],
+    outfit: ['1490481651871-ab68ff25d43d', '1489987707025-afc232f7ea0f', '1523381235212-d73f8038f93a'],
+    gadgets: ['1517336714731-48b67c11dbf5', '1525547710557-7aa86881f7cf', '1498050108023-c5249f4df085'],
+    ferreteria: ['1581244277943-fe4a9c777189', '1504148455328-c396957c5593', '1530124560676-44433e14d338'],
+    farmacia: ['1584308666744-24d5c474f2ae', '1576086213369-97a306d36557', '1587854680352-936b22b91033']
+  };
+
+  const ids = categoryIds[category];
+  const id = ids[index % ids.length];
+  return `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=600&q=80`;
+};
+
+// Re-generate products with fixed URLs
+export const MOCK_PRODUCTS = generateMocks().map((p, idx) => ({
+  ...p,
+  image: getUnsplashUrl(p.category, idx)
+}));

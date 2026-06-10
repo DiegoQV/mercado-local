@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Search, ShoppingBag, Wrench, Shirt, Smartphone, MapPin, Home, ClipboardList, User, ChevronRight } from "lucide-react";
+import { Search, ShoppingBag, Wrench, Shirt, Smartphone, MapPin, Home, ClipboardList, User, ChevronRight, Hammer, Pill } from "lucide-react";
 import { MOCK_PRODUCTS } from "@/lib/mockData";
 import { cn } from "@/lib/utils";
 
@@ -55,7 +55,7 @@ export default function HomePage() {
             <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-white/10 rounded-full blur-3xl"></div>
           </div>
 
-          {/* Banner 2: Repuestos */}
+          {/* Banner 2: Motor */}
           <div className="flex-shrink-0 w-full snap-start relative overflow-hidden rounded-2xl bg-gradient-to-br from-orange-500 to-rose-600 p-6 text-white shadow-lg shadow-orange-200">
             <div className="relative z-10">
               <h3 className="text-xl font-bold mb-2 leading-tight">¿Buscas repuestos para tu moto? 🔧</h3>
@@ -76,37 +76,53 @@ export default function HomePage() {
           <button className="text-sm font-semibold text-indigo-600 active:opacity-60 transition-opacity">Ver todas</button>
         </div>
         
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-2 gap-3 pb-4">
           {/* Supermercado */}
           <Link href="/categoria/abarrotes" className="group relative overflow-hidden rounded-2xl bg-emerald-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-emerald-100 shadow-sm">
             <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-emerald-600 shadow-sm mb-2">
               <ShoppingBag size={20} />
             </div>
-            <h3 className="font-bold text-emerald-950 text-xs">Supermercado</h3>
+            <h3 className="font-bold text-emerald-950 text-[11px]">Supermercado</h3>
           </Link>
 
-          {/* Repuestos */}
-          <Link href="/categoria/repuestos" className="group relative overflow-hidden rounded-2xl bg-orange-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-orange-100 shadow-sm">
+          {/* Motor */}
+          <Link href="/categoria/motor" className="group relative overflow-hidden rounded-2xl bg-orange-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-orange-100 shadow-sm">
             <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-orange-600 shadow-sm mb-2">
               <Wrench size={20} />
             </div>
-            <h3 className="font-bold text-orange-950 text-xs">Repuestos</h3>
+            <h3 className="font-bold text-orange-950 text-[11px]">Repuestos</h3>
           </Link>
 
-          {/* Moda */}
-          <Link href="/categoria/moda" className="group relative overflow-hidden rounded-2xl bg-purple-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-purple-100 shadow-sm">
+          {/* Outfit */}
+          <Link href="/categoria/outfit" className="group relative overflow-hidden rounded-2xl bg-purple-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-purple-100 shadow-sm">
             <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-purple-600 shadow-sm mb-2">
               <Shirt size={20} />
             </div>
-            <h3 className="font-bold text-purple-950 text-xs">Moda y Ropa</h3>
+            <h3 className="font-bold text-purple-950 text-[11px]">Moda y Ropa</h3>
           </Link>
 
-          {/* Tecnologia */}
-          <Link href="/categoria/tecnologia" className="group relative overflow-hidden rounded-2xl bg-blue-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-blue-100 shadow-sm">
+          {/* Gadgets */}
+          <Link href="/categoria/gadgets" className="group relative overflow-hidden rounded-2xl bg-blue-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-blue-100 shadow-sm">
             <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-blue-600 shadow-sm mb-2">
               <Smartphone size={20} />
             </div>
-            <h3 className="font-bold text-blue-950 text-xs">Tecnología</h3>
+            <h3 className="font-bold text-blue-950 text-[11px]">Tecnología</h3>
+          </Link>
+
+          {/* Ferreteria */}
+          <Link href="/categoria/ferreteria" className="group relative overflow-hidden rounded-2xl bg-amber-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-amber-100 shadow-sm">
+            <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-amber-600 shadow-sm mb-2">
+              <Hammer size={20} />
+            </div>
+            <h3 className="font-bold text-amber-950 text-[11px]">Ferretería</h3>
+          </Link>
+
+          {/* Farmacia */}
+          <Link href="/categoria/farmacia" className="group relative overflow-hidden rounded-2xl bg-red-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-red-100 shadow-sm">
+            <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-red-600 shadow-sm mb-2">
+              <Pill size={20} />
+            </div>
+            <h3 className="font-bold text-red-950 text-[11px]">Farmacia</h3>
           </Link>
         </div>
       </section>
@@ -119,7 +135,7 @@ export default function HomePage() {
         </div>
         
         <div className="flex overflow-x-auto gap-4 px-5 pb-6 scrollbar-hide snap-x snap-mandatory">
-          {MOCK_PRODUCTS.slice(0, 8).map((product) => (
+          {MOCK_PRODUCTS.slice(0, 15).map((product) => (
             <Link 
               key={product.id} 
               href={`/producto/${product.id}`}
@@ -132,11 +148,13 @@ export default function HomePage() {
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
+                <div className="absolute top-2 right-2 px-2 py-1 bg-white/90 backdrop-blur-md rounded-full text-[10px] font-bold text-gray-900 shadow-sm">
+                  S/{product.price.toFixed(2)}
+                </div>
               </div>
               <div className="space-y-1">
                 <h4 className="text-sm font-semibold text-gray-900 line-clamp-1">{product.name}</h4>
                 <div className="flex flex-col">
-                  <span className="text-base font-bold text-[#6366f1]">S/{product.price.toFixed(2)}</span>
                   <span className="text-[11px] text-gray-500 font-medium truncate">{product.storeName}</span>
                 </div>
               </div>

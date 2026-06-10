@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, Info, CheckCircle2, ChevronRight, Store, ShoppingBag } from "lucide-react";
 import { MOCK_PRODUCTS } from "@/lib/mockData";
-import { Product, RepuestosProduct, ModaProduct, AbarrotesProduct, TecnologiaProduct } from "@/types/product";
+import { Product, MotorProduct, OutfitProduct, AbarrotesProduct, GadgetProduct, FerreteriaProduct, FarmaciaProduct } from "@/types/product";
 import { cn } from "@/lib/utils";
 import { useCart } from "@/context/CartContext";
 
@@ -34,7 +34,7 @@ export default function ProductDetailPage({ params }: PageProps) {
   };
 
   return (
-    <main className="min-h-screen bg-white pb-32">
+    <main className="min-h-screen bg-white pb-32 font-sans">
       {/* Product Image Header */}
       <div className="relative w-full aspect-[4/5] bg-gray-100 overflow-hidden rounded-b-[3rem] shadow-lg">
         <Image
@@ -59,9 +59,11 @@ export default function ProductDetailPage({ params }: PageProps) {
           <span className={cn(
             "px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider",
             product.category === 'abarrotes' && "bg-emerald-50 text-emerald-600",
-            product.category === 'repuestos' && "bg-orange-50 text-orange-600",
-            product.category === 'moda' && "bg-purple-50 text-purple-600",
-            product.category === 'tecnologia' && "bg-blue-50 text-blue-600",
+            product.category === 'motor' && "bg-orange-50 text-orange-600",
+            product.category === 'outfit' && "bg-purple-50 text-purple-600",
+            product.category === 'gadgets' && "bg-blue-50 text-blue-600",
+            product.category === 'ferreteria' && "bg-amber-50 text-amber-600",
+            product.category === 'farmacia' && "bg-red-50 text-red-600",
           )}>
             {product.category}
           </span>
@@ -119,34 +121,34 @@ export default function ProductDetailPage({ params }: PageProps) {
             </div>
           )}
 
-          {/* Repuestos */}
-          {product.category === 'repuestos' && (
+          {/* Motor */}
+          {product.category === 'motor' && (
             <div className="bg-orange-50/50 rounded-2xl p-4 border border-orange-100">
               <p className="text-xs font-bold text-orange-800 uppercase mb-3">Compatibilidad</p>
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <p className="text-[10px] text-orange-600 font-bold uppercase">Marca</p>
-                  <p className="font-bold text-gray-900">{(product as RepuestosProduct).attributes.compatibility.brand}</p>
+                  <p className="font-bold text-gray-900">{(product as MotorProduct).attributes.compatibility.brand}</p>
                 </div>
                 <div>
                   <p className="text-[10px] text-orange-600 font-bold uppercase">Modelo</p>
-                  <p className="font-bold text-gray-900">{(product as RepuestosProduct).attributes.compatibility.model}</p>
+                  <p className="font-bold text-gray-900">{(product as MotorProduct).attributes.compatibility.model}</p>
                 </div>
                 <div className="col-span-2">
                   <p className="text-[10px] text-orange-600 font-bold uppercase">Año</p>
-                  <p className="font-bold text-gray-900">{(product as RepuestosProduct).attributes.compatibility.year}</p>
+                  <p className="font-bold text-gray-900">{(product as MotorProduct).attributes.compatibility.year}</p>
                 </div>
               </div>
             </div>
           )}
 
-          {/* Moda */}
-          {product.category === 'moda' && (
+          {/* Outfit */}
+          {product.category === 'outfit' && (
             <div className="space-y-4">
               <div>
                 <p className="text-xs font-bold text-gray-400 uppercase mb-3">Tallas disponibles</p>
                 <div className="flex flex-wrap gap-2">
-                  {(product as ModaProduct).attributes.sizes.map(size => (
+                  {(product as OutfitProduct).attributes.sizes.map(size => (
                     <div key={size} className="w-10 h-10 rounded-xl border-2 border-gray-100 flex items-center justify-center text-sm font-bold text-gray-700">
                       {size}
                     </div>
@@ -156,7 +158,7 @@ export default function ProductDetailPage({ params }: PageProps) {
               <div>
                 <p className="text-xs font-bold text-gray-400 uppercase mb-3">Colores</p>
                 <div className="flex flex-wrap gap-2">
-                  {(product as ModaProduct).attributes.colors.map(color => (
+                  {(product as OutfitProduct).attributes.colors.map(color => (
                     <div key={color} className="px-4 py-2 rounded-xl bg-gray-50 border border-gray-100 text-xs font-bold text-gray-700">
                       {color}
                     </div>
@@ -166,19 +168,40 @@ export default function ProductDetailPage({ params }: PageProps) {
             </div>
           )}
 
-          {/* Tecnologia */}
-          {product.category === 'tecnologia' && (
+          {/* Gadgets */}
+          {product.category === 'gadgets' && (
              <div className="space-y-2">
               <div className="flex items-center justify-between py-2 border-b border-gray-50">
                 <span className="text-gray-500 text-sm">Garantía</span>
-                <span className="font-bold text-gray-900">{(product as TecnologiaProduct).attributes.warrantyMonths} meses</span>
+                <span className="font-bold text-gray-900">{(product as GadgetProduct).attributes.warrantyMonths} meses</span>
               </div>
-              {Object.entries((product as TecnologiaProduct).attributes.specs || {}).map(([key, value]) => (
+              {Object.entries((product as GadgetProduct).attributes.specs || {}).map(([key, value]) => (
                 <div key={key} className="flex items-center justify-between py-2 border-b border-gray-50">
                   <span className="text-gray-500 text-sm">{key}</span>
                   <span className="font-bold text-gray-900">{value}</span>
                 </div>
               ))}
+            </div>
+          )}
+
+          {/* Ferretería */}
+          {product.category === 'ferreteria' && (
+            <div className="flex items-center justify-between py-3 border-b border-gray-50">
+              <span className="text-gray-500 text-sm">Marca</span>
+              <span className="font-bold text-gray-900">{(product as FerreteriaProduct).attributes.brand}</span>
+            </div>
+          )}
+
+          {/* Farmacia */}
+          {product.category === 'farmacia' && (
+            <div className="flex items-center justify-between py-3 border-b border-gray-50">
+              <span className="text-gray-500 text-sm">Requiere Receta</span>
+              <span className={cn(
+                "font-bold",
+                (product as FarmaciaProduct).attributes.prescriptionRequired ? "text-red-500" : "text-emerald-500"
+              )}>
+                {(product as FarmaciaProduct).attributes.prescriptionRequired ? 'SÍ' : 'NO'}
+              </span>
             </div>
           )}
         </div>

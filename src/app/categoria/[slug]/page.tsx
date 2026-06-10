@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, SlidersHorizontal, ChevronDown, ShoppingBag } from "lucide-react";
 import { MOCK_PRODUCTS } from "@/lib/mockData";
-import { Category, Product, RepuestosProduct, ModaProduct } from "@/types/product";
+import { Category, Product, MotorProduct, OutfitProduct } from "@/types/product";
 import { cn } from "@/lib/utils";
 
 interface PageProps {
@@ -20,20 +20,29 @@ export default function CategoryPage({ params }: PageProps) {
   const [filterBrand, setFilterBrand] = useState<string>("all");
   const [filterSize, setFilterSize] = useState<string>("all");
 
+  const categoryTitles: Record<Category, string> = {
+    abarrotes: "Supermercado local",
+    motor: "Repuestos y Motores",
+    outfit: "Moda y Estilo",
+    gadgets: "Tecnología y Gadgets",
+    ferreteria: "Ferretería y Construcción",
+    farmacia: "Salud y Farmacia",
+  };
+
   // Filter and Sort Logic
   const filteredProducts = useMemo(() => {
     let result = MOCK_PRODUCTS.filter((p) => p.category === slug);
 
     // Category Specific Filters
-    if (slug === "repuestos" && filterBrand !== "all") {
+    if (slug === "motor" && filterBrand !== "all") {
       result = result.filter(
-        (p) => (p as RepuestosProduct).attributes.compatibility.brand === filterBrand
+        (p) => (p as MotorProduct).attributes.compatibility.brand === filterBrand
       );
     }
 
-    if (slug === "moda" && filterSize !== "all") {
+    if (slug === "outfit" && filterSize !== "all") {
       result = result.filter((p) =>
-        (p as ModaProduct).attributes.sizes.includes(filterSize)
+        (p as OutfitProduct).attributes.sizes.includes(filterSize)
       );
     }
 
@@ -49,30 +58,23 @@ export default function CategoryPage({ params }: PageProps) {
 
   // Derived Filter Options
   const brands = useMemo(() => {
-    if (slug !== "repuestos") return [];
-    const allBrands = MOCK_PRODUCTS.filter((p) => p.category === "repuestos").map(
-      (p) => (p as RepuestosProduct).attributes.compatibility.brand
+    if (slug !== "motor") return [];
+    const allBrands = MOCK_PRODUCTS.filter((p) => p.category === "motor").map(
+      (p) => (p as MotorProduct).attributes.compatibility.brand
     );
     return Array.from(new Set(allBrands));
   }, [slug]);
 
   const sizes = useMemo(() => {
-    if (slug !== "moda") return [];
-    const allSizes = MOCK_PRODUCTS.filter((p) => p.category === "moda").flatMap(
-      (p) => (p as ModaProduct).attributes.sizes
+    if (slug !== "outfit") return [];
+    const allSizes = MOCK_PRODUCTS.filter((p) => p.category === "outfit").flatMap(
+      (p) => (p as OutfitProduct).attributes.sizes
     );
     return Array.from(new Set(allSizes));
   }, [slug]);
 
-  const categoryTitles: Record<Category, string> = {
-    abarrotes: "Supermercado local",
-    repuestos: "Repuestos y Motores",
-    moda: "Moda y Estilo",
-    tecnologia: "Tecnología y Gadgets",
-  };
-
   return (
-    <main className="min-h-screen bg-[#f9fafb] pb-20">
+    <main className="min-h-screen bg-[#f9fafb] pb-20 font-sans">
       {/* Header */}
       <header className="sticky top-0 z-40 bg-white/80 backdrop-blur-xl border-b border-gray-100 px-5 py-4 flex items-center justify-between">
         <Link 
@@ -82,7 +84,7 @@ export default function CategoryPage({ params }: PageProps) {
           <ArrowLeft size={20} />
         </Link>
         <h1 className="text-lg font-bold capitalize">{categoryTitles[slug] || slug}</h1>
-        <div className="w-10"></div> {/* Spacer for alignment */}
+        <div className="w-10"></div>
       </header>
 
       {/* Smart Filters Section */}
@@ -92,8 +94,8 @@ export default function CategoryPage({ params }: PageProps) {
           Filtros
         </div>
 
-        {/* Repuestos Specific Filters */}
-        {slug === "repuestos" && (
+        {/* Motor Specific Filters */}
+        {slug === "motor" && (
           <div className="relative flex-shrink-0">
             <select 
               className="appearance-none bg-gray-50 border border-gray-100 text-gray-700 text-xs font-semibold rounded-xl pl-3 pr-8 py-2 focus:ring-2 focus:ring-indigo-500/20 outline-none"
@@ -107,8 +109,8 @@ export default function CategoryPage({ params }: PageProps) {
           </div>
         )}
 
-        {/* Moda Specific Filters */}
-        {slug === "moda" && (
+        {/* Outfit Specific Filters */}
+        {slug === "outfit" && (
           <div className="relative flex-shrink-0">
             <select 
               className="appearance-none bg-gray-50 border border-gray-100 text-gray-700 text-xs font-semibold rounded-xl pl-3 pr-8 py-2 focus:ring-2 focus:ring-indigo-500/20 outline-none"
@@ -122,7 +124,7 @@ export default function CategoryPage({ params }: PageProps) {
           </div>
         )}
 
-        {/* Price Sort (For all) */}
+        {/* Price Sort */}
         <div className="relative flex-shrink-0">
           <select 
             className="appearance-none bg-gray-50 border border-gray-100 text-gray-700 text-xs font-semibold rounded-xl pl-3 pr-8 py-2 focus:ring-2 focus:ring-indigo-500/20 outline-none"

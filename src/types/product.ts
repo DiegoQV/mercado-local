@@ -1,4 +1,4 @@
-export type Category = 'abarrotes' | 'repuestos' | 'moda' | 'tecnologia';
+export type Category = 'abarrotes' | 'motor' | 'outfit' | 'gadgets' | 'ferreteria' | 'farmacia';
 
 export interface BaseProduct {
   id: string;
@@ -12,15 +12,15 @@ export interface BaseProduct {
 }
 
 export interface AbarrotesAttributes {
-  unit: string; // ej: 'kg', 'unidad', 'litro'
+  unit: string;
 }
 
-export interface ModaAttributes {
+export interface OutfitAttributes {
   sizes: string[];
   colors: string[];
 }
 
-export interface RepuestosAttributes {
+export interface MotorAttributes {
   compatibility: {
     brand: string;
     model: string;
@@ -28,10 +28,20 @@ export interface RepuestosAttributes {
   };
 }
 
-export interface TecnologiaAttributes {
+export interface GadgetAttributes {
   brand: string;
   warrantyMonths: number;
   specs?: Record<string, string>;
+}
+
+export interface FerreteriaAttributes {
+  brand: string;
+  material?: string;
+}
+
+export interface FarmaciaAttributes {
+  dosage?: string;
+  prescriptionRequired: boolean;
 }
 
 export interface AbarrotesProduct extends BaseProduct {
@@ -39,22 +49,44 @@ export interface AbarrotesProduct extends BaseProduct {
   attributes: AbarrotesAttributes;
 }
 
-export interface ModaProduct extends BaseProduct {
-  category: 'moda';
-  attributes: ModaAttributes;
+export interface OutfitProduct extends BaseProduct {
+  category: 'outfit';
+  attributes: OutfitAttributes;
 }
 
-export interface RepuestosProduct extends BaseProduct {
-  category: 'repuestos';
-  attributes: RepuestosAttributes;
+export interface MotorProduct extends BaseProduct {
+  category: 'motor';
+  attributes: MotorAttributes;
 }
 
-export interface TecnologiaProduct extends BaseProduct {
-  category: 'tecnologia';
-  attributes: TecnologiaAttributes;
+export interface GadgetProduct extends BaseProduct {
+  category: 'gadgets';
+  attributes: GadgetAttributes;
 }
 
-export type Product = AbarrotesProduct | ModaProduct | RepuestosProduct | TecnologiaProduct;
+export interface FerreteriaProduct extends BaseProduct {
+  category: 'ferreteria';
+  attributes: FerreteriaAttributes;
+}
+
+export interface FarmaciaProduct extends BaseProduct {
+  category: 'farmacia';
+  attributes: FarmaciaProductAttributes;
+}
+
+// Fixed minor naming inconsistency for farmacia attributes
+export interface FarmaciaProductAttributes {
+  dosage?: string;
+  prescriptionRequired: boolean;
+}
+
+export type Product = 
+  | AbarrotesProduct 
+  | OutfitProduct 
+  | MotorProduct 
+  | GadgetProduct 
+  | FerreteriaProduct 
+  | FarmaciaProduct;
 
 export interface CartItem {
   product: Product;

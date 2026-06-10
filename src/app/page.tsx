@@ -7,6 +7,8 @@ import { Search, ShoppingBag, Wrench, Shirt, Smartphone, MapPin, Home, Clipboard
 import { MOCK_PRODUCTS } from "@/lib/mockData";
 import { cn } from "@/lib/utils";
 
+import { ProductCard } from "@/components/ProductCard";
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#f9fafb] text-[#171717] pb-28 font-sans">
@@ -134,31 +136,11 @@ export default function HomePage() {
           <button className="text-sm font-semibold text-indigo-600 active:opacity-60 transition-opacity">Ver más</button>
         </div>
         
-        <div className="flex overflow-x-auto gap-4 px-5 pb-6 scrollbar-hide snap-x snap-mandatory">
+        <div className="flex overflow-x-auto gap-4 px-5 pb-6 no-scrollbar snap-x snap-mandatory">
           {MOCK_PRODUCTS.slice(0, 15).map((product) => (
-            <Link 
-              key={product.id} 
-              href={`/producto/${product.id}`}
-              className="flex-shrink-0 w-40 snap-start group"
-            >
-              <div className="relative aspect-square rounded-2xl overflow-hidden mb-3 bg-gray-100 border border-gray-100 shadow-sm">
-                <Image
-                  src={product.image}
-                  alt={product.name}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-                <div className="absolute top-2 right-2 px-2 py-1 bg-white/90 backdrop-blur-md rounded-full text-[10px] font-bold text-gray-900 shadow-sm">
-                  S/{product.price.toFixed(2)}
-                </div>
-              </div>
-              <div className="space-y-1">
-                <h4 className="text-sm font-semibold text-gray-900 line-clamp-1">{product.name}</h4>
-                <div className="flex flex-col">
-                  <span className="text-[11px] text-gray-500 font-medium truncate">{product.storeName}</span>
-                </div>
-              </div>
-            </Link>
+            <div key={product.id} className="flex-shrink-0 w-44 snap-start">
+              <ProductCard product={product} />
+            </div>
           ))}
         </div>
       </section>

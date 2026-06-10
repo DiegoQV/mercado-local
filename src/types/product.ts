@@ -4,6 +4,7 @@ export interface BaseProduct {
   id: string;
   name: string;
   price: number;
+  originalPrice?: number; // Precio antes del descuento
   description: string;
   image: string;
   category: Category;

@@ -6,6 +6,8 @@ import Image from "next/image";
 import { ArrowLeft, ShoppingBag, Store, MapPin, Search } from "lucide-react";
 import { MOCK_PRODUCTS, STORES } from "@/lib/mockData";
 
+import { ProductCard } from "@/components/ProductCard";
+
 interface PageProps {
   params: Promise<{ storeId: string }>;
 }
@@ -34,7 +36,7 @@ export default function StorePage({ params }: PageProps) {
            <Store size={100} />
         </div>
         <Link 
-          href={`/categoria/${store.category}`}
+          href={`/`}
           className="absolute top-6 left-6 w-12 h-12 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white shadow-md active:scale-90 transition-transform"
         >
           <ArrowLeft size={24} />
@@ -51,9 +53,9 @@ export default function StorePage({ params }: PageProps) {
             <h1 className="text-2xl font-extrabold text-gray-900 leading-tight mb-1">{store.name}</h1>
             <div className="flex items-center gap-1 text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-4">
               <MapPin size={12} className="text-indigo-500" />
-              Centro de Chachapoyas
+              Chachapoyas, Amazonas
             </div>
-            <p className="text-sm text-gray-500 max-w-xs">{store.description || 'Bienvenido a nuestra tienda oficial en MercadoDigital. Ofrecemos los mejores productos de la región.'}</p>
+            <p className="text-sm text-gray-500 max-w-xs">{store.description}</p>
           </div>
         </div>
       </div>
@@ -69,34 +71,7 @@ export default function StorePage({ params }: PageProps) {
 
         <div className="grid grid-cols-2 gap-4">
           {storeProducts.map((product) => (
-            <Link 
-              key={product.id} 
-              href={`/producto/${product.id}`}
-              className="group bg-white rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm active:scale-95 transition-all p-2"
-            >
-              <div className="relative aspect-square rounded-[1.75rem] overflow-hidden bg-gray-100">
-                <Image
-                  src={product.image}
-                  alt={product.name}
-                  fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-500"
-                />
-                <div className="absolute top-2 right-2 bg-white/90 backdrop-blur-md px-2 py-0.5 rounded-full text-[10px] font-bold text-gray-800 shadow-sm">
-                  S/{product.price.toFixed(2)}
-                </div>
-              </div>
-              <div className="p-2 pt-3 flex flex-col h-full">
-                <h3 className="text-xs font-bold text-gray-900 line-clamp-2 leading-tight mb-3 flex-grow">
-                  {product.name}
-                </h3>
-                <div className="flex items-center justify-between mt-auto bg-gray-50 p-1.5 rounded-xl">
-                  <span className="text-[9px] font-bold text-indigo-600 uppercase pl-1">Ver detalle</span>
-                  <div className="bg-indigo-600 p-1 rounded-lg text-white">
-                    <ShoppingBag size={12} />
-                  </div>
-                </div>
-              </div>
-            </Link>
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
 

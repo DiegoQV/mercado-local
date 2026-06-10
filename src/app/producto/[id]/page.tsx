@@ -4,10 +4,11 @@ import React, { use } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, Info, CheckCircle2, ChevronRight, Store, ShoppingBag } from "lucide-react";
-import { MOCK_PRODUCTS } from "@/lib/mockData";
+import { MOCK_PRODUCTS, CATEGORY_STOCK_IMAGES } from "@/lib/mockData";
 import { Product, MotorProduct, OutfitProduct, AbarrotesProduct, GadgetProduct, FerreteriaProduct, FarmaciaProduct } from "@/types/product";
 import { cn } from "@/lib/utils";
 import { useCart } from "@/context/CartContext";
+import { useState } from "react";
 
 interface PageProps {
   params: Promise<{ id: string }>;
@@ -19,6 +20,8 @@ export default function ProductDetailPage({ params }: PageProps) {
   const { addToCart } = useCart();
   
   const product = MOCK_PRODUCTS.find((p) => p.id === productId);
+  const [imgSrc, setImgSrc] = useState(product?.image || "");
+  const [hasError, setHasError] = useState(false);
 
   if (!product) {
     return (
@@ -33,14 +36,22 @@ export default function ProductDetailPage({ params }: PageProps) {
     addToCart(product);
   };
 
+  const handleError = () => {
+    if (!hasError) {
+      setImgSrc(CATEGORY_STOCK_IMAGES[product.category]);
+      setHasError(true);
+    }
+  };
+
   return (
     <main className="min-h-screen bg-white pb-32 font-sans">
       {/* Product Image Header */}
       <div className="relative w-full aspect-[4/5] bg-gray-100 overflow-hidden rounded-b-[3rem] shadow-lg">
         <Image
-          src={product.image}
+          src={imgSrc}
           alt={product.name}
           fill
+          onError={handleError}
           className="object-cover"
           priority
         />
@@ -51,6 +62,15 @@ export default function ProductDetailPage({ params }: PageProps) {
         >
           <ArrowLeft size={24} />
         </Link>
+
+        {product.originalPrice && (
+          <div className="absolute top-6 right-6 bg-red-500 text-white px-4 py-2 rounded-2xl font-black text-sm shadow-lg flex flex-col items-center">
+            <span className="text-[10px] leading-tight">OFERTA</span>
+            <span className="leading-tight">
+              -{Math.round((1 - product.price / product.originalPrice) * 100)}%
+            </span>
+          </div>
+        )}
       </div>
 
       <div className="px-6 pt-8">
@@ -69,7 +89,7 @@ export default function ProductDetailPage({ params }: PageProps) {
           </span>
           <div className="flex items-center gap-1 text-[10px] text-gray-400 font-bold uppercase tracking-wider">
             <CheckCircle2 size={12} className="text-emerald-500" />
-            Verificado
+            Stock Disponible
           </div>
         </div>
 
@@ -77,11 +97,15 @@ export default function ProductDetailPage({ params }: PageProps) {
         <h1 className="text-3xl font-bold text-gray-900 leading-tight mb-2">
           {product.name}
         </h1>
-        <div className="flex items-baseline gap-2 mb-6">
+        <div className="flex items-baseline gap-3 mb-6">
           <span className="text-4xl font-extrabold text-[#6366f1]">
             S/{product.price.toFixed(2)}
           </span>
-          <span className="text-gray-400 text-sm font-medium">IVA incluido</span>
+          {product.originalPrice && (
+            <span className="text-xl text-gray-400 line-through font-medium">
+              S/{product.originalPrice.toFixed(2)}
+            </span>
+          )}
         </div>
 
         {/* Store Card */}
@@ -114,7 +138,7 @@ export default function ProductDetailPage({ params }: PageProps) {
           <h3 className="text-lg font-bold text-gray-900 mb-3">Detalles técnicos</h3>
           
           {/* Abarrotes */}
-          {product.category === 'abarrotes' && (
+          {product.category === 'abarrotes' && (product as AbarrotesProduct).attributes?.unit && (
             <div className="flex items-center justify-between py-3 border-b border-gray-50">
               <span className="text-gray-500 text-sm">Unidad de medida</span>
               <span className="font-bold text-gray-900">{(product as AbarrotesProduct).attributes.unit}</span>
@@ -122,7 +146,7 @@ export default function ProductDetailPage({ params }: PageProps) {
           )}
 
           {/* Motor */}
-          {product.category === 'motor' && (
+          {product.category === 'motor' && (product as MotorProduct).attributes?.compatibility && (
             <div className="bg-orange-50/50 rounded-2xl p-4 border border-orange-100">
               <p className="text-xs font-bold text-orange-800 uppercase mb-3">Compatibilidad</p>
               <div className="grid grid-cols-2 gap-4">
@@ -143,7 +167,7 @@ export default function ProductDetailPage({ params }: PageProps) {
           )}
 
           {/* Outfit */}
-          {product.category === 'outfit' && (
+          {product.category === 'outfit' && (product as OutfitProduct).attributes?.sizes && (
             <div className="space-y-4">
               <div>
                 <p className="text-xs font-bold text-gray-400 uppercase mb-3">Tallas disponibles</p>
@@ -158,7 +182,7 @@ export default function ProductDetailPage({ params }: PageProps) {
               <div>
                 <p className="text-xs font-bold text-gray-400 uppercase mb-3">Colores</p>
                 <div className="flex flex-wrap gap-2">
-                  {(product as OutfitProduct).attributes.colors.map(color => (
+                  {(product as OutfitProduct).attributes.colors?.map(color => (
                     <div key={color} className="px-4 py-2 rounded-xl bg-gray-50 border border-gray-100 text-xs font-bold text-gray-700">
                       {color}
                     </div>
@@ -169,7 +193,7 @@ export default function ProductDetailPage({ params }: PageProps) {
           )}
 
           {/* Gadgets */}
-          {product.category === 'gadgets' && (
+          {product.category === 'gadgets' && (product as GadgetProduct).attributes?.warrantyMonths !== undefined && (
              <div className="space-y-2">
               <div className="flex items-center justify-between py-2 border-b border-gray-50">
                 <span className="text-gray-500 text-sm">Garantía</span>
@@ -184,8 +208,16 @@ export default function ProductDetailPage({ params }: PageProps) {
             </div>
           )}
 
+          {/* Fallback for General Brand Attribute */}
+          {((product as any).attributes?.brand) && (
+            <div className="flex items-center justify-between py-3 border-b border-gray-50">
+              <span className="text-gray-500 text-sm">Marca</span>
+              <span className="font-bold text-gray-900">{(product as any).attributes.brand}</span>
+            </div>
+          )}
+
           {/* Ferretería */}
-          {product.category === 'ferreteria' && (
+          {product.category === 'ferreteria' && (product as FerreteriaProduct).attributes?.brand && (
             <div className="flex items-center justify-between py-3 border-b border-gray-50">
               <span className="text-gray-500 text-sm">Marca</span>
               <span className="font-bold text-gray-900">{(product as FerreteriaProduct).attributes.brand}</span>
@@ -193,7 +225,7 @@ export default function ProductDetailPage({ params }: PageProps) {
           )}
 
           {/* Farmacia */}
-          {product.category === 'farmacia' && (
+          {product.category === 'farmacia' && (product as FarmaciaProduct).attributes?.prescriptionRequired !== undefined && (
             <div className="flex items-center justify-between py-3 border-b border-gray-50">
               <span className="text-gray-500 text-sm">Requiere Receta</span>
               <span className={cn(

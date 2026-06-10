@@ -8,6 +8,7 @@ export interface BaseProduct {
   image: string;
   category: Category;
   storeName: string;
+  storeId: string;
   whatsappNumber: string;
 }
 

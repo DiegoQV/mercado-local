@@ -46,7 +46,7 @@ export default function ProductDetailPage({ params }: PageProps) {
         />
         {/* Back Button */}
         <Link 
-          href={`/categoria/${product.category}`}
+          href={`/tienda/${product.storeId}`}
           className="absolute top-6 left-6 w-12 h-12 rounded-full bg-white/80 backdrop-blur-md flex items-center justify-center text-gray-900 shadow-md active:scale-90 transition-transform"
         >
           <ArrowLeft size={24} />

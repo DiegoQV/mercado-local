@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Search, ShoppingBag, Wrench, Shirt, Smartphone, MapPin, Home, ClipboardList, User, ChevronRight, Hammer, Pill } from "lucide-react";
+import { Search, ShoppingBag, Wrench, Shirt, Smartphone, MapPin, Home, ClipboardList, User, ChevronRight, Hammer, Pill, Utensils, Beer } from "lucide-react";
 import { MOCK_PRODUCTS } from "@/lib/mockData";
 import { cn } from "@/lib/utils";
 
@@ -125,6 +125,22 @@ export default function HomePage() {
               <Pill size={20} />
             </div>
             <h3 className="font-bold text-red-950 text-[11px]">Farmacia</h3>
+          </Link>
+
+          {/* Comidas */}
+          <Link href="/categoria/comidas" className="group relative overflow-hidden rounded-2xl bg-rose-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-rose-100 shadow-sm">
+            <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-rose-600 shadow-sm mb-2">
+              <Utensils size={20} />
+            </div>
+            <h3 className="font-bold text-rose-950 text-[11px]">Comidas</h3>
+          </Link>
+
+          {/* Bebidas */}
+          <Link href="/categoria/bebidas" className="group relative overflow-hidden rounded-2xl bg-cyan-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-cyan-100 shadow-sm">
+            <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-cyan-600 shadow-sm mb-2">
+              <Beer size={20} />
+            </div>
+            <h3 className="font-bold text-cyan-950 text-[11px]">Bebidas</h3>
           </Link>
         </div>
       </section>

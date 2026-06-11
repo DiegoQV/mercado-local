@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, Info, CheckCircle2, ChevronRight, Store, ShoppingBag } from "lucide-react";
 import { MOCK_PRODUCTS, CATEGORY_STOCK_IMAGES } from "@/lib/mockData";
-import { Product, MotorProduct, OutfitProduct, AbarrotesProduct, GadgetProduct, FerreteriaProduct, FarmaciaProduct } from "@/types/product";
+import { Product, MotorProduct, OutfitProduct, AbarrotesProduct, GadgetProduct, FerreteriaProduct, FarmaciaProduct, ComidaProduct, BebidaProduct } from "@/types/product";
 import { cn } from "@/lib/utils";
 import { useCart } from "@/context/CartContext";
 
@@ -83,6 +83,8 @@ export default function ProductDetailPage({ params }: PageProps) {
             product.category === 'gadgets' && "bg-blue-50 text-blue-600",
             product.category === 'ferreteria' && "bg-amber-50 text-amber-600",
             product.category === 'farmacia' && "bg-red-50 text-red-600",
+            product.category === 'comidas' && "bg-rose-50 text-rose-600",
+            product.category === 'bebidas' && "bg-cyan-50 text-cyan-600",
           )}>
             {product.category}
           </span>
@@ -233,6 +235,22 @@ export default function ProductDetailPage({ params }: PageProps) {
               )}>
                 {(product as FarmaciaProduct).attributes.prescriptionRequired ? 'SÍ' : 'NO'}
               </span>
+            </div>
+          )}
+
+          {/* Comidas */}
+          {product.category === 'comidas' && (product as ComidaProduct).attributes?.portion && (
+            <div className="flex items-center justify-between py-3 border-b border-gray-50">
+              <span className="text-gray-500 text-sm">Porción / Presentación</span>
+              <span className="font-bold text-gray-900">{(product as ComidaProduct).attributes.portion}</span>
+            </div>
+          )}
+
+          {/* Bebidas */}
+          {product.category === 'bebidas' && (product as BebidaProduct).attributes?.unit && (
+            <div className="flex items-center justify-between py-3 border-b border-gray-100">
+              <span className="text-gray-500 text-sm">Presentación</span>
+              <span className="font-bold text-gray-900">{(product as BebidaProduct).attributes.unit}</span>
             </div>
           )}
         </div>

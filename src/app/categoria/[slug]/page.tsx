@@ -24,6 +24,8 @@ export default function CategoryPage({ params }: PageProps) {
     gadgets: "Tecnología y Gadgets",
     ferreteria: "Ferretería y Construcción",
     farmacia: "Salud y Farmacia",
+    comidas: "Restaurantes y Comidas",
+    bebidas: "Licorería y Bebidas",
   };
 
   return (

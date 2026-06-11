@@ -21,7 +21,9 @@ export const CATEGORY_STOCK_IMAGES: Record<Category, string> = {
   ferreteria: "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?q=80&w=800",
   outfit: "https://images.unsplash.com/photo-1441984969133-35d0da4f014e?q=80&w=800",
   gadgets: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800",
-  motor: "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800"
+  motor: "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+  comidas: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=800",
+  bebidas: "https://images.unsplash.com/photo-1544145945-f904253d0c7b?q=80&w=800"
 };
 
 export const STORES: StoreDefinition[] = [
@@ -234,6 +236,20 @@ export const STORES: StoreDefinition[] = [
     "category": "motor",
     "whatsapp": "956756756",
     "description": "Los mejores productos de Repuestos en El Cigüeñal. Calidad garantizada en Chachapoyas."
+  },
+  {
+    "id": "el-horno-pollerya",
+    "name": "El Horno Pollería",
+    "category": "comidas",
+    "whatsapp": "981234567",
+    "description": "El mejor Pollo a la Brasa y platos típicos de Chachapoyas en El Horno Pollería."
+  },
+  {
+    "id": "licorerya-el-brindis",
+    "name": "Licorería El Brindis",
+    "category": "bebidas",
+    "whatsapp": "982345678",
+    "description": "Gran variedad de licores, gaseosas y bebidas frías en Licorería El Brindis."
   }
 ];
 
@@ -10198,6 +10214,118 @@ export const MOCK_PRODUCTS: Product[] = [
         "model": "Varios",
         "year": 2024
       }
+    }
+  },
+  {
+    "id": "prod-comida-pollo-brasa-0",
+    "name": "1/4 de Pollo a la Brasa",
+    "price": 18,
+    "description": "Jugoso pollo a la brasa acompañado de papas fritas, ensalada y cremas.",
+    "image": "/images/Comidas/el-horno-pollerya/pollo-a-la-brasa.png",
+    "category": "comidas",
+    "storeName": "El Horno Pollería",
+    "storeId": "el-horno-pollerya",
+    "whatsappNumber": "981234567",
+    "attributes": {
+      "portion": "Personal"
+    }
+  },
+  {
+    "id": "prod-comida-lomo-saltado-1",
+    "name": "Lomo Saltado Criollo",
+    "price": 25,
+    "description": "Fino lomo saltado con cebolla, tomate, ají amarillo y papas fritas.",
+    "image": "/images/Comidas/el-horno-pollerya/lomo-saltado.png",
+    "category": "comidas",
+    "storeName": "El Horno Pollería",
+    "storeId": "el-horno-pollerya",
+    "whatsappNumber": "981234567",
+    "attributes": {
+      "portion": "Plato fondo"
+    }
+  },
+  {
+    "id": "prod-comida-arroz-pollo-2",
+    "name": "Arroz con Pollo Chachapoyano",
+    "price": 20,
+    "description": "Sabroso arroz verde con presa de pollo y sarsa criolla.",
+    "image": "/images/Comidas/el-horno-pollerya/arroz-con-pollo.png",
+    "category": "comidas",
+    "storeName": "El Horno Pollería",
+    "storeId": "el-horno-pollerya",
+    "whatsappNumber": "981234567",
+    "attributes": {
+      "portion": "Plato fondo"
+    }
+  },
+  {
+    "id": "prod-comida-chaufa-pollo-3",
+    "name": "Arroz Chaufa de Pollo",
+    "price": 15,
+    "description": "Arroz saltado al estilo oriental con trozos de pollo y cebollita china.",
+    "image": "/images/Comidas/el-horno-pollerya/chaufa-de-pollo.png",
+    "category": "comidas",
+    "storeName": "El Horno Pollería",
+    "storeId": "el-horno-pollerya",
+    "whatsappNumber": "981234567",
+    "attributes": {
+      "portion": "Plato fondo"
+    }
+  },
+  {
+    "id": "prod-bebida-cerveza-cusqu-0",
+    "name": "Cerveza Cusqueña Dorada 620ml",
+    "price": 8,
+    "description": "Cerveza premium peruana, helada y lista para disfrutar.",
+    "image": "/images/Bebidas/licorerya-el-brindis/cerveza-cusqueña.png",
+    "category": "bebidas",
+    "storeName": "Licorería El Brindis",
+    "storeId": "licorerya-el-brindis",
+    "whatsappNumber": "982345678",
+    "attributes": {
+      "unit": "Botella"
+    }
+  },
+  {
+    "id": "prod-bebida-inka-kola-2l-1",
+    "name": "Inka Kola 2 Litros",
+    "price": 7,
+    "description": "Gaseosa Inka Kola familiar, ideal para acompañar tus comidas.",
+    "image": "/images/Bebidas/licorerya-el-brindis/inka-kola-2l.png",
+    "category": "bebidas",
+    "storeName": "Licorería El Brindis",
+    "storeId": "licorerya-el-brindis",
+    "whatsappNumber": "982345678",
+    "attributes": {
+      "unit": "Botella"
+    }
+  },
+  {
+    "id": "prod-bebida-pisco-porton-2",
+    "name": "Pisco Portón Mosto Verde",
+    "price": 120,
+    "description": "Pisco premium de máxima calidad para ocasiones especiales.",
+    "image": "/images/Bebidas/licorerya-el-brindis/pisco-porton.png",
+    "category": "bebidas",
+    "storeName": "Licorería El Brindis",
+    "storeId": "licorerya-el-brindis",
+    "whatsappNumber": "982345678",
+    "attributes": {
+      "unit": "Botella 750ml"
+    }
+  },
+  {
+    "id": "prod-bebida-agua-san-mateo-3",
+    "name": "Agua San Mateo 2.5L",
+    "price": 4,
+    "description": "Agua mineral de manantial, ideal para hidratarte.",
+    "image": "/images/Bebidas/licorerya-el-brindis/agua-san-mateo.png",
+    "category": "bebidas",
+    "storeName": "Licorería El Brindis",
+    "storeId": "licorerya-el-brindis",
+    "whatsappNumber": "982345678",
+    "attributes": {
+      "unit": "Botella"
     }
   }
 ];

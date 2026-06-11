@@ -1,4 +1,4 @@
-export type Category = 'abarrotes' | 'motor' | 'outfit' | 'gadgets' | 'ferreteria' | 'farmacia';
+export type Category = 'abarrotes' | 'motor' | 'outfit' | 'gadgets' | 'ferreteria' | 'farmacia' | 'comidas' | 'bebidas';
 
 export interface BaseProduct {
   id: string;
@@ -46,6 +46,14 @@ export interface FarmaciaAttributes {
   prescriptionRequired: boolean;
 }
 
+export interface ComidaAttributes {
+  portion: string;
+}
+
+export interface BebidaAttributes {
+  unit: string;
+}
+
 export interface AbarrotesProduct extends BaseProduct {
   category: 'abarrotes';
   attributes: AbarrotesAttributes;
@@ -76,6 +84,16 @@ export interface FarmaciaProduct extends BaseProduct {
   attributes: FarmaciaProductAttributes;
 }
 
+export interface ComidaProduct extends BaseProduct {
+  category: 'comidas';
+  attributes: ComidaAttributes;
+}
+
+export interface BebidaProduct extends BaseProduct {
+  category: 'bebidas';
+  attributes: BebidaAttributes;
+}
+
 // Fixed minor naming inconsistency for farmacia attributes
 export interface FarmaciaProductAttributes {
   dosage?: string;
@@ -88,7 +106,9 @@ export type Product =
   | MotorProduct 
   | GadgetProduct 
   | FerreteriaProduct 
-  | FarmaciaProduct;
+  | FarmaciaProduct
+  | ComidaProduct
+  | BebidaProduct;
 
 export interface CartItem {
   product: Product;

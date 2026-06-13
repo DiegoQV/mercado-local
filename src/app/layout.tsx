@@ -15,6 +15,7 @@ export const metadata: Metadata = {
 
 import { CartProvider } from "@/context/CartContext";
 import CartButton from "@/components/CartButton";
+import BottomNavbar from "@/components/BottomNavbar";
 
 export default function RootLayout({
   children,
@@ -30,6 +31,7 @@ export default function RootLayout({
         <CartProvider>
           {children}
           <CartButton />
+          <BottomNavbar />
         </CartProvider>
       </body>
     </html>

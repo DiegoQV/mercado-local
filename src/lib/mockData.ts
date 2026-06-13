@@ -269,7 +269,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-arroz-extra-cos-1",
+    "id": "comercial-collantes-arroz-extra-cos-1",
     "name": "Arroz Extra Costeño",
     "price": 81,
     "description": "Arroz Extra Costeño de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -283,7 +283,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-cafe-tostado-al-2",
+    "id": "comercial-collantes-cafe-tostado-al-2",
     "name": "Café Tostado Alto Mayo",
     "price": 28,
     "description": "Café Tostado Alto Mayo de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -297,7 +297,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-fideos-don-vitt-3",
+    "id": "comercial-collantes-fideos-don-vitt-3",
     "name": "Fideos Don Vittorio",
     "price": 60,
     "description": "Fideos Don Vittorio de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -311,7 +311,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-leche-evaporada-4",
+    "id": "comercial-collantes-leche-evaporada-4",
     "name": "Leche Evaporada Gloria",
     "price": 27,
     "description": "Leche Evaporada Gloria de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -325,7 +325,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-miel-silvestre--5",
+    "id": "comercial-collantes-miel-silvestre--5",
     "name": "Miel Silvestre Chanchamiel",
     "price": 59,
     "description": "Miel Silvestre Chanchamiel de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -339,7 +339,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-azucar-rubia-ca-6",
+    "id": "comercial-collantes-azucar-rubia-ca-6",
     "name": "Azúcar Rubia Cartavio",
     "price": 72,
     "description": "Azúcar Rubia Cartavio de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -353,7 +353,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-atun-real-en-tr-7",
+    "id": "comercial-collantes-atun-real-en-tr-7",
     "name": "Atún Real en Trozos",
     "price": 75,
     "description": "Atún Real en Trozos de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -367,7 +367,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-lentejas-costen-8",
+    "id": "comercial-collantes-lentejas-costen-8",
     "name": "Lentejas Costeño",
     "price": 30,
     "description": "Lentejas Costeño de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -381,7 +381,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-avena-3-ositos-9",
+    "id": "comercial-collantes-avena-3-ositos-9",
     "name": "Avena 3 Ositos",
     "price": 68,
     "description": "Avena 3 Ositos de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -395,7 +395,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-yogurt-gloria-f-10",
+    "id": "comercial-collantes-yogurt-gloria-f-10",
     "name": "Yogurt Gloria Fresa",
     "price": 19,
     "description": "Yogurt Gloria Fresa de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -409,7 +409,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-galletas-soda-f-11",
+    "id": "comercial-collantes-galletas-soda-f-11",
     "name": "Galletas Soda Field",
     "price": 42,
     "description": "Galletas Soda Field de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -423,7 +423,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-detergente-opal-12",
+    "id": "comercial-collantes-detergente-opal-12",
     "name": "Detergente Opal",
     "price": 47,
     "originalPrice": 59,
@@ -438,7 +438,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-jabon-bolivar-13",
+    "id": "comercial-collantes-jabon-bolivar-13",
     "name": "Jabón Bolívar",
     "price": 72,
     "originalPrice": 91,
@@ -453,7 +453,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-papel-higienico-14",
+    "id": "comercial-collantes-papel-higienico-14",
     "name": "Papel Higiénico Elite",
     "price": 73,
     "description": "Papel Higiénico Elite de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -467,7 +467,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-aceite-de-oliva-15",
+    "id": "comercial-collantes-aceite-de-oliva-15",
     "name": "Aceite de Oliva Extra Virgen",
     "price": 32,
     "originalPrice": 41,
@@ -482,7 +482,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-sal-de-maras-16",
+    "id": "comercial-collantes-sal-de-maras-16",
     "name": "Sal de Maras",
     "price": 72,
     "originalPrice": 91,
@@ -497,7 +497,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-quinua-real-1kg-17",
+    "id": "comercial-collantes-quinua-real-1kg-17",
     "name": "Quinua Real 1kg",
     "price": 41,
     "description": "Quinua Real 1kg de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -511,7 +511,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-filete-de-cabal-18",
+    "id": "comercial-collantes-filete-de-cabal-18",
     "name": "Filete de Caballa",
     "price": 13,
     "description": "Filete de Caballa de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -525,7 +525,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-mayonesa-alacen-19",
+    "id": "comercial-collantes-mayonesa-alacen-19",
     "name": "Mayonesa Alacena",
     "price": 54,
     "description": "Mayonesa Alacena de alta calidad, disponible para entrega inmediata en Comercial Collantes.",
@@ -539,7 +539,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-aceite-vegetal--0",
+    "id": "supermercado-el-bosque-aceite-vegetal--0",
     "name": "Aceite Vegetal Primor",
     "price": 18,
     "description": "Aceite Vegetal Primor de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -553,7 +553,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-arroz-extra-cos-1",
+    "id": "supermercado-el-bosque-arroz-extra-cos-1",
     "name": "Arroz Extra Costeño",
     "price": 29,
     "description": "Arroz Extra Costeño de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -567,7 +567,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-cafe-tostado-al-2",
+    "id": "supermercado-el-bosque-cafe-tostado-al-2",
     "name": "Café Tostado Alto Mayo",
     "price": 45,
     "description": "Café Tostado Alto Mayo de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -581,7 +581,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-fideos-don-vitt-3",
+    "id": "supermercado-el-bosque-fideos-don-vitt-3",
     "name": "Fideos Don Vittorio",
     "price": 80,
     "description": "Fideos Don Vittorio de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -595,7 +595,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-leche-evaporada-4",
+    "id": "supermercado-el-bosque-leche-evaporada-4",
     "name": "Leche Evaporada Gloria",
     "price": 28,
     "description": "Leche Evaporada Gloria de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -609,7 +609,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-miel-silvestre--5",
+    "id": "supermercado-el-bosque-miel-silvestre--5",
     "name": "Miel Silvestre Chanchamiel",
     "price": 22,
     "originalPrice": 28,
@@ -624,7 +624,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-azucar-rubia-ca-6",
+    "id": "supermercado-el-bosque-azucar-rubia-ca-6",
     "name": "Azúcar Rubia Cartavio",
     "price": 37,
     "originalPrice": 47,
@@ -639,7 +639,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-atun-real-en-tr-7",
+    "id": "supermercado-el-bosque-atun-real-en-tr-7",
     "name": "Atún Real en Trozos",
     "price": 75,
     "description": "Atún Real en Trozos de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -653,7 +653,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-lentejas-costen-8",
+    "id": "supermercado-el-bosque-lentejas-costen-8",
     "name": "Lentejas Costeño",
     "price": 55,
     "description": "Lentejas Costeño de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -667,7 +667,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-avena-3-ositos-9",
+    "id": "supermercado-el-bosque-avena-3-ositos-9",
     "name": "Avena 3 Ositos",
     "price": 32,
     "description": "Avena 3 Ositos de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -681,7 +681,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-yogurt-gloria-f-10",
+    "id": "supermercado-el-bosque-yogurt-gloria-f-10",
     "name": "Yogurt Gloria Fresa",
     "price": 83,
     "description": "Yogurt Gloria Fresa de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -695,7 +695,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-galletas-soda-f-11",
+    "id": "supermercado-el-bosque-galletas-soda-f-11",
     "name": "Galletas Soda Field",
     "price": 47,
     "description": "Galletas Soda Field de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -709,7 +709,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-detergente-opal-12",
+    "id": "supermercado-el-bosque-detergente-opal-12",
     "name": "Detergente Opal",
     "price": 72,
     "description": "Detergente Opal de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -723,7 +723,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-jabon-bolivar-13",
+    "id": "supermercado-el-bosque-jabon-bolivar-13",
     "name": "Jabón Bolívar",
     "price": 69,
     "description": "Jabón Bolívar de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -737,7 +737,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-papel-higienico-14",
+    "id": "supermercado-el-bosque-papel-higienico-14",
     "name": "Papel Higiénico Elite",
     "price": 21,
     "description": "Papel Higiénico Elite de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -751,7 +751,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-aceite-de-oliva-15",
+    "id": "supermercado-el-bosque-aceite-de-oliva-15",
     "name": "Aceite de Oliva Extra Virgen",
     "price": 38,
     "originalPrice": 48,
@@ -766,7 +766,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-sal-de-maras-16",
+    "id": "supermercado-el-bosque-sal-de-maras-16",
     "name": "Sal de Maras",
     "price": 52,
     "originalPrice": 66,
@@ -781,7 +781,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-quinua-real-1kg-17",
+    "id": "supermercado-el-bosque-quinua-real-1kg-17",
     "name": "Quinua Real 1kg",
     "price": 30,
     "description": "Quinua Real 1kg de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -795,7 +795,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-filete-de-cabal-18",
+    "id": "supermercado-el-bosque-filete-de-cabal-18",
     "name": "Filete de Caballa",
     "price": 25,
     "description": "Filete de Caballa de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -809,7 +809,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-mayonesa-alacen-19",
+    "id": "supermercado-el-bosque-mayonesa-alacen-19",
     "name": "Mayonesa Alacena",
     "price": 90,
     "description": "Mayonesa Alacena de alta calidad, disponible para entrega inmediata en Supermercado El Bosque.",
@@ -823,7 +823,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-aceite-vegetal--0",
+    "id": "minimarket-la-estrecha-aceite-vegetal--0",
     "name": "Aceite Vegetal Primor",
     "price": 17,
     "description": "Aceite Vegetal Primor de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -837,7 +837,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-arroz-extra-cos-1",
+    "id": "minimarket-la-estrecha-arroz-extra-cos-1",
     "name": "Arroz Extra Costeño",
     "price": 30,
     "description": "Arroz Extra Costeño de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -851,7 +851,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-cafe-tostado-al-2",
+    "id": "minimarket-la-estrecha-cafe-tostado-al-2",
     "name": "Café Tostado Alto Mayo",
     "price": 60,
     "description": "Café Tostado Alto Mayo de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -865,7 +865,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-fideos-don-vitt-3",
+    "id": "minimarket-la-estrecha-fideos-don-vitt-3",
     "name": "Fideos Don Vittorio",
     "price": 84,
     "description": "Fideos Don Vittorio de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -879,7 +879,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-leche-evaporada-4",
+    "id": "minimarket-la-estrecha-leche-evaporada-4",
     "name": "Leche Evaporada Gloria",
     "price": 32,
     "originalPrice": 41,
@@ -894,7 +894,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-miel-silvestre--5",
+    "id": "minimarket-la-estrecha-miel-silvestre--5",
     "name": "Miel Silvestre Chanchamiel",
     "price": 51,
     "description": "Miel Silvestre Chanchamiel de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -908,7 +908,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-azucar-rubia-ca-6",
+    "id": "minimarket-la-estrecha-azucar-rubia-ca-6",
     "name": "Azúcar Rubia Cartavio",
     "price": 47,
     "description": "Azúcar Rubia Cartavio de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -922,7 +922,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-atun-real-en-tr-7",
+    "id": "minimarket-la-estrecha-atun-real-en-tr-7",
     "name": "Atún Real en Trozos",
     "price": 31,
     "description": "Atún Real en Trozos de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -936,7 +936,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-lentejas-costen-8",
+    "id": "minimarket-la-estrecha-lentejas-costen-8",
     "name": "Lentejas Costeño",
     "price": 77,
     "description": "Lentejas Costeño de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -950,7 +950,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-avena-3-ositos-9",
+    "id": "minimarket-la-estrecha-avena-3-ositos-9",
     "name": "Avena 3 Ositos",
     "price": 69,
     "description": "Avena 3 Ositos de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -964,7 +964,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-yogurt-gloria-f-10",
+    "id": "minimarket-la-estrecha-yogurt-gloria-f-10",
     "name": "Yogurt Gloria Fresa",
     "price": 81,
     "description": "Yogurt Gloria Fresa de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -978,7 +978,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-galletas-soda-f-11",
+    "id": "minimarket-la-estrecha-galletas-soda-f-11",
     "name": "Galletas Soda Field",
     "price": 27,
     "originalPrice": 34,
@@ -993,7 +993,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-detergente-opal-12",
+    "id": "minimarket-la-estrecha-detergente-opal-12",
     "name": "Detergente Opal",
     "price": 22,
     "originalPrice": 28,
@@ -1008,7 +1008,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-jabon-bolivar-13",
+    "id": "minimarket-la-estrecha-jabon-bolivar-13",
     "name": "Jabón Bolívar",
     "price": 75,
     "description": "Jabón Bolívar de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -1022,7 +1022,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-papel-higienico-14",
+    "id": "minimarket-la-estrecha-papel-higienico-14",
     "name": "Papel Higiénico Elite",
     "price": 40,
     "originalPrice": 50,
@@ -1037,7 +1037,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-aceite-de-oliva-15",
+    "id": "minimarket-la-estrecha-aceite-de-oliva-15",
     "name": "Aceite de Oliva Extra Virgen",
     "price": 32,
     "description": "Aceite de Oliva Extra Virgen de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -1051,7 +1051,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-sal-de-maras-16",
+    "id": "minimarket-la-estrecha-sal-de-maras-16",
     "name": "Sal de Maras",
     "price": 57,
     "originalPrice": 72,
@@ -1066,7 +1066,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-quinua-real-1kg-17",
+    "id": "minimarket-la-estrecha-quinua-real-1kg-17",
     "name": "Quinua Real 1kg",
     "price": 90,
     "description": "Quinua Real 1kg de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -1080,7 +1080,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-filete-de-cabal-18",
+    "id": "minimarket-la-estrecha-filete-de-cabal-18",
     "name": "Filete de Caballa",
     "price": 27,
     "description": "Filete de Caballa de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -1094,7 +1094,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-minim-mayonesa-alacen-19",
+    "id": "minimarket-la-estrecha-mayonesa-alacen-19",
     "name": "Mayonesa Alacena",
     "price": 36,
     "description": "Mayonesa Alacena de alta calidad, disponible para entrega inmediata en Minimarket La Estrecha.",
@@ -1108,7 +1108,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-aceite-vegetal--0",
+    "id": "super-el-sol-aceite-vegetal--0",
     "name": "Aceite Vegetal Primor",
     "price": 77,
     "description": "Aceite Vegetal Primor de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1122,7 +1122,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-arroz-extra-cos-1",
+    "id": "super-el-sol-arroz-extra-cos-1",
     "name": "Arroz Extra Costeño",
     "price": 91,
     "description": "Arroz Extra Costeño de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1136,7 +1136,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-cafe-tostado-al-2",
+    "id": "super-el-sol-cafe-tostado-al-2",
     "name": "Café Tostado Alto Mayo",
     "price": 55,
     "description": "Café Tostado Alto Mayo de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1150,7 +1150,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-fideos-don-vitt-3",
+    "id": "super-el-sol-fideos-don-vitt-3",
     "name": "Fideos Don Vittorio",
     "price": 29,
     "description": "Fideos Don Vittorio de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1164,7 +1164,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-leche-evaporada-4",
+    "id": "super-el-sol-leche-evaporada-4",
     "name": "Leche Evaporada Gloria",
     "price": 67,
     "description": "Leche Evaporada Gloria de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1178,7 +1178,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-miel-silvestre--5",
+    "id": "super-el-sol-miel-silvestre--5",
     "name": "Miel Silvestre Chanchamiel",
     "price": 38,
     "description": "Miel Silvestre Chanchamiel de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1192,7 +1192,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-azucar-rubia-ca-6",
+    "id": "super-el-sol-azucar-rubia-ca-6",
     "name": "Azúcar Rubia Cartavio",
     "price": 67,
     "description": "Azúcar Rubia Cartavio de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1206,7 +1206,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-atun-real-en-tr-7",
+    "id": "super-el-sol-atun-real-en-tr-7",
     "name": "Atún Real en Trozos",
     "price": 88,
     "description": "Atún Real en Trozos de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1220,7 +1220,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-lentejas-costen-8",
+    "id": "super-el-sol-lentejas-costen-8",
     "name": "Lentejas Costeño",
     "price": 13,
     "description": "Lentejas Costeño de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1234,7 +1234,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-avena-3-ositos-9",
+    "id": "super-el-sol-avena-3-ositos-9",
     "name": "Avena 3 Ositos",
     "price": 18,
     "description": "Avena 3 Ositos de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1248,7 +1248,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-yogurt-gloria-f-10",
+    "id": "super-el-sol-yogurt-gloria-f-10",
     "name": "Yogurt Gloria Fresa",
     "price": 20,
     "originalPrice": 26,
@@ -1263,7 +1263,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-galletas-soda-f-11",
+    "id": "super-el-sol-galletas-soda-f-11",
     "name": "Galletas Soda Field",
     "price": 50,
     "originalPrice": 63,
@@ -1278,7 +1278,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-detergente-opal-12",
+    "id": "super-el-sol-detergente-opal-12",
     "name": "Detergente Opal",
     "price": 34,
     "description": "Detergente Opal de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1292,7 +1292,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-jabon-bolivar-13",
+    "id": "super-el-sol-jabon-bolivar-13",
     "name": "Jabón Bolívar",
     "price": 67,
     "description": "Jabón Bolívar de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1306,7 +1306,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-papel-higienico-14",
+    "id": "super-el-sol-papel-higienico-14",
     "name": "Papel Higiénico Elite",
     "price": 57,
     "originalPrice": 72,
@@ -1321,7 +1321,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-aceite-de-oliva-15",
+    "id": "super-el-sol-aceite-de-oliva-15",
     "name": "Aceite de Oliva Extra Virgen",
     "price": 69,
     "description": "Aceite de Oliva Extra Virgen de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1335,7 +1335,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-sal-de-maras-16",
+    "id": "super-el-sol-sal-de-maras-16",
     "name": "Sal de Maras",
     "price": 75,
     "description": "Sal de Maras de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1349,7 +1349,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-quinua-real-1kg-17",
+    "id": "super-el-sol-quinua-real-1kg-17",
     "name": "Quinua Real 1kg",
     "price": 83,
     "description": "Quinua Real 1kg de alta calidad, disponible para entrega inmediata en Super El Sol.",
@@ -1363,7 +1363,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-filete-de-cabal-18",
+    "id": "super-el-sol-filete-de-cabal-18",
     "name": "Filete de Caballa",
     "price": 56,
     "originalPrice": 71,
@@ -1378,7 +1378,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-super-mayonesa-alacen-19",
+    "id": "super-el-sol-mayonesa-alacen-19",
     "name": "Mayonesa Alacena",
     "price": 52,
     "originalPrice": 65,
@@ -1393,7 +1393,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-aceite-vegetal--0",
+    "id": "abarrotes-san-juan-aceite-vegetal--0",
     "name": "Aceite Vegetal Primor",
     "price": 71,
     "originalPrice": 89,
@@ -1408,7 +1408,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-arroz-extra-cos-1",
+    "id": "abarrotes-san-juan-arroz-extra-cos-1",
     "name": "Arroz Extra Costeño",
     "price": 9,
     "originalPrice": 12,
@@ -1423,7 +1423,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-cafe-tostado-al-2",
+    "id": "abarrotes-san-juan-cafe-tostado-al-2",
     "name": "Café Tostado Alto Mayo",
     "price": 58,
     "originalPrice": 73,
@@ -1438,7 +1438,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-fideos-don-vitt-3",
+    "id": "abarrotes-san-juan-fideos-don-vitt-3",
     "name": "Fideos Don Vittorio",
     "price": 70,
     "description": "Fideos Don Vittorio de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1452,7 +1452,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-leche-evaporada-4",
+    "id": "abarrotes-san-juan-leche-evaporada-4",
     "name": "Leche Evaporada Gloria",
     "price": 38,
     "description": "Leche Evaporada Gloria de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1466,7 +1466,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-miel-silvestre--5",
+    "id": "abarrotes-san-juan-miel-silvestre--5",
     "name": "Miel Silvestre Chanchamiel",
     "price": 63,
     "description": "Miel Silvestre Chanchamiel de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1480,7 +1480,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-azucar-rubia-ca-6",
+    "id": "abarrotes-san-juan-azucar-rubia-ca-6",
     "name": "Azúcar Rubia Cartavio",
     "price": 87,
     "description": "Azúcar Rubia Cartavio de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1494,7 +1494,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-atun-real-en-tr-7",
+    "id": "abarrotes-san-juan-atun-real-en-tr-7",
     "name": "Atún Real en Trozos",
     "price": 24,
     "description": "Atún Real en Trozos de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1508,7 +1508,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-lentejas-costen-8",
+    "id": "abarrotes-san-juan-lentejas-costen-8",
     "name": "Lentejas Costeño",
     "price": 48,
     "description": "Lentejas Costeño de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1522,7 +1522,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-avena-3-ositos-9",
+    "id": "abarrotes-san-juan-avena-3-ositos-9",
     "name": "Avena 3 Ositos",
     "price": 30,
     "description": "Avena 3 Ositos de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1536,7 +1536,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-yogurt-gloria-f-10",
+    "id": "abarrotes-san-juan-yogurt-gloria-f-10",
     "name": "Yogurt Gloria Fresa",
     "price": 21,
     "originalPrice": 27,
@@ -1551,7 +1551,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-galletas-soda-f-11",
+    "id": "abarrotes-san-juan-galletas-soda-f-11",
     "name": "Galletas Soda Field",
     "price": 14,
     "description": "Galletas Soda Field de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1565,7 +1565,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-detergente-opal-12",
+    "id": "abarrotes-san-juan-detergente-opal-12",
     "name": "Detergente Opal",
     "price": 84,
     "description": "Detergente Opal de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1579,7 +1579,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-jabon-bolivar-13",
+    "id": "abarrotes-san-juan-jabon-bolivar-13",
     "name": "Jabón Bolívar",
     "price": 30,
     "description": "Jabón Bolívar de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1593,7 +1593,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-papel-higienico-14",
+    "id": "abarrotes-san-juan-papel-higienico-14",
     "name": "Papel Higiénico Elite",
     "price": 56,
     "description": "Papel Higiénico Elite de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1607,7 +1607,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-aceite-de-oliva-15",
+    "id": "abarrotes-san-juan-aceite-de-oliva-15",
     "name": "Aceite de Oliva Extra Virgen",
     "price": 69,
     "description": "Aceite de Oliva Extra Virgen de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1621,7 +1621,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-sal-de-maras-16",
+    "id": "abarrotes-san-juan-sal-de-maras-16",
     "name": "Sal de Maras",
     "price": 60,
     "description": "Sal de Maras de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1635,7 +1635,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-quinua-real-1kg-17",
+    "id": "abarrotes-san-juan-quinua-real-1kg-17",
     "name": "Quinua Real 1kg",
     "price": 54,
     "description": "Quinua Real 1kg de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1649,7 +1649,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-filete-de-cabal-18",
+    "id": "abarrotes-san-juan-filete-de-cabal-18",
     "name": "Filete de Caballa",
     "price": 15,
     "description": "Filete de Caballa de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1663,7 +1663,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-abarr-mayonesa-alacen-19",
+    "id": "abarrotes-san-juan-mayonesa-alacen-19",
     "name": "Mayonesa Alacena",
     "price": 41,
     "description": "Mayonesa Alacena de alta calidad, disponible para entrega inmediata en Abarrotes San Juan.",
@@ -1677,7 +1677,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-paracetamol-500-0",
+    "id": "botica-amazonas-paracetamol-500-0",
     "name": "Paracetamol 500mg",
     "price": 36,
     "description": "Paracetamol 500mg de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1692,7 +1692,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-ibuprofeno-400m-1",
+    "id": "botica-amazonas-ibuprofeno-400m-1",
     "name": "Ibuprofeno 400mg",
     "price": 49,
     "description": "Ibuprofeno 400mg de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1707,7 +1707,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-amoxicilina-500-2",
+    "id": "botica-amazonas-amoxicilina-500-2",
     "name": "Amoxicilina 500mg",
     "price": 42,
     "description": "Amoxicilina 500mg de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1722,7 +1722,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-loratadina-10mg-3",
+    "id": "botica-amazonas-loratadina-10mg-3",
     "name": "Loratadina 10mg",
     "price": 14,
     "description": "Loratadina 10mg de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1737,7 +1737,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-vitamina-c-redo-4",
+    "id": "botica-amazonas-vitamina-c-redo-4",
     "name": "Vitamina C Redoxon",
     "price": 66,
     "description": "Vitamina C Redoxon de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1752,7 +1752,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-alcohol-en-gel--5",
+    "id": "botica-amazonas-alcohol-en-gel--5",
     "name": "Alcohol en Gel 500ml",
     "price": 49,
     "description": "Alcohol en Gel 500ml de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1767,7 +1767,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-mascarillas-kn9-6",
+    "id": "botica-amazonas-mascarillas-kn9-6",
     "name": "Mascarillas KN95 x10",
     "price": 80,
     "description": "Mascarillas KN95 x10 de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1782,7 +1782,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-termometro-digi-7",
+    "id": "botica-amazonas-termometro-digi-7",
     "name": "Termómetro Digital",
     "price": 14,
     "originalPrice": 18,
@@ -1798,7 +1798,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-gasas-esteriles-8",
+    "id": "botica-amazonas-gasas-esteriles-8",
     "name": "Gasas Estériles",
     "price": 44,
     "description": "Gasas Estériles de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1813,7 +1813,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-panadol-antigri-9",
+    "id": "botica-amazonas-panadol-antigri-9",
     "name": "Panadol Antigripal",
     "price": 26,
     "description": "Panadol Antigripal de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1828,7 +1828,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-omeprazol-20mg-10",
+    "id": "botica-amazonas-omeprazol-20mg-10",
     "name": "Omeprazol 20mg",
     "price": 34,
     "originalPrice": 43,
@@ -1844,7 +1844,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-simvastatina-20-11",
+    "id": "botica-amazonas-simvastatina-20-11",
     "name": "Simvastatina 20mg",
     "price": 76,
     "description": "Simvastatina 20mg de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1859,7 +1859,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-metformina-850m-12",
+    "id": "botica-amazonas-metformina-850m-12",
     "name": "Metformina 850mg",
     "price": 90,
     "description": "Metformina 850mg de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1874,7 +1874,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-diclofenaco-gel-13",
+    "id": "botica-amazonas-diclofenaco-gel-13",
     "name": "Diclofenaco Gel",
     "price": 34,
     "description": "Diclofenaco Gel de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1889,7 +1889,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-suero-fisiologi-14",
+    "id": "botica-amazonas-suero-fisiologi-14",
     "name": "Suero Fisiológico",
     "price": 16,
     "description": "Suero Fisiológico de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1904,7 +1904,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-multivitaminico-15",
+    "id": "botica-amazonas-multivitaminico-15",
     "name": "Multivitamínico Centrum",
     "price": 86,
     "description": "Multivitamínico Centrum de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1919,7 +1919,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-colirio-ocular-16",
+    "id": "botica-amazonas-colirio-ocular-16",
     "name": "Colirio Ocular",
     "price": 61,
     "originalPrice": 77,
@@ -1935,7 +1935,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-crema-hidratant-17",
+    "id": "botica-amazonas-crema-hidratant-17",
     "name": "Crema Hidratante Cerave",
     "price": 17,
     "description": "Crema Hidratante Cerave de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1950,7 +1950,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-bloqueador-sola-18",
+    "id": "botica-amazonas-bloqueador-sola-18",
     "name": "Bloqueador Solar FPS50",
     "price": 82,
     "description": "Bloqueador Solar FPS50 de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1965,7 +1965,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-jabon-liquido-n-19",
+    "id": "botica-amazonas-jabon-liquido-n-19",
     "name": "Jabón Líquido Neutro",
     "price": 55,
     "description": "Jabón Líquido Neutro de alta calidad, disponible para entrega inmediata en Botica Amazonas.",
@@ -1980,7 +1980,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-paracetamol-500-0",
+    "id": "inkafarma-paracetamol-500-0",
     "name": "Paracetamol 500mg",
     "price": 82,
     "description": "Paracetamol 500mg de alta calidad, disponible para entrega inmediata en Inkafarma.",
@@ -1995,7 +1995,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-ibuprofeno-400m-1",
+    "id": "inkafarma-ibuprofeno-400m-1",
     "name": "Ibuprofeno 400mg",
     "price": 74,
     "description": "Ibuprofeno 400mg de alta calidad, disponible para entrega inmediata en Inkafarma.",
@@ -2010,7 +2010,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-amoxicilina-500-2",
+    "id": "inkafarma-amoxicilina-500-2",
     "name": "Amoxicilina 500mg",
     "price": 62,
     "originalPrice": 78,
@@ -2026,7 +2026,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-loratadina-10mg-3",
+    "id": "inkafarma-loratadina-10mg-3",
     "name": "Loratadina 10mg",
     "price": 53,
     "description": "Loratadina 10mg de alta calidad, disponible para entrega inmediata en Inkafarma.",
@@ -2041,7 +2041,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-vitamina-c-redo-4",
+    "id": "inkafarma-vitamina-c-redo-4",
     "name": "Vitamina C Redoxon",
     "price": 64,
     "description": "Vitamina C Redoxon de alta calidad, disponible para entrega inmediata en Inkafarma.",
@@ -2056,7 +2056,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-alcohol-en-gel--5",
+    "id": "inkafarma-alcohol-en-gel--5",
     "name": "Alcohol en Gel 500ml",
     "price": 53,
     "originalPrice": 67,
@@ -2072,7 +2072,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-mascarillas-kn9-6",
+    "id": "inkafarma-mascarillas-kn9-6",
     "name": "Mascarillas KN95 x10",
     "price": 23,
     "originalPrice": 29,
@@ -2088,7 +2088,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-termometro-digi-7",
+    "id": "inkafarma-termometro-digi-7",
     "name": "Termómetro Digital",
     "price": 14,
     "description": "Termómetro Digital de alta calidad, disponible para entrega inmediata en Inkafarma.",
@@ -2103,7 +2103,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-gasas-esteriles-8",
+    "id": "inkafarma-gasas-esteriles-8",
     "name": "Gasas Estériles",
     "price": 42,
     "description": "Gasas Estériles de alta calidad, disponible para entrega inmediata en Inkafarma.",
@@ -2118,7 +2118,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-panadol-antigri-9",
+    "id": "inkafarma-panadol-antigri-9",
     "name": "Panadol Antigripal",
     "price": 75,
     "description": "Panadol Antigripal de alta calidad, disponible para entrega inmediata en Inkafarma.",
@@ -2133,7 +2133,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-omeprazol-20mg-10",
+    "id": "inkafarma-omeprazol-20mg-10",
     "name": "Omeprazol 20mg",
     "price": 21,
     "description": "Omeprazol 20mg de alta calidad, disponible para entrega inmediata en Inkafarma.",
@@ -2148,7 +2148,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-simvastatina-20-11",
+    "id": "inkafarma-simvastatina-20-11",
     "name": "Simvastatina 20mg",
     "price": 64,
     "description": "Simvastatina 20mg de alta calidad, disponible para entrega inmediata en Inkafarma.",
@@ -2163,7 +2163,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-metformina-850m-12",
+    "id": "inkafarma-metformina-850m-12",
     "name": "Metformina 850mg",
     "price": 17,
     "description": "Metformina 850mg de alta calidad, disponible para entrega inmediata en Inkafarma.",
@@ -2178,7 +2178,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-diclofenaco-gel-13",
+    "id": "inkafarma-diclofenaco-gel-13",
     "name": "Diclofenaco Gel",
     "price": 19,
     "originalPrice": 24,
@@ -2194,7 +2194,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-suero-fisiologi-14",
+    "id": "inkafarma-suero-fisiologi-14",
     "name": "Suero Fisiológico",
     "price": 84,
     "description": "Suero Fisiológico de alta calidad, disponible para entrega inmediata en Inkafarma.",
@@ -2209,7 +2209,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-multivitaminico-15",
+    "id": "inkafarma-multivitaminico-15",
     "name": "Multivitamínico Centrum",
     "price": 64,
     "originalPrice": 81,
@@ -2225,7 +2225,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-colirio-ocular-16",
+    "id": "inkafarma-colirio-ocular-16",
     "name": "Colirio Ocular",
     "price": 34,
     "originalPrice": 43,
@@ -2241,7 +2241,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-crema-hidratant-17",
+    "id": "inkafarma-crema-hidratant-17",
     "name": "Crema Hidratante Cerave",
     "price": 68,
     "originalPrice": 86,
@@ -2257,7 +2257,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-bloqueador-sola-18",
+    "id": "inkafarma-bloqueador-sola-18",
     "name": "Bloqueador Solar FPS50",
     "price": 91,
     "description": "Bloqueador Solar FPS50 de alta calidad, disponible para entrega inmediata en Inkafarma.",
@@ -2272,7 +2272,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-inkaf-jabon-liquido-n-19",
+    "id": "inkafarma-jabon-liquido-n-19",
     "name": "Jabón Líquido Neutro",
     "price": 56,
     "originalPrice": 71,
@@ -2288,7 +2288,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-paracetamol-500-0",
+    "id": "mifarma-paracetamol-500-0",
     "name": "Paracetamol 500mg",
     "price": 34,
     "description": "Paracetamol 500mg de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2303,7 +2303,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-ibuprofeno-400m-1",
+    "id": "mifarma-ibuprofeno-400m-1",
     "name": "Ibuprofeno 400mg",
     "price": 72,
     "originalPrice": 90,
@@ -2319,7 +2319,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-amoxicilina-500-2",
+    "id": "mifarma-amoxicilina-500-2",
     "name": "Amoxicilina 500mg",
     "price": 59,
     "description": "Amoxicilina 500mg de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2334,7 +2334,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-loratadina-10mg-3",
+    "id": "mifarma-loratadina-10mg-3",
     "name": "Loratadina 10mg",
     "price": 45,
     "description": "Loratadina 10mg de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2349,7 +2349,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-vitamina-c-redo-4",
+    "id": "mifarma-vitamina-c-redo-4",
     "name": "Vitamina C Redoxon",
     "price": 33,
     "description": "Vitamina C Redoxon de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2364,7 +2364,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-alcohol-en-gel--5",
+    "id": "mifarma-alcohol-en-gel--5",
     "name": "Alcohol en Gel 500ml",
     "price": 54,
     "description": "Alcohol en Gel 500ml de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2379,7 +2379,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-mascarillas-kn9-6",
+    "id": "mifarma-mascarillas-kn9-6",
     "name": "Mascarillas KN95 x10",
     "price": 60,
     "originalPrice": 76,
@@ -2395,7 +2395,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-termometro-digi-7",
+    "id": "mifarma-termometro-digi-7",
     "name": "Termómetro Digital",
     "price": 48,
     "description": "Termómetro Digital de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2410,7 +2410,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-gasas-esteriles-8",
+    "id": "mifarma-gasas-esteriles-8",
     "name": "Gasas Estériles",
     "price": 56,
     "originalPrice": 71,
@@ -2426,7 +2426,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-panadol-antigri-9",
+    "id": "mifarma-panadol-antigri-9",
     "name": "Panadol Antigripal",
     "price": 57,
     "description": "Panadol Antigripal de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2441,7 +2441,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-omeprazol-20mg-10",
+    "id": "mifarma-omeprazol-20mg-10",
     "name": "Omeprazol 20mg",
     "price": 88,
     "description": "Omeprazol 20mg de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2456,7 +2456,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-simvastatina-20-11",
+    "id": "mifarma-simvastatina-20-11",
     "name": "Simvastatina 20mg",
     "price": 12,
     "description": "Simvastatina 20mg de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2471,7 +2471,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-metformina-850m-12",
+    "id": "mifarma-metformina-850m-12",
     "name": "Metformina 850mg",
     "price": 16,
     "originalPrice": 21,
@@ -2487,7 +2487,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-diclofenaco-gel-13",
+    "id": "mifarma-diclofenaco-gel-13",
     "name": "Diclofenaco Gel",
     "price": 70,
     "description": "Diclofenaco Gel de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2502,7 +2502,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-suero-fisiologi-14",
+    "id": "mifarma-suero-fisiologi-14",
     "name": "Suero Fisiológico",
     "price": 51,
     "description": "Suero Fisiológico de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2517,7 +2517,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-multivitaminico-15",
+    "id": "mifarma-multivitaminico-15",
     "name": "Multivitamínico Centrum",
     "price": 15,
     "description": "Multivitamínico Centrum de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2532,7 +2532,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-colirio-ocular-16",
+    "id": "mifarma-colirio-ocular-16",
     "name": "Colirio Ocular",
     "price": 83,
     "description": "Colirio Ocular de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2547,7 +2547,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-crema-hidratant-17",
+    "id": "mifarma-crema-hidratant-17",
     "name": "Crema Hidratante Cerave",
     "price": 73,
     "description": "Crema Hidratante Cerave de alta calidad, disponible para entrega inmediata en MiFarma.",
@@ -2562,7 +2562,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-bloqueador-sola-18",
+    "id": "mifarma-bloqueador-sola-18",
     "name": "Bloqueador Solar FPS50",
     "price": 55,
     "originalPrice": 69,
@@ -2578,7 +2578,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mifar-jabon-liquido-n-19",
+    "id": "mifarma-jabon-liquido-n-19",
     "name": "Jabón Líquido Neutro",
     "price": 50,
     "originalPrice": 63,
@@ -2594,7 +2594,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-paracetamol-500-0",
+    "id": "botica-salud-paracetamol-500-0",
     "name": "Paracetamol 500mg",
     "price": 14,
     "description": "Paracetamol 500mg de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2609,7 +2609,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-ibuprofeno-400m-1",
+    "id": "botica-salud-ibuprofeno-400m-1",
     "name": "Ibuprofeno 400mg",
     "price": 43,
     "description": "Ibuprofeno 400mg de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2624,7 +2624,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-amoxicilina-500-2",
+    "id": "botica-salud-amoxicilina-500-2",
     "name": "Amoxicilina 500mg",
     "price": 46,
     "originalPrice": 58,
@@ -2640,7 +2640,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-loratadina-10mg-3",
+    "id": "botica-salud-loratadina-10mg-3",
     "name": "Loratadina 10mg",
     "price": 20,
     "description": "Loratadina 10mg de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2655,7 +2655,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-vitamina-c-redo-4",
+    "id": "botica-salud-vitamina-c-redo-4",
     "name": "Vitamina C Redoxon",
     "price": 32,
     "description": "Vitamina C Redoxon de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2670,7 +2670,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-alcohol-en-gel--5",
+    "id": "botica-salud-alcohol-en-gel--5",
     "name": "Alcohol en Gel 500ml",
     "price": 17,
     "originalPrice": 22,
@@ -2686,7 +2686,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-mascarillas-kn9-6",
+    "id": "botica-salud-mascarillas-kn9-6",
     "name": "Mascarillas KN95 x10",
     "price": 90,
     "description": "Mascarillas KN95 x10 de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2701,7 +2701,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-termometro-digi-7",
+    "id": "botica-salud-termometro-digi-7",
     "name": "Termómetro Digital",
     "price": 12,
     "description": "Termómetro Digital de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2716,7 +2716,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-gasas-esteriles-8",
+    "id": "botica-salud-gasas-esteriles-8",
     "name": "Gasas Estériles",
     "price": 63,
     "originalPrice": 79,
@@ -2732,7 +2732,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-panadol-antigri-9",
+    "id": "botica-salud-panadol-antigri-9",
     "name": "Panadol Antigripal",
     "price": 58,
     "description": "Panadol Antigripal de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2747,7 +2747,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-omeprazol-20mg-10",
+    "id": "botica-salud-omeprazol-20mg-10",
     "name": "Omeprazol 20mg",
     "price": 27,
     "originalPrice": 34,
@@ -2763,7 +2763,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-simvastatina-20-11",
+    "id": "botica-salud-simvastatina-20-11",
     "name": "Simvastatina 20mg",
     "price": 38,
     "description": "Simvastatina 20mg de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2778,7 +2778,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-metformina-850m-12",
+    "id": "botica-salud-metformina-850m-12",
     "name": "Metformina 850mg",
     "price": 84,
     "description": "Metformina 850mg de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2793,7 +2793,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-diclofenaco-gel-13",
+    "id": "botica-salud-diclofenaco-gel-13",
     "name": "Diclofenaco Gel",
     "price": 12,
     "description": "Diclofenaco Gel de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2808,7 +2808,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-suero-fisiologi-14",
+    "id": "botica-salud-suero-fisiologi-14",
     "name": "Suero Fisiológico",
     "price": 68,
     "originalPrice": 85,
@@ -2824,7 +2824,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-multivitaminico-15",
+    "id": "botica-salud-multivitaminico-15",
     "name": "Multivitamínico Centrum",
     "price": 53,
     "description": "Multivitamínico Centrum de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2839,7 +2839,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-colirio-ocular-16",
+    "id": "botica-salud-colirio-ocular-16",
     "name": "Colirio Ocular",
     "price": 39,
     "originalPrice": 49,
@@ -2855,7 +2855,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-crema-hidratant-17",
+    "id": "botica-salud-crema-hidratant-17",
     "name": "Crema Hidratante Cerave",
     "price": 79,
     "description": "Crema Hidratante Cerave de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2870,7 +2870,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-bloqueador-sola-18",
+    "id": "botica-salud-bloqueador-sola-18",
     "name": "Bloqueador Solar FPS50",
     "price": 78,
     "description": "Bloqueador Solar FPS50 de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2885,7 +2885,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-botic-jabon-liquido-n-19",
+    "id": "botica-salud-jabon-liquido-n-19",
     "name": "Jabón Líquido Neutro",
     "price": 48,
     "description": "Jabón Líquido Neutro de alta calidad, disponible para entrega inmediata en Botica Salud.",
@@ -2900,7 +2900,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-paracetamol-500-0",
+    "id": "farmacia-chachapoyas-paracetamol-500-0",
     "name": "Paracetamol 500mg",
     "price": 37,
     "description": "Paracetamol 500mg de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -2915,7 +2915,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-ibuprofeno-400m-1",
+    "id": "farmacia-chachapoyas-ibuprofeno-400m-1",
     "name": "Ibuprofeno 400mg",
     "price": 43,
     "description": "Ibuprofeno 400mg de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -2930,7 +2930,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-amoxicilina-500-2",
+    "id": "farmacia-chachapoyas-amoxicilina-500-2",
     "name": "Amoxicilina 500mg",
     "price": 14,
     "description": "Amoxicilina 500mg de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -2945,7 +2945,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-loratadina-10mg-3",
+    "id": "farmacia-chachapoyas-loratadina-10mg-3",
     "name": "Loratadina 10mg",
     "price": 45,
     "description": "Loratadina 10mg de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -2960,7 +2960,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-vitamina-c-redo-4",
+    "id": "farmacia-chachapoyas-vitamina-c-redo-4",
     "name": "Vitamina C Redoxon",
     "price": 40,
     "description": "Vitamina C Redoxon de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -2975,7 +2975,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-alcohol-en-gel--5",
+    "id": "farmacia-chachapoyas-alcohol-en-gel--5",
     "name": "Alcohol en Gel 500ml",
     "price": 22,
     "description": "Alcohol en Gel 500ml de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -2990,7 +2990,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-mascarillas-kn9-6",
+    "id": "farmacia-chachapoyas-mascarillas-kn9-6",
     "name": "Mascarillas KN95 x10",
     "price": 85,
     "description": "Mascarillas KN95 x10 de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -3005,7 +3005,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-termometro-digi-7",
+    "id": "farmacia-chachapoyas-termometro-digi-7",
     "name": "Termómetro Digital",
     "price": 58,
     "description": "Termómetro Digital de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -3020,7 +3020,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-gasas-esteriles-8",
+    "id": "farmacia-chachapoyas-gasas-esteriles-8",
     "name": "Gasas Estériles",
     "price": 30,
     "originalPrice": 38,
@@ -3036,7 +3036,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-panadol-antigri-9",
+    "id": "farmacia-chachapoyas-panadol-antigri-9",
     "name": "Panadol Antigripal",
     "price": 75,
     "description": "Panadol Antigripal de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -3051,7 +3051,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-omeprazol-20mg-10",
+    "id": "farmacia-chachapoyas-omeprazol-20mg-10",
     "name": "Omeprazol 20mg",
     "price": 65,
     "originalPrice": 82,
@@ -3067,7 +3067,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-simvastatina-20-11",
+    "id": "farmacia-chachapoyas-simvastatina-20-11",
     "name": "Simvastatina 20mg",
     "price": 16,
     "description": "Simvastatina 20mg de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -3082,7 +3082,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-metformina-850m-12",
+    "id": "farmacia-chachapoyas-metformina-850m-12",
     "name": "Metformina 850mg",
     "price": 67,
     "description": "Metformina 850mg de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -3097,7 +3097,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-diclofenaco-gel-13",
+    "id": "farmacia-chachapoyas-diclofenaco-gel-13",
     "name": "Diclofenaco Gel",
     "price": 80,
     "description": "Diclofenaco Gel de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -3112,7 +3112,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-suero-fisiologi-14",
+    "id": "farmacia-chachapoyas-suero-fisiologi-14",
     "name": "Suero Fisiológico",
     "price": 15,
     "originalPrice": 19,
@@ -3128,7 +3128,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-multivitaminico-15",
+    "id": "farmacia-chachapoyas-multivitaminico-15",
     "name": "Multivitamínico Centrum",
     "price": 79,
     "description": "Multivitamínico Centrum de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -3143,7 +3143,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-colirio-ocular-16",
+    "id": "farmacia-chachapoyas-colirio-ocular-16",
     "name": "Colirio Ocular",
     "price": 25,
     "description": "Colirio Ocular de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -3158,7 +3158,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-crema-hidratant-17",
+    "id": "farmacia-chachapoyas-crema-hidratant-17",
     "name": "Crema Hidratante Cerave",
     "price": 50,
     "originalPrice": 63,
@@ -3174,7 +3174,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-bloqueador-sola-18",
+    "id": "farmacia-chachapoyas-bloqueador-sola-18",
     "name": "Bloqueador Solar FPS50",
     "price": 60,
     "originalPrice": 76,
@@ -3190,7 +3190,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-farma-jabon-liquido-n-19",
+    "id": "farmacia-chachapoyas-jabon-liquido-n-19",
     "name": "Jabón Líquido Neutro",
     "price": 72,
     "description": "Jabón Líquido Neutro de alta calidad, disponible para entrega inmediata en Farmacia Chachapoyas.",
@@ -3205,7 +3205,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-martillo-de-car-0",
+    "id": "ferreteria-el-progreso-martillo-de-car-0",
     "name": "Martillo de Carpintero",
     "price": 16,
     "description": "Martillo de Carpintero de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3219,7 +3219,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-juego-de-destor-1",
+    "id": "ferreteria-el-progreso-juego-de-destor-1",
     "name": "Juego de Destornilladores",
     "price": 26,
     "description": "Juego de Destornilladores de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3233,7 +3233,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-taladro-percuto-2",
+    "id": "ferreteria-el-progreso-taladro-percuto-2",
     "name": "Taladro Percutor 600W",
     "price": 80,
     "description": "Taladro Percutor 600W de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3247,7 +3247,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-alicate-univers-3",
+    "id": "ferreteria-el-progreso-alicate-univers-3",
     "name": "Alicate Universal",
     "price": 33,
     "description": "Alicate Universal de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3261,7 +3261,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-cinta-metrica-5-4",
+    "id": "ferreteria-el-progreso-cinta-metrica-5-4",
     "name": "Cinta Métrica 5m",
     "price": 58,
     "description": "Cinta Métrica 5m de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3275,7 +3275,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-pintura-latex-b-5",
+    "id": "ferreteria-el-progreso-pintura-latex-b-5",
     "name": "Pintura Látex Blanca 1gal",
     "price": 9,
     "originalPrice": 12,
@@ -3290,7 +3290,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-brocha-de-3-pul-6",
+    "id": "ferreteria-el-progreso-brocha-de-3-pul-6",
     "name": "Brocha de 3 pulgadas",
     "price": 56,
     "description": "Brocha de 3 pulgadas de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3304,7 +3304,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-sierra-para-met-7",
+    "id": "ferreteria-el-progreso-sierra-para-met-7",
     "name": "Sierra para Metales",
     "price": 34,
     "description": "Sierra para Metales de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3318,7 +3318,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-llave-inglesa-1-8",
+    "id": "ferreteria-el-progreso-llave-inglesa-1-8",
     "name": "Llave Inglesa 10\"",
     "price": 43,
     "description": "Llave Inglesa 10\" de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3332,7 +3332,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-nivel-de-burbuj-9",
+    "id": "ferreteria-el-progreso-nivel-de-burbuj-9",
     "name": "Nivel de Burbuja",
     "price": 49,
     "description": "Nivel de Burbuja de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3346,7 +3346,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-lija-de-agua-nr-10",
+    "id": "ferreteria-el-progreso-lija-de-agua-nr-10",
     "name": "Lija de Agua Nro 80",
     "price": 10,
     "originalPrice": 13,
@@ -3361,7 +3361,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-pegamento-pvc-11",
+    "id": "ferreteria-el-progreso-pegamento-pvc-11",
     "name": "Pegamento PVC",
     "price": 50,
     "description": "Pegamento PVC de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3375,7 +3375,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-tornillos-para--12",
+    "id": "ferreteria-el-progreso-tornillos-para--12",
     "name": "Tornillos para Madera x100",
     "price": 16,
     "originalPrice": 21,
@@ -3390,7 +3390,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-clavos-de-2-pul-13",
+    "id": "ferreteria-el-progreso-clavos-de-2-pul-13",
     "name": "Clavos de 2 pulgadas x1kg",
     "price": 74,
     "description": "Clavos de 2 pulgadas x1kg de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3404,7 +3404,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-candado-de-segu-14",
+    "id": "ferreteria-el-progreso-candado-de-segu-14",
     "name": "Candado de Seguridad",
     "price": 35,
     "description": "Candado de Seguridad de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3418,7 +3418,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-manguera-de-rie-15",
+    "id": "ferreteria-el-progreso-manguera-de-rie-15",
     "name": "Manguera de Riego 15m",
     "price": 16,
     "description": "Manguera de Riego 15m de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3432,7 +3432,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-escalera-de-alu-16",
+    "id": "ferreteria-el-progreso-escalera-de-alu-16",
     "name": "Escalera de Aluminio",
     "price": 46,
     "description": "Escalera de Aluminio de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3446,7 +3446,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-guantes-de-prot-17",
+    "id": "ferreteria-el-progreso-guantes-de-prot-17",
     "name": "Guantes de Protección",
     "price": 57,
     "description": "Guantes de Protección de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3460,7 +3460,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-casco-de-obra-18",
+    "id": "ferreteria-el-progreso-casco-de-obra-18",
     "name": "Casco de Obra",
     "price": 38,
     "description": "Casco de Obra de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3474,7 +3474,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-linterna-led-po-19",
+    "id": "ferreteria-el-progreso-linterna-led-po-19",
     "name": "Linterna LED Potente",
     "price": 77,
     "description": "Linterna LED Potente de alta calidad, disponible para entrega inmediata en Ferretería El Progreso.",
@@ -3488,7 +3488,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-martillo-de-car-0",
+    "id": "comercial-hidro-martillo-de-car-0",
     "name": "Martillo de Carpintero",
     "price": 82,
     "description": "Martillo de Carpintero de alta calidad, disponible para entrega inmediata en Comercial Hidro.",
@@ -3502,7 +3502,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-juego-de-destor-1",
+    "id": "comercial-hidro-juego-de-destor-1",
     "name": "Juego de Destornilladores",
     "price": 66,
     "originalPrice": 83,
@@ -3517,7 +3517,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-taladro-percuto-2",
+    "id": "comercial-hidro-taladro-percuto-2",
     "name": "Taladro Percutor 600W",
     "price": 43,
     "originalPrice": 54,
@@ -3532,7 +3532,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-alicate-univers-3",
+    "id": "comercial-hidro-alicate-univers-3",
     "name": "Alicate Universal",
     "price": 91,
     "description": "Alicate Universal de alta calidad, disponible para entrega inmediata en Comercial Hidro.",
@@ -3546,7 +3546,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-cinta-metrica-5-4",
+    "id": "comercial-hidro-cinta-metrica-5-4",
     "name": "Cinta Métrica 5m",
     "price": 54,
     "description": "Cinta Métrica 5m de alta calidad, disponible para entrega inmediata en Comercial Hidro.",
@@ -3560,7 +3560,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-pintura-latex-b-5",
+    "id": "comercial-hidro-pintura-latex-b-5",
     "name": "Pintura Látex Blanca 1gal",
     "price": 60,
     "originalPrice": 76,
@@ -3575,7 +3575,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-brocha-de-3-pul-6",
+    "id": "comercial-hidro-brocha-de-3-pul-6",
     "name": "Brocha de 3 pulgadas",
     "price": 34,
     "description": "Brocha de 3 pulgadas de alta calidad, disponible para entrega inmediata en Comercial Hidro.",
@@ -3589,7 +3589,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-sierra-para-met-7",
+    "id": "comercial-hidro-sierra-para-met-7",
     "name": "Sierra para Metales",
     "price": 79,
     "description": "Sierra para Metales de alta calidad, disponible para entrega inmediata en Comercial Hidro.",
@@ -3603,7 +3603,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-llave-inglesa-1-8",
+    "id": "comercial-hidro-llave-inglesa-1-8",
     "name": "Llave Inglesa 10\"",
     "price": 31,
     "description": "Llave Inglesa 10\" de alta calidad, disponible para entrega inmediata en Comercial Hidro.",
@@ -3617,7 +3617,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-nivel-de-burbuj-9",
+    "id": "comercial-hidro-nivel-de-burbuj-9",
     "name": "Nivel de Burbuja",
     "price": 71,
     "originalPrice": 89,
@@ -3632,7 +3632,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-lija-de-agua-nr-10",
+    "id": "comercial-hidro-lija-de-agua-nr-10",
     "name": "Lija de Agua Nro 80",
     "price": 87,
     "description": "Lija de Agua Nro 80 de alta calidad, disponible para entrega inmediata en Comercial Hidro.",
@@ -3646,7 +3646,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-pegamento-pvc-11",
+    "id": "comercial-hidro-pegamento-pvc-11",
     "name": "Pegamento PVC",
     "price": 28,
     "originalPrice": 35,
@@ -3661,7 +3661,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-tornillos-para--12",
+    "id": "comercial-hidro-tornillos-para--12",
     "name": "Tornillos para Madera x100",
     "price": 36,
     "description": "Tornillos para Madera x100 de alta calidad, disponible para entrega inmediata en Comercial Hidro.",
@@ -3675,7 +3675,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-clavos-de-2-pul-13",
+    "id": "comercial-hidro-clavos-de-2-pul-13",
     "name": "Clavos de 2 pulgadas x1kg",
     "price": 18,
     "description": "Clavos de 2 pulgadas x1kg de alta calidad, disponible para entrega inmediata en Comercial Hidro.",
@@ -3689,7 +3689,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-candado-de-segu-14",
+    "id": "comercial-hidro-candado-de-segu-14",
     "name": "Candado de Seguridad",
     "price": 55,
     "originalPrice": 69,
@@ -3704,7 +3704,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-manguera-de-rie-15",
+    "id": "comercial-hidro-manguera-de-rie-15",
     "name": "Manguera de Riego 15m",
     "price": 39,
     "description": "Manguera de Riego 15m de alta calidad, disponible para entrega inmediata en Comercial Hidro.",
@@ -3718,7 +3718,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-escalera-de-alu-16",
+    "id": "comercial-hidro-escalera-de-alu-16",
     "name": "Escalera de Aluminio",
     "price": 52,
     "originalPrice": 66,
@@ -3733,7 +3733,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-guantes-de-prot-17",
+    "id": "comercial-hidro-guantes-de-prot-17",
     "name": "Guantes de Protección",
     "price": 42,
     "originalPrice": 53,
@@ -3748,7 +3748,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-casco-de-obra-18",
+    "id": "comercial-hidro-casco-de-obra-18",
     "name": "Casco de Obra",
     "price": 35,
     "originalPrice": 44,
@@ -3763,7 +3763,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comer-linterna-led-po-19",
+    "id": "comercial-hidro-linterna-led-po-19",
     "name": "Linterna LED Potente",
     "price": 82,
     "description": "Linterna LED Potente de alta calidad, disponible para entrega inmediata en Comercial Hidro.",
@@ -3777,7 +3777,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-martillo-de-car-0",
+    "id": "ferreteria-la-solucion-martillo-de-car-0",
     "name": "Martillo de Carpintero",
     "price": 15,
     "originalPrice": 19,
@@ -3792,7 +3792,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-juego-de-destor-1",
+    "id": "ferreteria-la-solucion-juego-de-destor-1",
     "name": "Juego de Destornilladores",
     "price": 56,
     "originalPrice": 70,
@@ -3807,7 +3807,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-taladro-percuto-2",
+    "id": "ferreteria-la-solucion-taladro-percuto-2",
     "name": "Taladro Percutor 600W",
     "price": 27,
     "originalPrice": 34,
@@ -3822,7 +3822,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-alicate-univers-3",
+    "id": "ferreteria-la-solucion-alicate-univers-3",
     "name": "Alicate Universal",
     "price": 42,
     "description": "Alicate Universal de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -3836,7 +3836,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-cinta-metrica-5-4",
+    "id": "ferreteria-la-solucion-cinta-metrica-5-4",
     "name": "Cinta Métrica 5m",
     "price": 55,
     "originalPrice": 69,
@@ -3851,7 +3851,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-pintura-latex-b-5",
+    "id": "ferreteria-la-solucion-pintura-latex-b-5",
     "name": "Pintura Látex Blanca 1gal",
     "price": 18,
     "description": "Pintura Látex Blanca 1gal de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -3865,7 +3865,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-brocha-de-3-pul-6",
+    "id": "ferreteria-la-solucion-brocha-de-3-pul-6",
     "name": "Brocha de 3 pulgadas",
     "price": 75,
     "description": "Brocha de 3 pulgadas de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -3879,7 +3879,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-sierra-para-met-7",
+    "id": "ferreteria-la-solucion-sierra-para-met-7",
     "name": "Sierra para Metales",
     "price": 51,
     "description": "Sierra para Metales de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -3893,7 +3893,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-llave-inglesa-1-8",
+    "id": "ferreteria-la-solucion-llave-inglesa-1-8",
     "name": "Llave Inglesa 10\"",
     "price": 65,
     "description": "Llave Inglesa 10\" de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -3907,7 +3907,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-nivel-de-burbuj-9",
+    "id": "ferreteria-la-solucion-nivel-de-burbuj-9",
     "name": "Nivel de Burbuja",
     "price": 44,
     "originalPrice": 55,
@@ -3922,7 +3922,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-lija-de-agua-nr-10",
+    "id": "ferreteria-la-solucion-lija-de-agua-nr-10",
     "name": "Lija de Agua Nro 80",
     "price": 28,
     "description": "Lija de Agua Nro 80 de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -3936,7 +3936,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-pegamento-pvc-11",
+    "id": "ferreteria-la-solucion-pegamento-pvc-11",
     "name": "Pegamento PVC",
     "price": 84,
     "description": "Pegamento PVC de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -3950,7 +3950,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-tornillos-para--12",
+    "id": "ferreteria-la-solucion-tornillos-para--12",
     "name": "Tornillos para Madera x100",
     "price": 60,
     "description": "Tornillos para Madera x100 de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -3964,7 +3964,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-clavos-de-2-pul-13",
+    "id": "ferreteria-la-solucion-clavos-de-2-pul-13",
     "name": "Clavos de 2 pulgadas x1kg",
     "price": 18,
     "description": "Clavos de 2 pulgadas x1kg de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -3978,7 +3978,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-candado-de-segu-14",
+    "id": "ferreteria-la-solucion-candado-de-segu-14",
     "name": "Candado de Seguridad",
     "price": 61,
     "description": "Candado de Seguridad de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -3992,7 +3992,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-manguera-de-rie-15",
+    "id": "ferreteria-la-solucion-manguera-de-rie-15",
     "name": "Manguera de Riego 15m",
     "price": 24,
     "description": "Manguera de Riego 15m de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -4006,7 +4006,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-escalera-de-alu-16",
+    "id": "ferreteria-la-solucion-escalera-de-alu-16",
     "name": "Escalera de Aluminio",
     "price": 63,
     "description": "Escalera de Aluminio de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -4020,7 +4020,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-guantes-de-prot-17",
+    "id": "ferreteria-la-solucion-guantes-de-prot-17",
     "name": "Guantes de Protección",
     "price": 17,
     "description": "Guantes de Protección de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -4034,7 +4034,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-casco-de-obra-18",
+    "id": "ferreteria-la-solucion-casco-de-obra-18",
     "name": "Casco de Obra",
     "price": 12,
     "description": "Casco de Obra de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -4048,7 +4048,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-ferre-linterna-led-po-19",
+    "id": "ferreteria-la-solucion-linterna-led-po-19",
     "name": "Linterna LED Potente",
     "price": 56,
     "description": "Linterna LED Potente de alta calidad, disponible para entrega inmediata en Ferretería La Solución.",
@@ -4062,7 +4062,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-martillo-de-car-0",
+    "id": "el-martillo-ma-martillo-de-car-0",
     "name": "Martillo de Carpintero",
     "price": 40,
     "description": "Martillo de Carpintero de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4076,7 +4076,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-juego-de-destor-1",
+    "id": "el-martillo-ma-juego-de-destor-1",
     "name": "Juego de Destornilladores",
     "price": 58,
     "description": "Juego de Destornilladores de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4090,7 +4090,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-taladro-percuto-2",
+    "id": "el-martillo-ma-taladro-percuto-2",
     "name": "Taladro Percutor 600W",
     "price": 43,
     "originalPrice": 54,
@@ -4105,7 +4105,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-alicate-univers-3",
+    "id": "el-martillo-ma-alicate-univers-3",
     "name": "Alicate Universal",
     "price": 72,
     "originalPrice": 91,
@@ -4120,7 +4120,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-cinta-metrica-5-4",
+    "id": "el-martillo-ma-cinta-metrica-5-4",
     "name": "Cinta Métrica 5m",
     "price": 17,
     "originalPrice": 22,
@@ -4135,7 +4135,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-pintura-latex-b-5",
+    "id": "el-martillo-ma-pintura-latex-b-5",
     "name": "Pintura Látex Blanca 1gal",
     "price": 12,
     "originalPrice": 15,
@@ -4150,7 +4150,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-brocha-de-3-pul-6",
+    "id": "el-martillo-ma-brocha-de-3-pul-6",
     "name": "Brocha de 3 pulgadas",
     "price": 52,
     "description": "Brocha de 3 pulgadas de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4164,7 +4164,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-sierra-para-met-7",
+    "id": "el-martillo-ma-sierra-para-met-7",
     "name": "Sierra para Metales",
     "price": 71,
     "description": "Sierra para Metales de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4178,7 +4178,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-llave-inglesa-1-8",
+    "id": "el-martillo-ma-llave-inglesa-1-8",
     "name": "Llave Inglesa 10\"",
     "price": 19,
     "description": "Llave Inglesa 10\" de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4192,7 +4192,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-nivel-de-burbuj-9",
+    "id": "el-martillo-ma-nivel-de-burbuj-9",
     "name": "Nivel de Burbuja",
     "price": 77,
     "description": "Nivel de Burbuja de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4206,7 +4206,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-lija-de-agua-nr-10",
+    "id": "el-martillo-ma-lija-de-agua-nr-10",
     "name": "Lija de Agua Nro 80",
     "price": 69,
     "description": "Lija de Agua Nro 80 de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4220,7 +4220,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-pegamento-pvc-11",
+    "id": "el-martillo-ma-pegamento-pvc-11",
     "name": "Pegamento PVC",
     "price": 72,
     "originalPrice": 91,
@@ -4235,7 +4235,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-tornillos-para--12",
+    "id": "el-martillo-ma-tornillos-para--12",
     "name": "Tornillos para Madera x100",
     "price": 66,
     "description": "Tornillos para Madera x100 de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4249,7 +4249,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-clavos-de-2-pul-13",
+    "id": "el-martillo-ma-clavos-de-2-pul-13",
     "name": "Clavos de 2 pulgadas x1kg",
     "price": 47,
     "description": "Clavos de 2 pulgadas x1kg de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4263,7 +4263,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-candado-de-segu-14",
+    "id": "el-martillo-ma-candado-de-segu-14",
     "name": "Candado de Seguridad",
     "price": 82,
     "description": "Candado de Seguridad de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4277,7 +4277,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-manguera-de-rie-15",
+    "id": "el-martillo-ma-manguera-de-rie-15",
     "name": "Manguera de Riego 15m",
     "price": 15,
     "description": "Manguera de Riego 15m de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4291,7 +4291,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-escalera-de-alu-16",
+    "id": "el-martillo-ma-escalera-de-alu-16",
     "name": "Escalera de Aluminio",
     "price": 31,
     "description": "Escalera de Aluminio de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4305,7 +4305,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-guantes-de-prot-17",
+    "id": "el-martillo-ma-guantes-de-prot-17",
     "name": "Guantes de Protección",
     "price": 59,
     "description": "Guantes de Protección de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4319,7 +4319,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-casco-de-obra-18",
+    "id": "el-martillo-ma-casco-de-obra-18",
     "name": "Casco de Obra",
     "price": 12,
     "description": "Casco de Obra de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4333,7 +4333,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ma-linterna-led-po-19",
+    "id": "el-martillo-ma-linterna-led-po-19",
     "name": "Linterna LED Potente",
     "price": 23,
     "description": "Linterna LED Potente de alta calidad, disponible para entrega inmediata en El Martillo.",
@@ -4347,7 +4347,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-martillo-de-car-0",
+    "id": "construye-facil-martillo-de-car-0",
     "name": "Martillo de Carpintero",
     "price": 73,
     "description": "Martillo de Carpintero de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4361,7 +4361,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-juego-de-destor-1",
+    "id": "construye-facil-juego-de-destor-1",
     "name": "Juego de Destornilladores",
     "price": 49,
     "description": "Juego de Destornilladores de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4375,7 +4375,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-taladro-percuto-2",
+    "id": "construye-facil-taladro-percuto-2",
     "name": "Taladro Percutor 600W",
     "price": 84,
     "description": "Taladro Percutor 600W de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4389,7 +4389,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-alicate-univers-3",
+    "id": "construye-facil-alicate-univers-3",
     "name": "Alicate Universal",
     "price": 44,
     "description": "Alicate Universal de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4403,7 +4403,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-cinta-metrica-5-4",
+    "id": "construye-facil-cinta-metrica-5-4",
     "name": "Cinta Métrica 5m",
     "price": 26,
     "originalPrice": 33,
@@ -4418,7 +4418,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-pintura-latex-b-5",
+    "id": "construye-facil-pintura-latex-b-5",
     "name": "Pintura Látex Blanca 1gal",
     "price": 30,
     "description": "Pintura Látex Blanca 1gal de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4432,7 +4432,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-brocha-de-3-pul-6",
+    "id": "construye-facil-brocha-de-3-pul-6",
     "name": "Brocha de 3 pulgadas",
     "price": 81,
     "description": "Brocha de 3 pulgadas de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4446,7 +4446,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-sierra-para-met-7",
+    "id": "construye-facil-sierra-para-met-7",
     "name": "Sierra para Metales",
     "price": 80,
     "description": "Sierra para Metales de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4460,7 +4460,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-llave-inglesa-1-8",
+    "id": "construye-facil-llave-inglesa-1-8",
     "name": "Llave Inglesa 10\"",
     "price": 84,
     "description": "Llave Inglesa 10\" de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4474,7 +4474,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-nivel-de-burbuj-9",
+    "id": "construye-facil-nivel-de-burbuj-9",
     "name": "Nivel de Burbuja",
     "price": 41,
     "description": "Nivel de Burbuja de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4488,7 +4488,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-lija-de-agua-nr-10",
+    "id": "construye-facil-lija-de-agua-nr-10",
     "name": "Lija de Agua Nro 80",
     "price": 14,
     "originalPrice": 18,
@@ -4503,7 +4503,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-pegamento-pvc-11",
+    "id": "construye-facil-pegamento-pvc-11",
     "name": "Pegamento PVC",
     "price": 85,
     "description": "Pegamento PVC de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4517,7 +4517,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-tornillos-para--12",
+    "id": "construye-facil-tornillos-para--12",
     "name": "Tornillos para Madera x100",
     "price": 33,
     "description": "Tornillos para Madera x100 de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4531,7 +4531,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-clavos-de-2-pul-13",
+    "id": "construye-facil-clavos-de-2-pul-13",
     "name": "Clavos de 2 pulgadas x1kg",
     "price": 59,
     "description": "Clavos de 2 pulgadas x1kg de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4545,7 +4545,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-candado-de-segu-14",
+    "id": "construye-facil-candado-de-segu-14",
     "name": "Candado de Seguridad",
     "price": 60,
     "originalPrice": 76,
@@ -4560,7 +4560,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-manguera-de-rie-15",
+    "id": "construye-facil-manguera-de-rie-15",
     "name": "Manguera de Riego 15m",
     "price": 23,
     "description": "Manguera de Riego 15m de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4574,7 +4574,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-escalera-de-alu-16",
+    "id": "construye-facil-escalera-de-alu-16",
     "name": "Escalera de Aluminio",
     "price": 52,
     "originalPrice": 66,
@@ -4589,7 +4589,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-guantes-de-prot-17",
+    "id": "construye-facil-guantes-de-prot-17",
     "name": "Guantes de Protección",
     "price": 71,
     "description": "Guantes de Protección de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4603,7 +4603,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-casco-de-obra-18",
+    "id": "construye-facil-casco-de-obra-18",
     "name": "Casco de Obra",
     "price": 90,
     "description": "Casco de Obra de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4617,7 +4617,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-const-linterna-led-po-19",
+    "id": "construye-facil-linterna-led-po-19",
     "name": "Linterna LED Potente",
     "price": 71,
     "description": "Linterna LED Potente de alta calidad, disponible para entrega inmediata en Construye Fácil.",
@@ -4631,7 +4631,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-polo-algodon-pi-0",
+    "id": "boutique-pasarela-polo-algodon-pi-0",
     "name": "Polo Algodón Pima",
     "price": 16,
     "description": "Polo Algodón Pima de alta calidad, disponible para entrega inmediata en Boutique Pasarela.",
@@ -4653,7 +4653,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-jeans-slim-fit-1",
+    "id": "boutique-pasarela-jeans-slim-fit-1",
     "name": "Jeans Slim Fit",
     "price": 46,
     "originalPrice": 58,
@@ -4676,7 +4676,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-zapatillas-urba-2",
+    "id": "boutique-pasarela-zapatillas-urba-2",
     "name": "Zapatillas Urbanas",
     "price": 89,
     "description": "Zapatillas Urbanas de alta calidad, disponible para entrega inmediata en Boutique Pasarela.",
@@ -4698,7 +4698,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-casaca-cortavie-3",
+    "id": "boutique-pasarela-casaca-cortavie-3",
     "name": "Casaca Cortavientos",
     "price": 71,
     "description": "Casaca Cortavientos de alta calidad, disponible para entrega inmediata en Boutique Pasarela.",
@@ -4720,7 +4720,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-camisa-manga-la-4",
+    "id": "boutique-pasarela-camisa-manga-la-4",
     "name": "Camisa Manga Larga",
     "price": 42,
     "description": "Camisa Manga Larga de alta calidad, disponible para entrega inmediata en Boutique Pasarela.",
@@ -4742,7 +4742,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-short-de-verano-5",
+    "id": "boutique-pasarela-short-de-verano-5",
     "name": "Short de Verano",
     "price": 64,
     "description": "Short de Verano de alta calidad, disponible para entrega inmediata en Boutique Pasarela.",
@@ -4764,7 +4764,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-vestido-de-noch-6",
+    "id": "boutique-pasarela-vestido-de-noch-6",
     "name": "Vestido de Noche",
     "price": 75,
     "description": "Vestido de Noche de alta calidad, disponible para entrega inmediata en Boutique Pasarela.",
@@ -4786,7 +4786,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-blusa-de-seda-7",
+    "id": "boutique-pasarela-blusa-de-seda-7",
     "name": "Blusa de Seda",
     "price": 18,
     "originalPrice": 23,
@@ -4809,7 +4809,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-falda-plisada-8",
+    "id": "boutique-pasarela-falda-plisada-8",
     "name": "Falda Plisada",
     "price": 52,
     "originalPrice": 66,
@@ -4832,7 +4832,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-casaca-de-cuero-9",
+    "id": "boutique-pasarela-casaca-de-cuero-9",
     "name": "Casaca de Cuero Sintético",
     "price": 70,
     "originalPrice": 88,
@@ -4855,7 +4855,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-gorra-amazon-vi-10",
+    "id": "boutique-pasarela-gorra-amazon-vi-10",
     "name": "Gorra Amazon View",
     "price": 34,
     "description": "Gorra Amazon View de alta calidad, disponible para entrega inmediata en Boutique Pasarela.",
@@ -4877,7 +4877,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-lentes-de-sol-p-11",
+    "id": "boutique-pasarela-lentes-de-sol-p-11",
     "name": "Lentes de Sol Polarizados",
     "price": 12,
     "description": "Lentes de Sol Polarizados de alta calidad, disponible para entrega inmediata en Boutique Pasarela.",
@@ -4899,7 +4899,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-reloj-de-pulser-12",
+    "id": "boutique-pasarela-reloj-de-pulser-12",
     "name": "Reloj de Pulsera Análogo",
     "price": 66,
     "description": "Reloj de Pulsera Análogo de alta calidad, disponible para entrega inmediata en Boutique Pasarela.",
@@ -4921,7 +4921,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-cinturon-de-cue-13",
+    "id": "boutique-pasarela-cinturon-de-cue-13",
     "name": "Cinturón de Cuero",
     "price": 48,
     "description": "Cinturón de Cuero de alta calidad, disponible para entrega inmediata en Boutique Pasarela.",
@@ -4943,7 +4943,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-medias-deportiv-14",
+    "id": "boutique-pasarela-medias-deportiv-14",
     "name": "Medias Deportivas x3",
     "price": 14,
     "originalPrice": 18,
@@ -4966,7 +4966,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-zapatos-de-vest-15",
+    "id": "boutique-pasarela-zapatos-de-vest-15",
     "name": "Zapatos de Vestir",
     "price": 33,
     "originalPrice": 42,
@@ -4989,7 +4989,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-mocasines-casua-16",
+    "id": "boutique-pasarela-mocasines-casua-16",
     "name": "Mocasines Casuales",
     "price": 90,
     "description": "Mocasines Casuales de alta calidad, disponible para entrega inmediata en Boutique Pasarela.",
@@ -5011,7 +5011,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-cartera-de-mano-17",
+    "id": "boutique-pasarela-cartera-de-mano-17",
     "name": "Cartera de Mano",
     "price": 66,
     "originalPrice": 83,
@@ -5034,7 +5034,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-mochila-urbana-18",
+    "id": "boutique-pasarela-mochila-urbana-18",
     "name": "Mochila Urbana",
     "price": 16,
     "originalPrice": 20,
@@ -5057,7 +5057,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bouti-billetera-de-cu-19",
+    "id": "boutique-pasarela-billetera-de-cu-19",
     "name": "Billetera de Cuero",
     "price": 13,
     "description": "Billetera de Cuero de alta calidad, disponible para entrega inmediata en Boutique Pasarela.",
@@ -5079,7 +5079,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-polo-algodon-pi-0",
+    "id": "calzado-real-polo-algodon-pi-0",
     "name": "Polo Algodón Pima",
     "price": 69,
     "description": "Polo Algodón Pima de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5101,7 +5101,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-jeans-slim-fit-1",
+    "id": "calzado-real-jeans-slim-fit-1",
     "name": "Jeans Slim Fit",
     "price": 90,
     "description": "Jeans Slim Fit de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5123,7 +5123,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-zapatillas-urba-2",
+    "id": "calzado-real-zapatillas-urba-2",
     "name": "Zapatillas Urbanas",
     "price": 68,
     "description": "Zapatillas Urbanas de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5145,7 +5145,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-casaca-cortavie-3",
+    "id": "calzado-real-casaca-cortavie-3",
     "name": "Casaca Cortavientos",
     "price": 76,
     "description": "Casaca Cortavientos de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5167,7 +5167,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-camisa-manga-la-4",
+    "id": "calzado-real-camisa-manga-la-4",
     "name": "Camisa Manga Larga",
     "price": 80,
     "description": "Camisa Manga Larga de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5189,7 +5189,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-short-de-verano-5",
+    "id": "calzado-real-short-de-verano-5",
     "name": "Short de Verano",
     "price": 71,
     "description": "Short de Verano de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5211,7 +5211,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-vestido-de-noch-6",
+    "id": "calzado-real-vestido-de-noch-6",
     "name": "Vestido de Noche",
     "price": 44,
     "originalPrice": 56,
@@ -5234,7 +5234,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-blusa-de-seda-7",
+    "id": "calzado-real-blusa-de-seda-7",
     "name": "Blusa de Seda",
     "price": 76,
     "description": "Blusa de Seda de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5256,7 +5256,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-falda-plisada-8",
+    "id": "calzado-real-falda-plisada-8",
     "name": "Falda Plisada",
     "price": 36,
     "description": "Falda Plisada de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5278,7 +5278,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-casaca-de-cuero-9",
+    "id": "calzado-real-casaca-de-cuero-9",
     "name": "Casaca de Cuero Sintético",
     "price": 87,
     "description": "Casaca de Cuero Sintético de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5300,7 +5300,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-gorra-amazon-vi-10",
+    "id": "calzado-real-gorra-amazon-vi-10",
     "name": "Gorra Amazon View",
     "price": 48,
     "description": "Gorra Amazon View de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5322,7 +5322,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-lentes-de-sol-p-11",
+    "id": "calzado-real-lentes-de-sol-p-11",
     "name": "Lentes de Sol Polarizados",
     "price": 36,
     "description": "Lentes de Sol Polarizados de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5344,7 +5344,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-reloj-de-pulser-12",
+    "id": "calzado-real-reloj-de-pulser-12",
     "name": "Reloj de Pulsera Análogo",
     "price": 24,
     "description": "Reloj de Pulsera Análogo de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5366,7 +5366,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-cinturon-de-cue-13",
+    "id": "calzado-real-cinturon-de-cue-13",
     "name": "Cinturón de Cuero",
     "price": 30,
     "originalPrice": 38,
@@ -5389,7 +5389,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-medias-deportiv-14",
+    "id": "calzado-real-medias-deportiv-14",
     "name": "Medias Deportivas x3",
     "price": 60,
     "description": "Medias Deportivas x3 de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5411,7 +5411,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-zapatos-de-vest-15",
+    "id": "calzado-real-zapatos-de-vest-15",
     "name": "Zapatos de Vestir",
     "price": 50,
     "originalPrice": 63,
@@ -5434,7 +5434,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-mocasines-casua-16",
+    "id": "calzado-real-mocasines-casua-16",
     "name": "Mocasines Casuales",
     "price": 27,
     "description": "Mocasines Casuales de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5456,7 +5456,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-cartera-de-mano-17",
+    "id": "calzado-real-cartera-de-mano-17",
     "name": "Cartera de Mano",
     "price": 43,
     "description": "Cartera de Mano de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5478,7 +5478,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-mochila-urbana-18",
+    "id": "calzado-real-mochila-urbana-18",
     "name": "Mochila Urbana",
     "price": 18,
     "description": "Mochila Urbana de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5500,7 +5500,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-calza-billetera-de-cu-19",
+    "id": "calzado-real-billetera-de-cu-19",
     "name": "Billetera de Cuero",
     "price": 73,
     "description": "Billetera de Cuero de alta calidad, disponible para entrega inmediata en Calzado Real.",
@@ -5522,7 +5522,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--polo-algodon-pi-0",
+    "id": "moda-amazonas--polo-algodon-pi-0",
     "name": "Polo Algodón Pima",
     "price": 60,
     "description": "Polo Algodón Pima de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5544,7 +5544,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--jeans-slim-fit-1",
+    "id": "moda-amazonas--jeans-slim-fit-1",
     "name": "Jeans Slim Fit",
     "price": 83,
     "description": "Jeans Slim Fit de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5566,7 +5566,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--zapatillas-urba-2",
+    "id": "moda-amazonas--zapatillas-urba-2",
     "name": "Zapatillas Urbanas",
     "price": 14,
     "description": "Zapatillas Urbanas de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5588,7 +5588,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--casaca-cortavie-3",
+    "id": "moda-amazonas--casaca-cortavie-3",
     "name": "Casaca Cortavientos",
     "price": 25,
     "originalPrice": 32,
@@ -5611,7 +5611,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--camisa-manga-la-4",
+    "id": "moda-amazonas--camisa-manga-la-4",
     "name": "Camisa Manga Larga",
     "price": 50,
     "description": "Camisa Manga Larga de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5633,7 +5633,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--short-de-verano-5",
+    "id": "moda-amazonas--short-de-verano-5",
     "name": "Short de Verano",
     "price": 88,
     "description": "Short de Verano de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5655,7 +5655,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--vestido-de-noch-6",
+    "id": "moda-amazonas--vestido-de-noch-6",
     "name": "Vestido de Noche",
     "price": 12,
     "description": "Vestido de Noche de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5677,7 +5677,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--blusa-de-seda-7",
+    "id": "moda-amazonas--blusa-de-seda-7",
     "name": "Blusa de Seda",
     "price": 37,
     "description": "Blusa de Seda de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5699,7 +5699,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--falda-plisada-8",
+    "id": "moda-amazonas--falda-plisada-8",
     "name": "Falda Plisada",
     "price": 61,
     "description": "Falda Plisada de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5721,7 +5721,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--casaca-de-cuero-9",
+    "id": "moda-amazonas--casaca-de-cuero-9",
     "name": "Casaca de Cuero Sintético",
     "price": 78,
     "description": "Casaca de Cuero Sintético de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5743,7 +5743,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--gorra-amazon-vi-10",
+    "id": "moda-amazonas--gorra-amazon-vi-10",
     "name": "Gorra Amazon View",
     "price": 36,
     "originalPrice": 45,
@@ -5766,7 +5766,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--lentes-de-sol-p-11",
+    "id": "moda-amazonas--lentes-de-sol-p-11",
     "name": "Lentes de Sol Polarizados",
     "price": 18,
     "originalPrice": 23,
@@ -5789,7 +5789,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--reloj-de-pulser-12",
+    "id": "moda-amazonas--reloj-de-pulser-12",
     "name": "Reloj de Pulsera Análogo",
     "price": 30,
     "description": "Reloj de Pulsera Análogo de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5811,7 +5811,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--cinturon-de-cue-13",
+    "id": "moda-amazonas--cinturon-de-cue-13",
     "name": "Cinturón de Cuero",
     "price": 66,
     "description": "Cinturón de Cuero de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5833,7 +5833,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--medias-deportiv-14",
+    "id": "moda-amazonas--medias-deportiv-14",
     "name": "Medias Deportivas x3",
     "price": 84,
     "description": "Medias Deportivas x3 de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5855,7 +5855,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--zapatos-de-vest-15",
+    "id": "moda-amazonas--zapatos-de-vest-15",
     "name": "Zapatos de Vestir",
     "price": 40,
     "originalPrice": 51,
@@ -5878,7 +5878,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--mocasines-casua-16",
+    "id": "moda-amazonas--mocasines-casua-16",
     "name": "Mocasines Casuales",
     "price": 29,
     "description": "Mocasines Casuales de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5900,7 +5900,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--cartera-de-mano-17",
+    "id": "moda-amazonas--cartera-de-mano-17",
     "name": "Cartera de Mano",
     "price": 60,
     "originalPrice": 75,
@@ -5923,7 +5923,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--mochila-urbana-18",
+    "id": "moda-amazonas--mochila-urbana-18",
     "name": "Mochila Urbana",
     "price": 17,
     "description": "Mochila Urbana de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5945,7 +5945,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-moda--billetera-de-cu-19",
+    "id": "moda-amazonas--billetera-de-cu-19",
     "name": "Billetera de Cuero",
     "price": 57,
     "description": "Billetera de Cuero de alta calidad, disponible para entrega inmediata en Moda Amazonas.",
@@ -5967,7 +5967,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-polo-algodon-pi-0",
+    "id": "sport-center-polo-algodon-pi-0",
     "name": "Polo Algodón Pima",
     "price": 47,
     "originalPrice": 59,
@@ -5990,7 +5990,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-jeans-slim-fit-1",
+    "id": "sport-center-jeans-slim-fit-1",
     "name": "Jeans Slim Fit",
     "price": 18,
     "description": "Jeans Slim Fit de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6012,7 +6012,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-zapatillas-urba-2",
+    "id": "sport-center-zapatillas-urba-2",
     "name": "Zapatillas Urbanas",
     "price": 62,
     "description": "Zapatillas Urbanas de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6034,7 +6034,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-casaca-cortavie-3",
+    "id": "sport-center-casaca-cortavie-3",
     "name": "Casaca Cortavientos",
     "price": 90,
     "description": "Casaca Cortavientos de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6056,7 +6056,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-camisa-manga-la-4",
+    "id": "sport-center-camisa-manga-la-4",
     "name": "Camisa Manga Larga",
     "price": 88,
     "description": "Camisa Manga Larga de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6078,7 +6078,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-short-de-verano-5",
+    "id": "sport-center-short-de-verano-5",
     "name": "Short de Verano",
     "price": 15,
     "description": "Short de Verano de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6100,7 +6100,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-vestido-de-noch-6",
+    "id": "sport-center-vestido-de-noch-6",
     "name": "Vestido de Noche",
     "price": 39,
     "originalPrice": 49,
@@ -6123,7 +6123,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-blusa-de-seda-7",
+    "id": "sport-center-blusa-de-seda-7",
     "name": "Blusa de Seda",
     "price": 60,
     "originalPrice": 76,
@@ -6146,7 +6146,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-falda-plisada-8",
+    "id": "sport-center-falda-plisada-8",
     "name": "Falda Plisada",
     "price": 52,
     "description": "Falda Plisada de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6168,7 +6168,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-casaca-de-cuero-9",
+    "id": "sport-center-casaca-de-cuero-9",
     "name": "Casaca de Cuero Sintético",
     "price": 60,
     "description": "Casaca de Cuero Sintético de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6190,7 +6190,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-gorra-amazon-vi-10",
+    "id": "sport-center-gorra-amazon-vi-10",
     "name": "Gorra Amazon View",
     "price": 10,
     "originalPrice": 13,
@@ -6213,7 +6213,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-lentes-de-sol-p-11",
+    "id": "sport-center-lentes-de-sol-p-11",
     "name": "Lentes de Sol Polarizados",
     "price": 65,
     "originalPrice": 82,
@@ -6236,7 +6236,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-reloj-de-pulser-12",
+    "id": "sport-center-reloj-de-pulser-12",
     "name": "Reloj de Pulsera Análogo",
     "price": 41,
     "description": "Reloj de Pulsera Análogo de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6258,7 +6258,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-cinturon-de-cue-13",
+    "id": "sport-center-cinturon-de-cue-13",
     "name": "Cinturón de Cuero",
     "price": 15,
     "description": "Cinturón de Cuero de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6280,7 +6280,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-medias-deportiv-14",
+    "id": "sport-center-medias-deportiv-14",
     "name": "Medias Deportivas x3",
     "price": 12,
     "originalPrice": 16,
@@ -6303,7 +6303,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-zapatos-de-vest-15",
+    "id": "sport-center-zapatos-de-vest-15",
     "name": "Zapatos de Vestir",
     "price": 88,
     "description": "Zapatos de Vestir de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6325,7 +6325,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-mocasines-casua-16",
+    "id": "sport-center-mocasines-casua-16",
     "name": "Mocasines Casuales",
     "price": 33,
     "description": "Mocasines Casuales de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6347,7 +6347,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-cartera-de-mano-17",
+    "id": "sport-center-cartera-de-mano-17",
     "name": "Cartera de Mano",
     "price": 36,
     "description": "Cartera de Mano de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6369,7 +6369,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-mochila-urbana-18",
+    "id": "sport-center-mochila-urbana-18",
     "name": "Mochila Urbana",
     "price": 41,
     "description": "Mochila Urbana de alta calidad, disponible para entrega inmediata en Sport Center.",
@@ -6391,7 +6391,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-sport-billetera-de-cu-19",
+    "id": "sport-center-billetera-de-cu-19",
     "name": "Billetera de Cuero",
     "price": 13,
     "originalPrice": 17,
@@ -6414,7 +6414,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-polo-algodon-pi-0",
+    "id": "textil-chacha-polo-algodon-pi-0",
     "name": "Polo Algodón Pima",
     "price": 26,
     "originalPrice": 33,
@@ -6437,7 +6437,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-jeans-slim-fit-1",
+    "id": "textil-chacha-jeans-slim-fit-1",
     "name": "Jeans Slim Fit",
     "price": 56,
     "description": "Jeans Slim Fit de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6459,7 +6459,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-zapatillas-urba-2",
+    "id": "textil-chacha-zapatillas-urba-2",
     "name": "Zapatillas Urbanas",
     "price": 42,
     "description": "Zapatillas Urbanas de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6481,7 +6481,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-casaca-cortavie-3",
+    "id": "textil-chacha-casaca-cortavie-3",
     "name": "Casaca Cortavientos",
     "price": 62,
     "originalPrice": 78,
@@ -6504,7 +6504,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-camisa-manga-la-4",
+    "id": "textil-chacha-camisa-manga-la-4",
     "name": "Camisa Manga Larga",
     "price": 56,
     "originalPrice": 70,
@@ -6527,7 +6527,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-short-de-verano-5",
+    "id": "textil-chacha-short-de-verano-5",
     "name": "Short de Verano",
     "price": 73,
     "description": "Short de Verano de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6549,7 +6549,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-vestido-de-noch-6",
+    "id": "textil-chacha-vestido-de-noch-6",
     "name": "Vestido de Noche",
     "price": 12,
     "originalPrice": 16,
@@ -6572,7 +6572,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-blusa-de-seda-7",
+    "id": "textil-chacha-blusa-de-seda-7",
     "name": "Blusa de Seda",
     "price": 52,
     "description": "Blusa de Seda de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6594,7 +6594,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-falda-plisada-8",
+    "id": "textil-chacha-falda-plisada-8",
     "name": "Falda Plisada",
     "price": 72,
     "description": "Falda Plisada de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6616,7 +6616,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-casaca-de-cuero-9",
+    "id": "textil-chacha-casaca-de-cuero-9",
     "name": "Casaca de Cuero Sintético",
     "price": 16,
     "originalPrice": 21,
@@ -6639,7 +6639,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-gorra-amazon-vi-10",
+    "id": "textil-chacha-gorra-amazon-vi-10",
     "name": "Gorra Amazon View",
     "price": 85,
     "description": "Gorra Amazon View de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6661,7 +6661,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-lentes-de-sol-p-11",
+    "id": "textil-chacha-lentes-de-sol-p-11",
     "name": "Lentes de Sol Polarizados",
     "price": 52,
     "description": "Lentes de Sol Polarizados de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6683,7 +6683,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-reloj-de-pulser-12",
+    "id": "textil-chacha-reloj-de-pulser-12",
     "name": "Reloj de Pulsera Análogo",
     "price": 52,
     "description": "Reloj de Pulsera Análogo de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6705,7 +6705,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-cinturon-de-cue-13",
+    "id": "textil-chacha-cinturon-de-cue-13",
     "name": "Cinturón de Cuero",
     "price": 48,
     "description": "Cinturón de Cuero de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6727,7 +6727,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-medias-deportiv-14",
+    "id": "textil-chacha-medias-deportiv-14",
     "name": "Medias Deportivas x3",
     "price": 65,
     "originalPrice": 82,
@@ -6750,7 +6750,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-zapatos-de-vest-15",
+    "id": "textil-chacha-zapatos-de-vest-15",
     "name": "Zapatos de Vestir",
     "price": 22,
     "description": "Zapatos de Vestir de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6772,7 +6772,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-mocasines-casua-16",
+    "id": "textil-chacha-mocasines-casua-16",
     "name": "Mocasines Casuales",
     "price": 67,
     "description": "Mocasines Casuales de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6794,7 +6794,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-cartera-de-mano-17",
+    "id": "textil-chacha-cartera-de-mano-17",
     "name": "Cartera de Mano",
     "price": 12,
     "description": "Cartera de Mano de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6816,7 +6816,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-mochila-urbana-18",
+    "id": "textil-chacha-mochila-urbana-18",
     "name": "Mochila Urbana",
     "price": 81,
     "description": "Mochila Urbana de alta calidad, disponible para entrega inmediata en Textil Chacha.",
@@ -6838,7 +6838,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-texti-billetera-de-cu-19",
+    "id": "textil-chacha-billetera-de-cu-19",
     "name": "Billetera de Cuero",
     "price": 9,
     "originalPrice": 12,
@@ -6861,7 +6861,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-smartphone-andr-0",
+    "id": "amazonas-tech-smartphone-andr-0",
     "name": "Smartphone Android 128GB",
     "price": 25,
     "description": "Smartphone Android 128GB de alta calidad, disponible para entrega inmediata en Amazonas Tech.",
@@ -6876,7 +6876,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-audifonos-bluet-1",
+    "id": "amazonas-tech-audifonos-bluet-1",
     "name": "Audífonos Bluetooth Pro",
     "price": 49,
     "originalPrice": 62,
@@ -6892,7 +6892,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-smartwatch-seri-2",
+    "id": "amazonas-tech-smartwatch-seri-2",
     "name": "Smartwatch Serie 7",
     "price": 67,
     "originalPrice": 84,
@@ -6908,7 +6908,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-laptop-core-i5--3",
+    "id": "amazonas-tech-laptop-core-i5--3",
     "name": "Laptop Core i5 8GB",
     "price": 57,
     "description": "Laptop Core i5 8GB de alta calidad, disponible para entrega inmediata en Amazonas Tech.",
@@ -6923,7 +6923,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-tablet-10-pulga-4",
+    "id": "amazonas-tech-tablet-10-pulga-4",
     "name": "Tablet 10 Pulgadas",
     "price": 43,
     "originalPrice": 54,
@@ -6939,7 +6939,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-mouse-inalambri-5",
+    "id": "amazonas-tech-mouse-inalambri-5",
     "name": "Mouse Inalámbrico",
     "price": 89,
     "description": "Mouse Inalámbrico de alta calidad, disponible para entrega inmediata en Amazonas Tech.",
@@ -6954,7 +6954,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-teclado-mecanic-6",
+    "id": "amazonas-tech-teclado-mecanic-6",
     "name": "Teclado Mecánico RGB",
     "price": 27,
     "originalPrice": 34,
@@ -6970,7 +6970,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-camara-web-full-7",
+    "id": "amazonas-tech-camara-web-full-7",
     "name": "Cámara Web Full HD",
     "price": 50,
     "originalPrice": 63,
@@ -6986,7 +6986,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-router-wifi-6-8",
+    "id": "amazonas-tech-router-wifi-6-8",
     "name": "Router WiFi 6",
     "price": 17,
     "originalPrice": 22,
@@ -7002,7 +7002,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-disco-duro-exte-9",
+    "id": "amazonas-tech-disco-duro-exte-9",
     "name": "Disco Duro Externo 1TB",
     "price": 17,
     "originalPrice": 22,
@@ -7018,7 +7018,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-parlante-blueto-10",
+    "id": "amazonas-tech-parlante-blueto-10",
     "name": "Parlante Bluetooth WaterProof",
     "price": 32,
     "originalPrice": 40,
@@ -7034,7 +7034,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-cargador-rapido-11",
+    "id": "amazonas-tech-cargador-rapido-11",
     "name": "Cargador Rápido 20W",
     "price": 63,
     "description": "Cargador Rápido 20W de alta calidad, disponible para entrega inmediata en Amazonas Tech.",
@@ -7049,7 +7049,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-power-bank-1000-12",
+    "id": "amazonas-tech-power-bank-1000-12",
     "name": "Power Bank 10000mAh",
     "price": 53,
     "description": "Power Bank 10000mAh de alta calidad, disponible para entrega inmediata en Amazonas Tech.",
@@ -7064,7 +7064,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-funda-para-lapt-13",
+    "id": "amazonas-tech-funda-para-lapt-13",
     "name": "Funda para Laptop",
     "price": 47,
     "description": "Funda para Laptop de alta calidad, disponible para entrega inmediata en Amazonas Tech.",
@@ -7079,7 +7079,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-monitor-24-ips-14",
+    "id": "amazonas-tech-monitor-24-ips-14",
     "name": "Monitor 24\" IPS",
     "price": 63,
     "description": "Monitor 24\" IPS de alta calidad, disponible para entrega inmediata en Amazonas Tech.",
@@ -7094,7 +7094,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-soporte-para-ce-15",
+    "id": "amazonas-tech-soporte-para-ce-15",
     "name": "Soporte para Celular",
     "price": 55,
     "description": "Soporte para Celular de alta calidad, disponible para entrega inmediata en Amazonas Tech.",
@@ -7109,7 +7109,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-aro-de-luz-led-16",
+    "id": "amazonas-tech-aro-de-luz-led-16",
     "name": "Aro de Luz LED",
     "price": 50,
     "description": "Aro de Luz LED de alta calidad, disponible para entrega inmediata en Amazonas Tech.",
@@ -7124,7 +7124,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-microfono-para--17",
+    "id": "amazonas-tech-microfono-para--17",
     "name": "Micrófono para Streaming",
     "price": 54,
     "description": "Micrófono para Streaming de alta calidad, disponible para entrega inmediata en Amazonas Tech.",
@@ -7139,7 +7139,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-adaptador-usb-c-18",
+    "id": "amazonas-tech-adaptador-usb-c-18",
     "name": "Adaptador USB-C Hub",
     "price": 69,
     "description": "Adaptador USB-C Hub de alta calidad, disponible para entrega inmediata en Amazonas Tech.",
@@ -7154,7 +7154,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-amazo-cable-hdmi-4k-19",
+    "id": "amazonas-tech-cable-hdmi-4k-19",
     "name": "Cable HDMI 4K",
     "price": 80,
     "description": "Cable HDMI 4K de alta calidad, disponible para entrega inmediata en Amazonas Tech.",
@@ -7169,7 +7169,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-smartphone-andr-0",
+    "id": "mundo-celular-smartphone-andr-0",
     "name": "Smartphone Android 128GB",
     "price": 63,
     "description": "Smartphone Android 128GB de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7184,7 +7184,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-audifonos-bluet-1",
+    "id": "mundo-celular-audifonos-bluet-1",
     "name": "Audífonos Bluetooth Pro",
     "price": 18,
     "description": "Audífonos Bluetooth Pro de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7199,7 +7199,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-smartwatch-seri-2",
+    "id": "mundo-celular-smartwatch-seri-2",
     "name": "Smartwatch Serie 7",
     "price": 10,
     "originalPrice": 13,
@@ -7215,7 +7215,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-laptop-core-i5--3",
+    "id": "mundo-celular-laptop-core-i5--3",
     "name": "Laptop Core i5 8GB",
     "price": 80,
     "description": "Laptop Core i5 8GB de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7230,7 +7230,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-tablet-10-pulga-4",
+    "id": "mundo-celular-tablet-10-pulga-4",
     "name": "Tablet 10 Pulgadas",
     "price": 60,
     "originalPrice": 76,
@@ -7246,7 +7246,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-mouse-inalambri-5",
+    "id": "mundo-celular-mouse-inalambri-5",
     "name": "Mouse Inalámbrico",
     "price": 82,
     "description": "Mouse Inalámbrico de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7261,7 +7261,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-teclado-mecanic-6",
+    "id": "mundo-celular-teclado-mecanic-6",
     "name": "Teclado Mecánico RGB",
     "price": 42,
     "originalPrice": 53,
@@ -7277,7 +7277,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-camara-web-full-7",
+    "id": "mundo-celular-camara-web-full-7",
     "name": "Cámara Web Full HD",
     "price": 27,
     "description": "Cámara Web Full HD de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7292,7 +7292,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-router-wifi-6-8",
+    "id": "mundo-celular-router-wifi-6-8",
     "name": "Router WiFi 6",
     "price": 56,
     "originalPrice": 71,
@@ -7308,7 +7308,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-disco-duro-exte-9",
+    "id": "mundo-celular-disco-duro-exte-9",
     "name": "Disco Duro Externo 1TB",
     "price": 43,
     "description": "Disco Duro Externo 1TB de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7323,7 +7323,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-parlante-blueto-10",
+    "id": "mundo-celular-parlante-blueto-10",
     "name": "Parlante Bluetooth WaterProof",
     "price": 90,
     "description": "Parlante Bluetooth WaterProof de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7338,7 +7338,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-cargador-rapido-11",
+    "id": "mundo-celular-cargador-rapido-11",
     "name": "Cargador Rápido 20W",
     "price": 24,
     "description": "Cargador Rápido 20W de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7353,7 +7353,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-power-bank-1000-12",
+    "id": "mundo-celular-power-bank-1000-12",
     "name": "Power Bank 10000mAh",
     "price": 73,
     "description": "Power Bank 10000mAh de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7368,7 +7368,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-funda-para-lapt-13",
+    "id": "mundo-celular-funda-para-lapt-13",
     "name": "Funda para Laptop",
     "price": 57,
     "description": "Funda para Laptop de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7383,7 +7383,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-monitor-24-ips-14",
+    "id": "mundo-celular-monitor-24-ips-14",
     "name": "Monitor 24\" IPS",
     "price": 30,
     "description": "Monitor 24\" IPS de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7398,7 +7398,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-soporte-para-ce-15",
+    "id": "mundo-celular-soporte-para-ce-15",
     "name": "Soporte para Celular",
     "price": 79,
     "description": "Soporte para Celular de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7413,7 +7413,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-aro-de-luz-led-16",
+    "id": "mundo-celular-aro-de-luz-led-16",
     "name": "Aro de Luz LED",
     "price": 50,
     "description": "Aro de Luz LED de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7428,7 +7428,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-microfono-para--17",
+    "id": "mundo-celular-microfono-para--17",
     "name": "Micrófono para Streaming",
     "price": 28,
     "description": "Micrófono para Streaming de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7443,7 +7443,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-adaptador-usb-c-18",
+    "id": "mundo-celular-adaptador-usb-c-18",
     "name": "Adaptador USB-C Hub",
     "price": 31,
     "description": "Adaptador USB-C Hub de alta calidad, disponible para entrega inmediata en Mundo Celular.",
@@ -7458,7 +7458,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mundo-cable-hdmi-4k-19",
+    "id": "mundo-celular-cable-hdmi-4k-19",
     "name": "Cable HDMI 4K",
     "price": 38,
     "originalPrice": 48,
@@ -7474,7 +7474,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-smartphone-andr-0",
+    "id": "pc-fast-fa-smartphone-andr-0",
     "name": "Smartphone Android 128GB",
     "price": 64,
     "description": "Smartphone Android 128GB de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7489,7 +7489,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-audifonos-bluet-1",
+    "id": "pc-fast-fa-audifonos-bluet-1",
     "name": "Audífonos Bluetooth Pro",
     "price": 34,
     "description": "Audífonos Bluetooth Pro de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7504,7 +7504,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-smartwatch-seri-2",
+    "id": "pc-fast-fa-smartwatch-seri-2",
     "name": "Smartwatch Serie 7",
     "price": 41,
     "description": "Smartwatch Serie 7 de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7519,7 +7519,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-laptop-core-i5--3",
+    "id": "pc-fast-fa-laptop-core-i5--3",
     "name": "Laptop Core i5 8GB",
     "price": 52,
     "description": "Laptop Core i5 8GB de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7534,7 +7534,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-tablet-10-pulga-4",
+    "id": "pc-fast-fa-tablet-10-pulga-4",
     "name": "Tablet 10 Pulgadas",
     "price": 36,
     "description": "Tablet 10 Pulgadas de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7549,7 +7549,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-mouse-inalambri-5",
+    "id": "pc-fast-fa-mouse-inalambri-5",
     "name": "Mouse Inalámbrico",
     "price": 63,
     "originalPrice": 79,
@@ -7565,7 +7565,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-teclado-mecanic-6",
+    "id": "pc-fast-fa-teclado-mecanic-6",
     "name": "Teclado Mecánico RGB",
     "price": 22,
     "description": "Teclado Mecánico RGB de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7580,7 +7580,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-camara-web-full-7",
+    "id": "pc-fast-fa-camara-web-full-7",
     "name": "Cámara Web Full HD",
     "price": 30,
     "originalPrice": 38,
@@ -7596,7 +7596,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-router-wifi-6-8",
+    "id": "pc-fast-fa-router-wifi-6-8",
     "name": "Router WiFi 6",
     "price": 56,
     "originalPrice": 70,
@@ -7612,7 +7612,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-disco-duro-exte-9",
+    "id": "pc-fast-fa-disco-duro-exte-9",
     "name": "Disco Duro Externo 1TB",
     "price": 29,
     "description": "Disco Duro Externo 1TB de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7627,7 +7627,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-parlante-blueto-10",
+    "id": "pc-fast-fa-parlante-blueto-10",
     "name": "Parlante Bluetooth WaterProof",
     "price": 12,
     "originalPrice": 15,
@@ -7643,7 +7643,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-cargador-rapido-11",
+    "id": "pc-fast-fa-cargador-rapido-11",
     "name": "Cargador Rápido 20W",
     "price": 28,
     "description": "Cargador Rápido 20W de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7658,7 +7658,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-power-bank-1000-12",
+    "id": "pc-fast-fa-power-bank-1000-12",
     "name": "Power Bank 10000mAh",
     "price": 68,
     "description": "Power Bank 10000mAh de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7673,7 +7673,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-funda-para-lapt-13",
+    "id": "pc-fast-fa-funda-para-lapt-13",
     "name": "Funda para Laptop",
     "price": 52,
     "description": "Funda para Laptop de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7688,7 +7688,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-monitor-24-ips-14",
+    "id": "pc-fast-fa-monitor-24-ips-14",
     "name": "Monitor 24\" IPS",
     "price": 76,
     "description": "Monitor 24\" IPS de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7703,7 +7703,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-soporte-para-ce-15",
+    "id": "pc-fast-fa-soporte-para-ce-15",
     "name": "Soporte para Celular",
     "price": 33,
     "description": "Soporte para Celular de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7718,7 +7718,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-aro-de-luz-led-16",
+    "id": "pc-fast-fa-aro-de-luz-led-16",
     "name": "Aro de Luz LED",
     "price": 24,
     "description": "Aro de Luz LED de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7733,7 +7733,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-microfono-para--17",
+    "id": "pc-fast-fa-microfono-para--17",
     "name": "Micrófono para Streaming",
     "price": 58,
     "description": "Micrófono para Streaming de alta calidad, disponible para entrega inmediata en PC Fast.",
@@ -7748,7 +7748,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-adaptador-usb-c-18",
+    "id": "pc-fast-fa-adaptador-usb-c-18",
     "name": "Adaptador USB-C Hub",
     "price": 12,
     "originalPrice": 16,
@@ -7764,7 +7764,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-pc-fa-cable-hdmi-4k-19",
+    "id": "pc-fast-fa-cable-hdmi-4k-19",
     "name": "Cable HDMI 4K",
     "price": 53,
     "originalPrice": 67,
@@ -7780,7 +7780,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-smartphone-andr-0",
+    "id": "smart-store-smartphone-andr-0",
     "name": "Smartphone Android 128GB",
     "price": 75,
     "description": "Smartphone Android 128GB de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -7795,7 +7795,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-audifonos-bluet-1",
+    "id": "smart-store-audifonos-bluet-1",
     "name": "Audífonos Bluetooth Pro",
     "price": 88,
     "description": "Audífonos Bluetooth Pro de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -7810,7 +7810,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-smartwatch-seri-2",
+    "id": "smart-store-smartwatch-seri-2",
     "name": "Smartwatch Serie 7",
     "price": 63,
     "description": "Smartwatch Serie 7 de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -7825,7 +7825,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-laptop-core-i5--3",
+    "id": "smart-store-laptop-core-i5--3",
     "name": "Laptop Core i5 8GB",
     "price": 76,
     "description": "Laptop Core i5 8GB de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -7840,7 +7840,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-tablet-10-pulga-4",
+    "id": "smart-store-tablet-10-pulga-4",
     "name": "Tablet 10 Pulgadas",
     "price": 45,
     "description": "Tablet 10 Pulgadas de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -7855,7 +7855,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-mouse-inalambri-5",
+    "id": "smart-store-mouse-inalambri-5",
     "name": "Mouse Inalámbrico",
     "price": 45,
     "description": "Mouse Inalámbrico de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -7870,7 +7870,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-teclado-mecanic-6",
+    "id": "smart-store-teclado-mecanic-6",
     "name": "Teclado Mecánico RGB",
     "price": 63,
     "description": "Teclado Mecánico RGB de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -7885,7 +7885,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-camara-web-full-7",
+    "id": "smart-store-camara-web-full-7",
     "name": "Cámara Web Full HD",
     "price": 64,
     "originalPrice": 81,
@@ -7901,7 +7901,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-router-wifi-6-8",
+    "id": "smart-store-router-wifi-6-8",
     "name": "Router WiFi 6",
     "price": 46,
     "originalPrice": 58,
@@ -7917,7 +7917,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-disco-duro-exte-9",
+    "id": "smart-store-disco-duro-exte-9",
     "name": "Disco Duro Externo 1TB",
     "price": 74,
     "description": "Disco Duro Externo 1TB de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -7932,7 +7932,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-parlante-blueto-10",
+    "id": "smart-store-parlante-blueto-10",
     "name": "Parlante Bluetooth WaterProof",
     "price": 41,
     "description": "Parlante Bluetooth WaterProof de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -7947,7 +7947,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-cargador-rapido-11",
+    "id": "smart-store-cargador-rapido-11",
     "name": "Cargador Rápido 20W",
     "price": 42,
     "originalPrice": 53,
@@ -7963,7 +7963,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-power-bank-1000-12",
+    "id": "smart-store-power-bank-1000-12",
     "name": "Power Bank 10000mAh",
     "price": 78,
     "description": "Power Bank 10000mAh de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -7978,7 +7978,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-funda-para-lapt-13",
+    "id": "smart-store-funda-para-lapt-13",
     "name": "Funda para Laptop",
     "price": 14,
     "description": "Funda para Laptop de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -7993,7 +7993,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-monitor-24-ips-14",
+    "id": "smart-store-monitor-24-ips-14",
     "name": "Monitor 24\" IPS",
     "price": 11,
     "originalPrice": 14,
@@ -8009,7 +8009,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-soporte-para-ce-15",
+    "id": "smart-store-soporte-para-ce-15",
     "name": "Soporte para Celular",
     "price": 64,
     "description": "Soporte para Celular de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -8024,7 +8024,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-aro-de-luz-led-16",
+    "id": "smart-store-aro-de-luz-led-16",
     "name": "Aro de Luz LED",
     "price": 81,
     "description": "Aro de Luz LED de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -8039,7 +8039,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-microfono-para--17",
+    "id": "smart-store-microfono-para--17",
     "name": "Micrófono para Streaming",
     "price": 69,
     "originalPrice": 87,
@@ -8055,7 +8055,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-adaptador-usb-c-18",
+    "id": "smart-store-adaptador-usb-c-18",
     "name": "Adaptador USB-C Hub",
     "price": 79,
     "description": "Adaptador USB-C Hub de alta calidad, disponible para entrega inmediata en Smart Store.",
@@ -8070,7 +8070,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-smart-cable-hdmi-4k-19",
+    "id": "smart-store-cable-hdmi-4k-19",
     "name": "Cable HDMI 4K",
     "price": 46,
     "originalPrice": 58,
@@ -8086,7 +8086,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-smartphone-andr-0",
+    "id": "gadget-place-smartphone-andr-0",
     "name": "Smartphone Android 128GB",
     "price": 72,
     "description": "Smartphone Android 128GB de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8101,7 +8101,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-audifonos-bluet-1",
+    "id": "gadget-place-audifonos-bluet-1",
     "name": "Audífonos Bluetooth Pro",
     "price": 81,
     "description": "Audífonos Bluetooth Pro de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8116,7 +8116,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-smartwatch-seri-2",
+    "id": "gadget-place-smartwatch-seri-2",
     "name": "Smartwatch Serie 7",
     "price": 72,
     "description": "Smartwatch Serie 7 de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8131,7 +8131,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-laptop-core-i5--3",
+    "id": "gadget-place-laptop-core-i5--3",
     "name": "Laptop Core i5 8GB",
     "price": 50,
     "description": "Laptop Core i5 8GB de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8146,7 +8146,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-tablet-10-pulga-4",
+    "id": "gadget-place-tablet-10-pulga-4",
     "name": "Tablet 10 Pulgadas",
     "price": 25,
     "description": "Tablet 10 Pulgadas de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8161,7 +8161,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-mouse-inalambri-5",
+    "id": "gadget-place-mouse-inalambri-5",
     "name": "Mouse Inalámbrico",
     "price": 56,
     "originalPrice": 70,
@@ -8177,7 +8177,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-teclado-mecanic-6",
+    "id": "gadget-place-teclado-mecanic-6",
     "name": "Teclado Mecánico RGB",
     "price": 59,
     "originalPrice": 74,
@@ -8193,7 +8193,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-camara-web-full-7",
+    "id": "gadget-place-camara-web-full-7",
     "name": "Cámara Web Full HD",
     "price": 76,
     "description": "Cámara Web Full HD de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8208,7 +8208,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-router-wifi-6-8",
+    "id": "gadget-place-router-wifi-6-8",
     "name": "Router WiFi 6",
     "price": 15,
     "description": "Router WiFi 6 de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8223,7 +8223,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-disco-duro-exte-9",
+    "id": "gadget-place-disco-duro-exte-9",
     "name": "Disco Duro Externo 1TB",
     "price": 24,
     "description": "Disco Duro Externo 1TB de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8238,7 +8238,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-parlante-blueto-10",
+    "id": "gadget-place-parlante-blueto-10",
     "name": "Parlante Bluetooth WaterProof",
     "price": 70,
     "description": "Parlante Bluetooth WaterProof de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8253,7 +8253,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-cargador-rapido-11",
+    "id": "gadget-place-cargador-rapido-11",
     "name": "Cargador Rápido 20W",
     "price": 54,
     "description": "Cargador Rápido 20W de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8268,7 +8268,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-power-bank-1000-12",
+    "id": "gadget-place-power-bank-1000-12",
     "name": "Power Bank 10000mAh",
     "price": 12,
     "originalPrice": 16,
@@ -8284,7 +8284,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-funda-para-lapt-13",
+    "id": "gadget-place-funda-para-lapt-13",
     "name": "Funda para Laptop",
     "price": 74,
     "description": "Funda para Laptop de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8299,7 +8299,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-monitor-24-ips-14",
+    "id": "gadget-place-monitor-24-ips-14",
     "name": "Monitor 24\" IPS",
     "price": 27,
     "description": "Monitor 24\" IPS de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8314,7 +8314,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-soporte-para-ce-15",
+    "id": "gadget-place-soporte-para-ce-15",
     "name": "Soporte para Celular",
     "price": 82,
     "description": "Soporte para Celular de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8329,7 +8329,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-aro-de-luz-led-16",
+    "id": "gadget-place-aro-de-luz-led-16",
     "name": "Aro de Luz LED",
     "price": 83,
     "description": "Aro de Luz LED de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8344,7 +8344,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-microfono-para--17",
+    "id": "gadget-place-microfono-para--17",
     "name": "Micrófono para Streaming",
     "price": 75,
     "description": "Micrófono para Streaming de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8359,7 +8359,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-adaptador-usb-c-18",
+    "id": "gadget-place-adaptador-usb-c-18",
     "name": "Adaptador USB-C Hub",
     "price": 49,
     "description": "Adaptador USB-C Hub de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8374,7 +8374,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-gadge-cable-hdmi-4k-19",
+    "id": "gadget-place-cable-hdmi-4k-19",
     "name": "Cable HDMI 4K",
     "price": 77,
     "description": "Cable HDMI 4K de alta calidad, disponible para entrega inmediata en Gadget Place.",
@@ -8389,7 +8389,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-kit-de-embrague-0",
+    "id": "repuestos-el-cholo-kit-de-embrague-0",
     "name": "Kit de Embrague Toyota",
     "price": 70,
     "originalPrice": 88,
@@ -8408,7 +8408,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-pastillas-de-fr-1",
+    "id": "repuestos-el-cholo-pastillas-de-fr-1",
     "name": "Pastillas de Freno Delanteras",
     "price": 12,
     "description": "Pastillas de Freno Delanteras de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8426,7 +8426,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-amortiguadores--2",
+    "id": "repuestos-el-cholo-amortiguadores--2",
     "name": "Amortiguadores Traseros x2",
     "price": 53,
     "originalPrice": 67,
@@ -8445,7 +8445,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-filtro-de-aire--3",
+    "id": "repuestos-el-cholo-filtro-de-aire--3",
     "name": "Filtro de Aire Original",
     "price": 85,
     "description": "Filtro de Aire Original de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8463,7 +8463,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-filtro-de-aceit-4",
+    "id": "repuestos-el-cholo-filtro-de-aceit-4",
     "name": "Filtro de Aceite",
     "price": 19,
     "description": "Filtro de Aceite de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8481,7 +8481,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-bujias-de-iridi-5",
+    "id": "repuestos-el-cholo-bujias-de-iridi-5",
     "name": "Bujías de Iridium x4",
     "price": 27,
     "description": "Bujías de Iridium x4 de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8499,7 +8499,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-bateria-13-plac-6",
+    "id": "repuestos-el-cholo-bateria-13-plac-6",
     "name": "Batería 13 Placas",
     "price": 60,
     "originalPrice": 76,
@@ -8518,7 +8518,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-aceite-multigra-7",
+    "id": "repuestos-el-cholo-aceite-multigra-7",
     "name": "Aceite Multigrado 20W-50",
     "price": 49,
     "originalPrice": 62,
@@ -8537,7 +8537,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-refrigerante-pr-8",
+    "id": "repuestos-el-cholo-refrigerante-pr-8",
     "name": "Refrigerante Premium",
     "price": 76,
     "description": "Refrigerante Premium de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8555,7 +8555,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-liquido-de-fren-9",
+    "id": "repuestos-el-cholo-liquido-de-fren-9",
     "name": "Líquido de Frenos Dot4",
     "price": 46,
     "description": "Líquido de Frenos Dot4 de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8573,7 +8573,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-faro-delantero--10",
+    "id": "repuestos-el-cholo-faro-delantero--10",
     "name": "Faro Delantero Derecho",
     "price": 30,
     "originalPrice": 38,
@@ -8592,7 +8592,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-espejo-retrovis-11",
+    "id": "repuestos-el-cholo-espejo-retrovis-11",
     "name": "Espejo Retrovisor Lateral",
     "price": 53,
     "description": "Espejo Retrovisor Lateral de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8610,7 +8610,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-bomba-de-agua-12",
+    "id": "repuestos-el-cholo-bomba-de-agua-12",
     "name": "Bomba de Agua",
     "price": 29,
     "description": "Bomba de Agua de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8628,7 +8628,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-correa-de-distr-13",
+    "id": "repuestos-el-cholo-correa-de-distr-13",
     "name": "Correa de Distribución",
     "price": 47,
     "originalPrice": 59,
@@ -8647,7 +8647,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-rodaje-de-rueda-14",
+    "id": "repuestos-el-cholo-rodaje-de-rueda-14",
     "name": "Rodaje de Rueda",
     "price": 72,
     "description": "Rodaje de Rueda de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8665,7 +8665,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-empaque-de-cula-15",
+    "id": "repuestos-el-cholo-empaque-de-cula-15",
     "name": "Empaque de Culata",
     "price": 64,
     "description": "Empaque de Culata de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8683,7 +8683,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-sensor-de-oxige-16",
+    "id": "repuestos-el-cholo-sensor-de-oxige-16",
     "name": "Sensor de Oxígeno",
     "price": 20,
     "description": "Sensor de Oxígeno de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8701,7 +8701,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-radiador-de-alu-17",
+    "id": "repuestos-el-cholo-radiador-de-alu-17",
     "name": "Radiador de Aluminio",
     "price": 17,
     "description": "Radiador de Aluminio de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8719,7 +8719,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-arrancador-elec-18",
+    "id": "repuestos-el-cholo-arrancador-elec-18",
     "name": "Arrancador Eléctrico",
     "price": 58,
     "description": "Arrancador Eléctrico de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8737,7 +8737,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-repue-alternador-90a-19",
+    "id": "repuestos-el-cholo-alternador-90a-19",
     "name": "Alternador 90A",
     "price": 85,
     "description": "Alternador 90A de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
@@ -8755,7 +8755,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-kit-de-embrague-0",
+    "id": "motorepuestos-san-pedro-kit-de-embrague-0",
     "name": "Kit de Embrague Toyota",
     "price": 80,
     "description": "Kit de Embrague Toyota de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -8773,7 +8773,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-pastillas-de-fr-1",
+    "id": "motorepuestos-san-pedro-pastillas-de-fr-1",
     "name": "Pastillas de Freno Delanteras",
     "price": 48,
     "originalPrice": 60,
@@ -8792,7 +8792,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-amortiguadores--2",
+    "id": "motorepuestos-san-pedro-amortiguadores--2",
     "name": "Amortiguadores Traseros x2",
     "price": 35,
     "description": "Amortiguadores Traseros x2 de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -8810,7 +8810,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-filtro-de-aire--3",
+    "id": "motorepuestos-san-pedro-filtro-de-aire--3",
     "name": "Filtro de Aire Original",
     "price": 83,
     "description": "Filtro de Aire Original de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -8828,7 +8828,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-filtro-de-aceit-4",
+    "id": "motorepuestos-san-pedro-filtro-de-aceit-4",
     "name": "Filtro de Aceite",
     "price": 24,
     "originalPrice": 30,
@@ -8847,7 +8847,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-bujias-de-iridi-5",
+    "id": "motorepuestos-san-pedro-bujias-de-iridi-5",
     "name": "Bujías de Iridium x4",
     "price": 49,
     "description": "Bujías de Iridium x4 de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -8865,7 +8865,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-bateria-13-plac-6",
+    "id": "motorepuestos-san-pedro-bateria-13-plac-6",
     "name": "Batería 13 Placas",
     "price": 77,
     "description": "Batería 13 Placas de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -8883,7 +8883,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-aceite-multigra-7",
+    "id": "motorepuestos-san-pedro-aceite-multigra-7",
     "name": "Aceite Multigrado 20W-50",
     "price": 57,
     "description": "Aceite Multigrado 20W-50 de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -8901,7 +8901,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-refrigerante-pr-8",
+    "id": "motorepuestos-san-pedro-refrigerante-pr-8",
     "name": "Refrigerante Premium",
     "price": 79,
     "description": "Refrigerante Premium de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -8919,7 +8919,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-liquido-de-fren-9",
+    "id": "motorepuestos-san-pedro-liquido-de-fren-9",
     "name": "Líquido de Frenos Dot4",
     "price": 30,
     "description": "Líquido de Frenos Dot4 de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -8937,7 +8937,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-faro-delantero--10",
+    "id": "motorepuestos-san-pedro-faro-delantero--10",
     "name": "Faro Delantero Derecho",
     "price": 14,
     "description": "Faro Delantero Derecho de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -8955,7 +8955,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-espejo-retrovis-11",
+    "id": "motorepuestos-san-pedro-espejo-retrovis-11",
     "name": "Espejo Retrovisor Lateral",
     "price": 51,
     "originalPrice": 64,
@@ -8974,7 +8974,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-bomba-de-agua-12",
+    "id": "motorepuestos-san-pedro-bomba-de-agua-12",
     "name": "Bomba de Agua",
     "price": 26,
     "originalPrice": 33,
@@ -8993,7 +8993,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-correa-de-distr-13",
+    "id": "motorepuestos-san-pedro-correa-de-distr-13",
     "name": "Correa de Distribución",
     "price": 48,
     "originalPrice": 60,
@@ -9012,7 +9012,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-rodaje-de-rueda-14",
+    "id": "motorepuestos-san-pedro-rodaje-de-rueda-14",
     "name": "Rodaje de Rueda",
     "price": 51,
     "description": "Rodaje de Rueda de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -9030,7 +9030,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-empaque-de-cula-15",
+    "id": "motorepuestos-san-pedro-empaque-de-cula-15",
     "name": "Empaque de Culata",
     "price": 61,
     "originalPrice": 77,
@@ -9049,7 +9049,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-sensor-de-oxige-16",
+    "id": "motorepuestos-san-pedro-sensor-de-oxige-16",
     "name": "Sensor de Oxígeno",
     "price": 14,
     "description": "Sensor de Oxígeno de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -9067,7 +9067,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-radiador-de-alu-17",
+    "id": "motorepuestos-san-pedro-radiador-de-alu-17",
     "name": "Radiador de Aluminio",
     "price": 39,
     "originalPrice": 49,
@@ -9086,7 +9086,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-arrancador-elec-18",
+    "id": "motorepuestos-san-pedro-arrancador-elec-18",
     "name": "Arrancador Eléctrico",
     "price": 52,
     "description": "Arrancador Eléctrico de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -9104,7 +9104,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-motor-alternador-90a-19",
+    "id": "motorepuestos-san-pedro-alternador-90a-19",
     "name": "Alternador 90A",
     "price": 46,
     "description": "Alternador 90A de alta calidad, disponible para entrega inmediata en Motorepuestos San Pedro.",
@@ -9122,7 +9122,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--kit-de-embrague-0",
+    "id": "todo-motor--kit-de-embrague-0",
     "name": "Kit de Embrague Toyota",
     "price": 72,
     "description": "Kit de Embrague Toyota de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9140,7 +9140,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--pastillas-de-fr-1",
+    "id": "todo-motor--pastillas-de-fr-1",
     "name": "Pastillas de Freno Delanteras",
     "price": 38,
     "description": "Pastillas de Freno Delanteras de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9158,7 +9158,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--amortiguadores--2",
+    "id": "todo-motor--amortiguadores--2",
     "name": "Amortiguadores Traseros x2",
     "price": 17,
     "originalPrice": 22,
@@ -9177,7 +9177,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--filtro-de-aire--3",
+    "id": "todo-motor--filtro-de-aire--3",
     "name": "Filtro de Aire Original",
     "price": 66,
     "originalPrice": 83,
@@ -9196,7 +9196,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--filtro-de-aceit-4",
+    "id": "todo-motor--filtro-de-aceit-4",
     "name": "Filtro de Aceite",
     "price": 57,
     "originalPrice": 72,
@@ -9215,7 +9215,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--bujias-de-iridi-5",
+    "id": "todo-motor--bujias-de-iridi-5",
     "name": "Bujías de Iridium x4",
     "price": 76,
     "description": "Bujías de Iridium x4 de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9233,7 +9233,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--bateria-13-plac-6",
+    "id": "todo-motor--bateria-13-plac-6",
     "name": "Batería 13 Placas",
     "price": 60,
     "originalPrice": 75,
@@ -9252,7 +9252,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--aceite-multigra-7",
+    "id": "todo-motor--aceite-multigra-7",
     "name": "Aceite Multigrado 20W-50",
     "price": 50,
     "description": "Aceite Multigrado 20W-50 de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9270,7 +9270,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--refrigerante-pr-8",
+    "id": "todo-motor--refrigerante-pr-8",
     "name": "Refrigerante Premium",
     "price": 46,
     "description": "Refrigerante Premium de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9288,7 +9288,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--liquido-de-fren-9",
+    "id": "todo-motor--liquido-de-fren-9",
     "name": "Líquido de Frenos Dot4",
     "price": 60,
     "description": "Líquido de Frenos Dot4 de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9306,7 +9306,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--faro-delantero--10",
+    "id": "todo-motor--faro-delantero--10",
     "name": "Faro Delantero Derecho",
     "price": 54,
     "description": "Faro Delantero Derecho de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9324,7 +9324,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--espejo-retrovis-11",
+    "id": "todo-motor--espejo-retrovis-11",
     "name": "Espejo Retrovisor Lateral",
     "price": 24,
     "originalPrice": 31,
@@ -9343,7 +9343,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--bomba-de-agua-12",
+    "id": "todo-motor--bomba-de-agua-12",
     "name": "Bomba de Agua",
     "price": 51,
     "description": "Bomba de Agua de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9361,7 +9361,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--correa-de-distr-13",
+    "id": "todo-motor--correa-de-distr-13",
     "name": "Correa de Distribución",
     "price": 53,
     "originalPrice": 67,
@@ -9380,7 +9380,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--rodaje-de-rueda-14",
+    "id": "todo-motor--rodaje-de-rueda-14",
     "name": "Rodaje de Rueda",
     "price": 72,
     "originalPrice": 90,
@@ -9399,7 +9399,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--empaque-de-cula-15",
+    "id": "todo-motor--empaque-de-cula-15",
     "name": "Empaque de Culata",
     "price": 70,
     "description": "Empaque de Culata de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9417,7 +9417,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--sensor-de-oxige-16",
+    "id": "todo-motor--sensor-de-oxige-16",
     "name": "Sensor de Oxígeno",
     "price": 56,
     "description": "Sensor de Oxígeno de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9435,7 +9435,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--radiador-de-alu-17",
+    "id": "todo-motor--radiador-de-alu-17",
     "name": "Radiador de Aluminio",
     "price": 21,
     "description": "Radiador de Aluminio de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9453,7 +9453,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--arrancador-elec-18",
+    "id": "todo-motor--arrancador-elec-18",
     "name": "Arrancador Eléctrico",
     "price": 37,
     "description": "Arrancador Eléctrico de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9471,7 +9471,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-todo--alternador-90a-19",
+    "id": "todo-motor--alternador-90a-19",
     "name": "Alternador 90A",
     "price": 19,
     "description": "Alternador 90A de alta calidad, disponible para entrega inmediata en Todo Motor.",
@@ -9489,7 +9489,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-kit-de-embrague-0",
+    "id": "mecanica-pro-kit-de-embrague-0",
     "name": "Kit de Embrague Toyota",
     "price": 57,
     "description": "Kit de Embrague Toyota de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9507,7 +9507,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-pastillas-de-fr-1",
+    "id": "mecanica-pro-pastillas-de-fr-1",
     "name": "Pastillas de Freno Delanteras",
     "price": 53,
     "description": "Pastillas de Freno Delanteras de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9525,7 +9525,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-amortiguadores--2",
+    "id": "mecanica-pro-amortiguadores--2",
     "name": "Amortiguadores Traseros x2",
     "price": 36,
     "description": "Amortiguadores Traseros x2 de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9543,7 +9543,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-filtro-de-aire--3",
+    "id": "mecanica-pro-filtro-de-aire--3",
     "name": "Filtro de Aire Original",
     "price": 48,
     "description": "Filtro de Aire Original de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9561,7 +9561,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-filtro-de-aceit-4",
+    "id": "mecanica-pro-filtro-de-aceit-4",
     "name": "Filtro de Aceite",
     "price": 41,
     "description": "Filtro de Aceite de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9579,7 +9579,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-bujias-de-iridi-5",
+    "id": "mecanica-pro-bujias-de-iridi-5",
     "name": "Bujías de Iridium x4",
     "price": 17,
     "originalPrice": 22,
@@ -9598,7 +9598,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-bateria-13-plac-6",
+    "id": "mecanica-pro-bateria-13-plac-6",
     "name": "Batería 13 Placas",
     "price": 18,
     "description": "Batería 13 Placas de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9616,7 +9616,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-aceite-multigra-7",
+    "id": "mecanica-pro-aceite-multigra-7",
     "name": "Aceite Multigrado 20W-50",
     "price": 57,
     "description": "Aceite Multigrado 20W-50 de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9634,7 +9634,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-refrigerante-pr-8",
+    "id": "mecanica-pro-refrigerante-pr-8",
     "name": "Refrigerante Premium",
     "price": 26,
     "description": "Refrigerante Premium de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9652,7 +9652,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-liquido-de-fren-9",
+    "id": "mecanica-pro-liquido-de-fren-9",
     "name": "Líquido de Frenos Dot4",
     "price": 36,
     "description": "Líquido de Frenos Dot4 de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9670,7 +9670,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-faro-delantero--10",
+    "id": "mecanica-pro-faro-delantero--10",
     "name": "Faro Delantero Derecho",
     "price": 63,
     "description": "Faro Delantero Derecho de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9688,7 +9688,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-espejo-retrovis-11",
+    "id": "mecanica-pro-espejo-retrovis-11",
     "name": "Espejo Retrovisor Lateral",
     "price": 89,
     "description": "Espejo Retrovisor Lateral de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9706,7 +9706,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-bomba-de-agua-12",
+    "id": "mecanica-pro-bomba-de-agua-12",
     "name": "Bomba de Agua",
     "price": 63,
     "description": "Bomba de Agua de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9724,7 +9724,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-correa-de-distr-13",
+    "id": "mecanica-pro-correa-de-distr-13",
     "name": "Correa de Distribución",
     "price": 55,
     "description": "Correa de Distribución de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9742,7 +9742,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-rodaje-de-rueda-14",
+    "id": "mecanica-pro-rodaje-de-rueda-14",
     "name": "Rodaje de Rueda",
     "price": 58,
     "description": "Rodaje de Rueda de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9760,7 +9760,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-empaque-de-cula-15",
+    "id": "mecanica-pro-empaque-de-cula-15",
     "name": "Empaque de Culata",
     "price": 12,
     "description": "Empaque de Culata de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9778,7 +9778,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-sensor-de-oxige-16",
+    "id": "mecanica-pro-sensor-de-oxige-16",
     "name": "Sensor de Oxígeno",
     "price": 67,
     "originalPrice": 84,
@@ -9797,7 +9797,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-radiador-de-alu-17",
+    "id": "mecanica-pro-radiador-de-alu-17",
     "name": "Radiador de Aluminio",
     "price": 63,
     "description": "Radiador de Aluminio de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9815,7 +9815,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-arrancador-elec-18",
+    "id": "mecanica-pro-arrancador-elec-18",
     "name": "Arrancador Eléctrico",
     "price": 17,
     "originalPrice": 22,
@@ -9834,7 +9834,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-mecan-alternador-90a-19",
+    "id": "mecanica-pro-alternador-90a-19",
     "name": "Alternador 90A",
     "price": 60,
     "description": "Alternador 90A de alta calidad, disponible para entrega inmediata en Mecánica Pro.",
@@ -9852,7 +9852,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-kit-de-embrague-0",
+    "id": "el-ciguenal-ci-kit-de-embrague-0",
     "name": "Kit de Embrague Toyota",
     "price": 70,
     "originalPrice": 88,
@@ -9871,7 +9871,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-pastillas-de-fr-1",
+    "id": "el-ciguenal-ci-pastillas-de-fr-1",
     "name": "Pastillas de Freno Delanteras",
     "price": 55,
     "description": "Pastillas de Freno Delanteras de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -9889,7 +9889,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-amortiguadores--2",
+    "id": "el-ciguenal-ci-amortiguadores--2",
     "name": "Amortiguadores Traseros x2",
     "price": 39,
     "description": "Amortiguadores Traseros x2 de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -9907,7 +9907,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-filtro-de-aire--3",
+    "id": "el-ciguenal-ci-filtro-de-aire--3",
     "name": "Filtro de Aire Original",
     "price": 43,
     "originalPrice": 54,
@@ -9926,7 +9926,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-filtro-de-aceit-4",
+    "id": "el-ciguenal-ci-filtro-de-aceit-4",
     "name": "Filtro de Aceite",
     "price": 84,
     "description": "Filtro de Aceite de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -9944,7 +9944,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-bujias-de-iridi-5",
+    "id": "el-ciguenal-ci-bujias-de-iridi-5",
     "name": "Bujías de Iridium x4",
     "price": 71,
     "description": "Bujías de Iridium x4 de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -9962,7 +9962,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-bateria-13-plac-6",
+    "id": "el-ciguenal-ci-bateria-13-plac-6",
     "name": "Batería 13 Placas",
     "price": 72,
     "originalPrice": 91,
@@ -9981,7 +9981,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-aceite-multigra-7",
+    "id": "el-ciguenal-ci-aceite-multigra-7",
     "name": "Aceite Multigrado 20W-50",
     "price": 69,
     "description": "Aceite Multigrado 20W-50 de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -9999,7 +9999,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-refrigerante-pr-8",
+    "id": "el-ciguenal-ci-refrigerante-pr-8",
     "name": "Refrigerante Premium",
     "price": 91,
     "description": "Refrigerante Premium de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -10017,7 +10017,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-liquido-de-fren-9",
+    "id": "el-ciguenal-ci-liquido-de-fren-9",
     "name": "Líquido de Frenos Dot4",
     "price": 21,
     "description": "Líquido de Frenos Dot4 de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -10035,7 +10035,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-faro-delantero--10",
+    "id": "el-ciguenal-ci-faro-delantero--10",
     "name": "Faro Delantero Derecho",
     "price": 58,
     "originalPrice": 73,
@@ -10054,7 +10054,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-espejo-retrovis-11",
+    "id": "el-ciguenal-ci-espejo-retrovis-11",
     "name": "Espejo Retrovisor Lateral",
     "price": 12,
     "description": "Espejo Retrovisor Lateral de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -10072,7 +10072,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-bomba-de-agua-12",
+    "id": "el-ciguenal-ci-bomba-de-agua-12",
     "name": "Bomba de Agua",
     "price": 33,
     "description": "Bomba de Agua de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -10090,7 +10090,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-correa-de-distr-13",
+    "id": "el-ciguenal-ci-correa-de-distr-13",
     "name": "Correa de Distribución",
     "price": 27,
     "description": "Correa de Distribución de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -10108,7 +10108,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-rodaje-de-rueda-14",
+    "id": "el-ciguenal-ci-rodaje-de-rueda-14",
     "name": "Rodaje de Rueda",
     "price": 43,
     "description": "Rodaje de Rueda de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -10126,7 +10126,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-empaque-de-cula-15",
+    "id": "el-ciguenal-ci-empaque-de-cula-15",
     "name": "Empaque de Culata",
     "price": 47,
     "description": "Empaque de Culata de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -10144,7 +10144,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-sensor-de-oxige-16",
+    "id": "el-ciguenal-ci-sensor-de-oxige-16",
     "name": "Sensor de Oxígeno",
     "price": 55,
     "originalPrice": 69,
@@ -10163,7 +10163,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-radiador-de-alu-17",
+    "id": "el-ciguenal-ci-radiador-de-alu-17",
     "name": "Radiador de Aluminio",
     "price": 61,
     "description": "Radiador de Aluminio de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -10181,7 +10181,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-arrancador-elec-18",
+    "id": "el-ciguenal-ci-arrancador-elec-18",
     "name": "Arrancador Eléctrico",
     "price": 66,
     "description": "Arrancador Eléctrico de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -10199,7 +10199,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-el-ci-alternador-90a-19",
+    "id": "el-ciguenal-ci-alternador-90a-19",
     "name": "Alternador 90A",
     "price": 87,
     "description": "Alternador 90A de alta calidad, disponible para entrega inmediata en El Cigüeñal.",
@@ -10217,7 +10217,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comida-pollo-brasa-0",
+    "id": "el-horno-pollerya-pollo-brasa-0",
     "name": "1/4 de Pollo a la Brasa",
     "price": 18,
     "description": "Jugoso pollo a la brasa acompañado de papas fritas, ensalada y cremas.",
@@ -10231,7 +10231,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comida-lomo-saltado-1",
+    "id": "el-horno-pollerya-lomo-saltado-1",
     "name": "Lomo Saltado Criollo",
     "price": 25,
     "description": "Fino lomo saltado con cebolla, tomate, ají amarillo y papas fritas.",
@@ -10245,7 +10245,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comida-arroz-pollo-2",
+    "id": "el-horno-pollerya-arroz-pollo-2",
     "name": "Arroz con Pollo Chachapoyano",
     "price": 20,
     "description": "Sabroso arroz verde con presa de pollo y sarsa criolla.",
@@ -10259,7 +10259,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-comida-chaufa-pollo-3",
+    "id": "el-horno-pollerya-chaufa-pollo-3",
     "name": "Arroz Chaufa de Pollo",
     "price": 15,
     "description": "Arroz saltado al estilo oriental con trozos de pollo y cebollita china.",
@@ -10273,7 +10273,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bebida-cerveza-cusqu-0",
+    "id": "licorerya-el-brindis-cerveza-cusqu-0",
     "name": "Cerveza Cusqueña Dorada 620ml",
     "price": 8,
     "description": "Cerveza premium peruana, helada y lista para disfrutar.",
@@ -10287,7 +10287,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bebida-inka-kola-2l-1",
+    "id": "licorerya-el-brindis-inka-kola-2l-1",
     "name": "Inka Kola 2 Litros",
     "price": 7,
     "description": "Gaseosa Inka Kola familiar, ideal para acompañar tus comidas.",
@@ -10301,7 +10301,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bebida-pisco-porton-2",
+    "id": "licorerya-el-brindis-pisco-porton-2",
     "name": "Pisco Portón Mosto Verde",
     "price": 120,
     "description": "Pisco premium de máxima calidad para ocasiones especiales.",
@@ -10315,7 +10315,7 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   },
   {
-    "id": "prod-bebida-agua-san-mateo-3",
+    "id": "licorerya-el-brindis-agua-san-mateo-3",
     "name": "Agua San Mateo 2.5L",
     "price": 4,
     "description": "Agua mineral de manantial, ideal para hidratarte.",

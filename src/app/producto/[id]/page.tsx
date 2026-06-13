@@ -256,8 +256,8 @@ export default function ProductDetailPage({ params }: PageProps) {
         </div>
       </div>
 
-      {/* Fixed CTA */}
-      <div className="fixed bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-white via-white to-white/0 z-50">
+      {/* CTA Button Wrapper (Non-fixed to allow scrolling above Navbar) */}
+      <div className="mt-6 px-6 pb-2">
         <button
           onClick={handleAddToCart}
           className="w-full bg-[#6366f1] text-white py-5 rounded-[2rem] font-bold text-lg flex items-center justify-center gap-3 shadow-xl shadow-indigo-100 active:scale-[0.98] transition-all"

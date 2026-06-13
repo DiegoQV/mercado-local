@@ -6,10 +6,22 @@ import Image from "next/image";
 import { Search, ShoppingBag, Wrench, Shirt, Smartphone, MapPin, Home, ClipboardList, User, ChevronRight, Hammer, Pill, Utensils, Beer } from "lucide-react";
 import { MOCK_PRODUCTS } from "@/lib/mockData";
 import { cn } from "@/lib/utils";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 import { ProductCard } from "@/components/ProductCard";
 
 export default function HomePage() {
+  const router = useRouter();
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/buscar?q=${encodeURIComponent(searchQuery.trim())}`);
+    }
+  };
+
   return (
     <main className="min-h-screen bg-[#f9fafb] text-[#171717] pb-28 font-sans">
       {/* Header & Search Bar */}
@@ -30,16 +42,18 @@ export default function HomePage() {
         </div>
 
         {/* Search Bar */}
-        <div className="relative group">
+        <form onSubmit={handleSearch} className="relative group">
           <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none text-gray-400 group-focus-within:text-[#6366f1] transition-colors">
             <Search size={18} />
           </div>
           <input
             type="text"
             placeholder="¿Qué necesitas hoy?"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full bg-gray-100/80 border border-transparent rounded-xl py-3 pl-11 pr-4 text-sm focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500/10 focus:bg-white transition-all outline-none"
           />
-        </div>
+        </form>
       </header>
 
       {/* Promotional Banners Slider */}
@@ -160,26 +174,6 @@ export default function HomePage() {
           ))}
         </div>
       </section>
-
-      {/* Modern Fixed Bottom Navigation */}
-      <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-100 px-6 pt-3 pb-6 z-50 flex items-center justify-between shadow-[0_-4px_16px_rgba(0,0,0,0.04)]">
-        <div className="flex flex-col items-center gap-1 text-[#6366f1] active:opacity-70 transition-opacity">
-          <Home size={22} className="stroke-[2.5]" />
-          <span className="text-[10px] font-bold">Inicio</span>
-        </div>
-        <div className="flex flex-col items-center gap-1 text-gray-400 active:opacity-70 transition-opacity">
-          <Search size={22} />
-          <span className="text-[10px] font-medium">Buscar</span>
-        </div>
-        <div className="flex flex-col items-center gap-1 text-gray-400 active:opacity-70 transition-opacity">
-          <ClipboardList size={22} />
-          <span className="text-[10px] font-medium">Pedidos</span>
-        </div>
-        <div className="flex flex-col items-center gap-1 text-gray-400 active:opacity-70 transition-opacity">
-          <User size={22} />
-          <span className="text-[10px] font-medium">Mi Perfil</span>
-        </div>
-      </nav>
     </main>
   );
 }

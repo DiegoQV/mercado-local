@@ -27,13 +27,32 @@ export default function CheckoutPage() {
       return;
     }
 
+    // Get delivery data from localStorage
+    const savedData = localStorage.getItem("mercado_digital_user");
+    let userData = { fullName: "No proporcionado", phone: "No proporcionado", address: "No proporcionada" };
+    if (savedData) {
+      try {
+        userData = JSON.parse(savedData);
+      } catch (e) {
+        console.error("Error parsing user data", e);
+      }
+    }
+
     setIsConfirming(true);
 
     const orderId = `MD-${Math.floor(Math.random() * 100000).toString().padStart(5, '0')}`;
+    
+    // Build the dynamic message with delivery data
     const message = `¡Nuevo Pago Registrado!
-Pedido #${orderId}
-Tienda: ${storeName}
-Total Yapeado: S/. ${total.toFixed(2)}
+📦 Pedido #${orderId}
+🏪 Tienda: ${storeName}
+💰 Total Yapeado: S/. ${total.toFixed(2)}
+
+👤 CLIENTE:
+Nombre: ${userData.fullName}
+Teléfono: ${userData.phone}
+📍 Dirección: ${userData.address}
+
 ----------------------------
 Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
 

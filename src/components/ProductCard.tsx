@@ -26,9 +26,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <Link 
       href={`/producto/${product.id}`}
-      className="group bg-white rounded-[2rem] overflow-hidden border border-gray-100 shadow-sm active:scale-95 transition-all p-2 flex flex-col h-full"
+      className="group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm active:scale-95 transition-all p-2 flex flex-col h-full"
     >
-      <div className="relative aspect-square rounded-[1.75rem] overflow-hidden bg-gray-50">
+      <div className="relative aspect-square rounded-xl overflow-hidden bg-gray-50">
         <Image
           src={imgSrc}
           alt={product.name}
@@ -41,7 +41,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         {/* Badge de Precio */}
         <div className="absolute top-2 right-2 flex flex-col items-end gap-1">
           {product.originalPrice && (
-            <div className="bg-red-500 text-white text-[8px] font-black px-1.5 py-0.5 rounded-full shadow-sm animate-pulse">
+            <div className="bg-orange-500 text-white text-[8px] font-black px-1.5 py-0.5 rounded-full shadow-sm animate-pulse">
               OFERTA
             </div>
           )}
@@ -58,7 +58,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         
         {/* Precios y Oferta */}
         <div className="flex items-center gap-2 mb-3">
-          <span className="text-[11px] font-black text-indigo-600">S/{product.price.toFixed(2)}</span>
+          <span className="text-[11px] font-black text-blue-600">S/{product.price.toFixed(2)}</span>
           {product.originalPrice && (
             <span className="text-[9px] text-gray-400 line-through font-medium">
               S/{product.originalPrice.toFixed(2)}
@@ -66,9 +66,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           )}
         </div>
 
-        <div className="flex items-center justify-between mt-auto bg-gray-50 p-1.5 rounded-xl group-hover:bg-indigo-50 transition-colors">
-          <span className="text-[9px] font-bold text-indigo-600 uppercase pl-1">Ver detalle</span>
-          <div className="bg-indigo-600 p-1 rounded-lg text-white group-hover:scale-110 transition-transform">
+        <div className="flex items-center justify-between mt-auto bg-gray-50 p-1.5 rounded-xl group-hover:bg-blue-50 transition-colors">
+          <span className="text-[9px] font-bold text-blue-600 uppercase pl-1">Ver detalle</span>
+          <div className="bg-blue-600 p-1 rounded-lg text-white group-hover:scale-110 transition-transform">
             <ShoppingBag size={12} />
           </div>
         </div>

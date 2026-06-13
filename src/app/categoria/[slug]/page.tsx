@@ -56,11 +56,11 @@ export default function CategoryPage({ params }: PageProps) {
               <Link 
                 key={store.id} 
                 href={`/tienda/${store.id}`}
-                className="block bg-white rounded-[2.5rem] p-6 shadow-sm border border-gray-100 active:scale-[0.98] transition-all group"
+                className="block bg-white rounded-3xl p-6 shadow-sm border border-gray-100 active:scale-[0.98] transition-all group"
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-4">
-                    <div className="w-16 h-16 rounded-2xl bg-indigo-50 flex items-center justify-center text-indigo-600 transition-colors group-hover:bg-indigo-600 group-hover:text-white">
+                    <div className="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center text-blue-600 transition-colors group-hover:bg-blue-600 group-hover:text-white">
                       <Store size={32} />
                     </div>
                     <div>
@@ -73,18 +73,18 @@ export default function CategoryPage({ params }: PageProps) {
                       </div>
                     </div>
                   </div>
-                  <div className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-300 group-hover:bg-indigo-50 group-hover:text-indigo-600 transition-all">
+                  <div className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-300 group-hover:bg-blue-50 group-hover:text-blue-600 transition-all">
                     <ChevronRight size={20} />
                   </div>
                 </div>
                 
                 {store.description && (
-                  <p className="mt-4 text-sm text-gray-500 leading-relaxed pl-2 border-l-2 border-indigo-100">
+                  <p className="mt-4 text-sm text-gray-500 leading-relaxed pl-2 border-l-2 border-blue-100">
                     {store.description}
                   </p>
                 )}
 
-                <div className="mt-6 flex items-center justify-center py-3 bg-gray-50 rounded-2xl text-xs font-bold text-gray-700 group-hover:bg-indigo-50 group-hover:text-indigo-700 transition-colors">
+                <div className="mt-6 flex items-center justify-center py-3 bg-gray-50 rounded-2xl text-xs font-bold text-gray-700 group-hover:bg-blue-50 group-hover:text-blue-700 transition-colors">
                   Entrar a la tienda
                 </div>
               </Link>
@@ -105,7 +105,7 @@ export default function CategoryPage({ params }: PageProps) {
       <div className="px-5 pt-4">
         <Link 
           href="/"
-          className="flex items-center justify-center gap-2 text-sm font-bold text-indigo-600 py-4"
+          className="flex items-center justify-center gap-2 text-sm font-bold text-blue-600 py-4"
         >
           <ArrowLeft size={16} />
           Volver al inicio

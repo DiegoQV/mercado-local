@@ -22,7 +22,7 @@ export default function StorePage({ params }: PageProps) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center p-5 text-center">
         <h2 className="text-xl font-bold mb-2">Tienda no encontrada</h2>
-        <Link href="/" className="text-indigo-600 font-medium">Volver al inicio</Link>
+        <Link href="/" className="text-blue-600 font-medium">Volver al inicio</Link>
       </div>
     );
   }
@@ -30,14 +30,14 @@ export default function StorePage({ params }: PageProps) {
   return (
     <main className="min-h-screen bg-[#f9fafb] pb-20 font-sans">
       {/* Store Header Banner */}
-      <div className="relative w-full h-48 bg-gradient-to-br from-indigo-600 to-violet-700 overflow-hidden lg:rounded-b-[3rem] shadow-lg">
+      <div className="relative w-full h-48 bg-gradient-to-br from-blue-600 to-blue-800 overflow-hidden lg:rounded-b-3xl shadow-md">
         <div className="absolute inset-0 opacity-20 flex items-center justify-center scale-[3]">
            <Store size={100} />
         </div>
         <Link 
           href={`/`}
           aria-label="Volver al inicio"
-          className="absolute top-6 left-6 w-12 h-12 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white shadow-md active:scale-90 transition-transform"
+          className="absolute top-6 left-6 w-12 h-12 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white shadow-sm active:scale-90 transition-transform"
         >
           <ArrowLeft size={24} />
         </Link>
@@ -45,14 +45,14 @@ export default function StorePage({ params }: PageProps) {
 
       {/* Store Info Card */}
       <div className="px-5 -mt-20 relative z-10">
-        <div className="bg-white rounded-[2.5rem] p-6 shadow-xl shadow-indigo-100 border border-gray-50">
+        <div className="bg-white rounded-3xl p-6 shadow-xl shadow-gray-200/50 border border-gray-50">
           <div className="flex flex-col items-center text-center">
-            <div className="w-20 h-20 rounded-3xl bg-indigo-50 flex items-center justify-center text-indigo-600 mb-4 shadow-inner">
+            <div className="w-20 h-20 rounded-2xl bg-blue-50 flex items-center justify-center text-blue-600 mb-4 shadow-inner">
                <Store size={40} />
             </div>
             <h1 className="text-2xl font-extrabold text-gray-900 leading-tight mb-1">{store.name}</h1>
             <div className="flex items-center gap-1 text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-4">
-              <MapPin size={12} className="text-indigo-500" />
+              <MapPin size={12} className="text-blue-500" />
               Chachapoyas, Amazonas
             </div>
             <p className="text-sm text-gray-500 max-w-xs">{store.description}</p>

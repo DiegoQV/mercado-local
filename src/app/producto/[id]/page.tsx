@@ -26,7 +26,7 @@ export default function ProductDetailPage({ params }: PageProps) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center p-5 text-center">
         <h2 className="text-xl font-bold mb-2">Producto no encontrado</h2>
-        <Link href="/" className="text-indigo-600 font-medium">Volver al inicio</Link>
+        <Link href="/" className="text-blue-600 font-medium">Volver al inicio</Link>
       </div>
     );
   }
@@ -45,7 +45,7 @@ export default function ProductDetailPage({ params }: PageProps) {
   return (
     <main className="min-h-screen bg-white pb-32 font-sans">
       {/* Product Image Header */}
-      <div className="relative w-full aspect-[4/5] bg-gray-100 overflow-hidden rounded-b-[3rem] shadow-lg">
+      <div className="relative w-full aspect-[4/5] bg-gray-100 overflow-hidden rounded-b-3xl shadow-md">
         <Image
           src={imgSrc}
           alt={product.name}
@@ -64,7 +64,7 @@ export default function ProductDetailPage({ params }: PageProps) {
         </Link>
 
         {product.originalPrice && (
-          <div className="absolute top-6 right-6 bg-red-500 text-white px-4 py-2 rounded-2xl font-black text-sm shadow-lg flex flex-col items-center">
+          <div className="absolute top-6 right-6 bg-orange-500 text-white px-4 py-2 rounded-2xl font-black text-sm shadow-lg flex flex-col items-center">
             <span className="text-[10px] leading-tight">OFERTA</span>
             <span className="leading-tight">
               -{Math.round((1 - product.price / product.originalPrice) * 100)}%
@@ -80,7 +80,7 @@ export default function ProductDetailPage({ params }: PageProps) {
             "px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider",
             product.category === 'abarrotes' && "bg-emerald-50 text-emerald-600",
             product.category === 'motor' && "bg-orange-50 text-orange-600",
-            product.category === 'outfit' && "bg-purple-50 text-purple-600",
+            product.category === 'outfit' && "bg-blue-50 text-blue-600",
             product.category === 'gadgets' && "bg-blue-50 text-blue-600",
             product.category === 'ferreteria' && "bg-amber-50 text-amber-600",
             product.category === 'farmacia' && "bg-red-50 text-red-600",
@@ -100,7 +100,7 @@ export default function ProductDetailPage({ params }: PageProps) {
           {product.name}
         </h1>
         <div className="flex items-baseline gap-3 mb-6">
-          <span className="text-4xl font-extrabold text-[#6366f1]">
+          <span className="text-4xl font-extrabold text-blue-600">
             S/{product.price.toFixed(2)}
           </span>
           {product.originalPrice && (
@@ -111,9 +111,9 @@ export default function ProductDetailPage({ params }: PageProps) {
         </div>
 
         {/* Store Card */}
-        <div className="flex items-center justify-between p-4 bg-gray-50 rounded-3xl border border-gray-100 mb-8">
+        <div className="flex items-center justify-between p-4 bg-gray-50 rounded-2xl border border-gray-100 mb-8">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-2xl bg-white flex items-center justify-center shadow-sm text-indigo-600">
+            <div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center shadow-sm text-blue-600">
               <Store size={24} />
             </div>
             <div>
@@ -127,7 +127,7 @@ export default function ProductDetailPage({ params }: PageProps) {
         {/* Description */}
         <div className="mb-8">
           <h3 className="text-lg font-bold text-gray-900 mb-3 flex items-center gap-2">
-            <Info size={20} className="text-indigo-600" />
+            <Info size={20} className="text-blue-600" />
             Descripción
           </h3>
           <p className="text-gray-600 leading-relaxed text-sm">
@@ -149,7 +149,7 @@ export default function ProductDetailPage({ params }: PageProps) {
 
           {/* Motor */}
           {product.category === 'motor' && (product as MotorProduct).attributes?.compatibility && (
-            <div className="bg-orange-50/50 rounded-2xl p-4 border border-orange-100">
+            <div className="bg-orange-50/50 rounded-xl p-4 border border-orange-100/50">
               <p className="text-xs font-bold text-orange-800 uppercase mb-3">Compatibilidad</p>
               <div className="grid grid-cols-2 gap-4">
                 <div>
@@ -253,7 +253,7 @@ export default function ProductDetailPage({ params }: PageProps) {
       <div className="mt-6 px-6 pb-2">
         <button
           onClick={handleAddToCart}
-          className="w-full bg-[#6366f1] text-white py-5 rounded-[2rem] font-bold text-lg flex items-center justify-center gap-3 shadow-xl shadow-indigo-100 active:scale-[0.98] transition-all"
+          className="w-full bg-emerald-600 text-white py-5 rounded-2xl font-bold text-lg flex items-center justify-center gap-3 shadow-md active:scale-[0.98] transition-all"
         >
           <ShoppingBag size={24} />
           Añadir al Carrito

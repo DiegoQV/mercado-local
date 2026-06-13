@@ -28,22 +28,22 @@ export default function HomePage() {
       <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 px-5 pt-6 pb-4">
         <div className="flex items-center justify-between mb-5">
           <div className="flex flex-col">
-            <h1 className="text-xl font-bold tracking-tight text-[#6366f1]">
+            <h1 className="text-xl font-bold tracking-tight text-blue-600">
               Mercado<span className="text-gray-900">Digital</span>
             </h1>
             <div className="flex items-center gap-1 text-sm font-semibold text-gray-800 mt-0.5 cursor-pointer active:opacity-70 transition-opacity">
-              <MapPin size={14} className="text-[#6366f1]" />
+              <MapPin size={14} className="text-blue-600" />
               <span>📍 Chachapoyas <span className="text-[10px] ml-0.5 opacity-50">▼</span></span>
             </div>
           </div>
-          <div className="w-9 h-9 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600">
+          <div className="w-9 h-9 rounded-full bg-blue-50 flex items-center justify-center text-blue-600">
             <ShoppingBag size={18} />
           </div>
         </div>
 
         {/* Search Bar */}
         <form onSubmit={handleSearch} className="relative group">
-          <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none text-gray-400 group-focus-within:text-[#6366f1] transition-colors">
+          <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none text-gray-400 group-focus-within:text-blue-600 transition-colors">
             <Search size={18} />
           </div>
           <input
@@ -52,7 +52,7 @@ export default function HomePage() {
             aria-label="Buscar productos"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full bg-gray-100/80 border border-transparent rounded-xl py-3 pl-11 pr-4 text-sm focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500/10 focus:bg-white transition-all outline-none"
+            className="w-full bg-gray-100/80 border border-transparent rounded-xl py-3 pl-11 pr-4 text-sm focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500/10 focus:bg-white transition-all outline-none"
           />
         </form>
       </header>
@@ -61,7 +61,7 @@ export default function HomePage() {
       <section className="mt-4 px-5">
         <div className="flex overflow-x-auto gap-4 snap-x snap-mandatory no-scrollbar pb-2">
           {/* Banner 1: Bienvenida */}
-          <div className="flex-shrink-0 w-full snap-start relative overflow-hidden rounded-2xl bg-gradient-to-br from-indigo-600 to-violet-700 p-6 text-white shadow-lg shadow-indigo-200">
+          <div className="flex-shrink-0 w-full snap-start relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 p-6 text-white shadow-md">
             <div className="relative z-10">
               <h3 className="text-xl font-bold mb-2 leading-tight">Tu mercado local en un solo lugar 🛒</h3>
               <p className="text-sm opacity-90 leading-snug max-w-[80%] mb-4">Compra en tiendas locales con entrega directa a tu WhatsApp.</p>
@@ -73,7 +73,7 @@ export default function HomePage() {
           </div>
 
           {/* Banner 2: Motor */}
-          <div className="flex-shrink-0 w-full snap-start relative overflow-hidden rounded-2xl bg-gradient-to-br from-orange-500 to-rose-600 p-6 text-white shadow-lg shadow-orange-200">
+          <div className="flex-shrink-0 w-full snap-start relative overflow-hidden rounded-3xl bg-gradient-to-br from-orange-500 to-rose-600 p-6 text-white shadow-md">
             <div className="relative z-10">
               <h3 className="text-xl font-bold mb-2 leading-tight">¿Buscas repuestos para tu moto? 🔧</h3>
               <p className="text-sm opacity-90 leading-snug max-w-[80%] mb-4">Filtra por marca y año al instante en toda la ciudad.</p>
@@ -90,12 +90,12 @@ export default function HomePage() {
       <section className="px-5 mt-4">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-lg font-bold tracking-tight">Explorar Categorías</h2>
-          <Link href="/buscar" className="text-sm font-semibold text-indigo-600 active:opacity-60 transition-opacity">Ver todas</Link>
+          <Link href="/buscar" className="text-sm font-semibold text-blue-600 active:opacity-60 transition-opacity">Ver todas</Link>
         </div>
         
         <div className="grid grid-cols-2 gap-3 pb-4">
           {/* Supermercado */}
-          <Link href="/categoria/abarrotes" className="group relative overflow-hidden rounded-2xl bg-emerald-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-emerald-100 shadow-sm">
+          <Link href="/categoria/abarrotes" className="group relative overflow-hidden rounded-2xl bg-emerald-50/50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-emerald-100/50 shadow-sm">
             <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-emerald-600 shadow-sm mb-2">
               <ShoppingBag size={20} />
             </div>
@@ -103,7 +103,7 @@ export default function HomePage() {
           </Link>
 
           {/* Motor */}
-          <Link href="/categoria/motor" className="group relative overflow-hidden rounded-2xl bg-orange-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-orange-100 shadow-sm">
+          <Link href="/categoria/motor" className="group relative overflow-hidden rounded-2xl bg-orange-50/50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-orange-100/50 shadow-sm">
             <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-orange-600 shadow-sm mb-2">
               <Wrench size={20} />
             </div>
@@ -111,15 +111,15 @@ export default function HomePage() {
           </Link>
 
           {/* Outfit */}
-          <Link href="/categoria/outfit" className="group relative overflow-hidden rounded-2xl bg-purple-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-purple-100 shadow-sm">
-            <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-purple-600 shadow-sm mb-2">
+          <Link href="/categoria/outfit" className="group relative overflow-hidden rounded-2xl bg-blue-50/50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-blue-100/50 shadow-sm">
+            <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-blue-600 shadow-sm mb-2">
               <Shirt size={20} />
             </div>
-            <h3 className="font-bold text-purple-950 text-[11px]">Moda y Ropa</h3>
+            <h3 className="font-bold text-blue-950 text-[11px]">Moda y Ropa</h3>
           </Link>
 
           {/* Gadgets */}
-          <Link href="/categoria/gadgets" className="group relative overflow-hidden rounded-2xl bg-blue-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-blue-100 shadow-sm">
+          <Link href="/categoria/gadgets" className="group relative overflow-hidden rounded-2xl bg-blue-50/50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-blue-100/50 shadow-sm">
             <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-blue-600 shadow-sm mb-2">
               <Smartphone size={20} />
             </div>
@@ -127,7 +127,7 @@ export default function HomePage() {
           </Link>
 
           {/* Ferreteria */}
-          <Link href="/categoria/ferreteria" className="group relative overflow-hidden rounded-2xl bg-amber-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-amber-100 shadow-sm">
+          <Link href="/categoria/ferreteria" className="group relative overflow-hidden rounded-2xl bg-amber-50/50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-amber-100/50 shadow-sm">
             <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-amber-600 shadow-sm mb-2">
               <Hammer size={20} />
             </div>
@@ -135,7 +135,7 @@ export default function HomePage() {
           </Link>
 
           {/* Farmacia */}
-          <Link href="/categoria/farmacia" className="group relative overflow-hidden rounded-2xl bg-red-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-red-100 shadow-sm">
+          <Link href="/categoria/farmacia" className="group relative overflow-hidden rounded-2xl bg-red-50/50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-red-100/50 shadow-sm">
             <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-red-600 shadow-sm mb-2">
               <Pill size={20} />
             </div>
@@ -143,7 +143,7 @@ export default function HomePage() {
           </Link>
 
           {/* Comidas */}
-          <Link href="/categoria/comidas" className="group relative overflow-hidden rounded-2xl bg-rose-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-rose-100 shadow-sm">
+          <Link href="/categoria/comidas" className="group relative overflow-hidden rounded-2xl bg-rose-50/50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-rose-100/50 shadow-sm">
             <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-rose-600 shadow-sm mb-2">
               <Utensils size={20} />
             </div>
@@ -151,7 +151,7 @@ export default function HomePage() {
           </Link>
 
           {/* Bebidas */}
-          <Link href="/categoria/bebidas" className="group relative overflow-hidden rounded-2xl bg-cyan-50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-cyan-100 shadow-sm">
+          <Link href="/categoria/bebidas" className="group relative overflow-hidden rounded-2xl bg-cyan-50/50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-cyan-100/50 shadow-sm">
             <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-cyan-600 shadow-sm mb-2">
               <Beer size={20} />
             </div>
@@ -164,7 +164,7 @@ export default function HomePage() {
       <section className="mt-8">
         <div className="flex items-center justify-between px-5 mb-4">
           <h2 className="text-lg font-bold tracking-tight">Destacados hoy</h2>
-          <Link href="/buscar" className="text-sm font-semibold text-indigo-600 active:opacity-60 transition-opacity">Ver más</Link>
+          <Link href="/buscar" className="text-sm font-semibold text-blue-600 active:opacity-60 transition-opacity">Ver más</Link>
         </div>
         
         <div className="flex overflow-x-auto gap-4 px-5 pb-6 no-scrollbar snap-x snap-mandatory">

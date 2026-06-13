@@ -50,7 +50,7 @@ function SearchResults() {
           </p>
           <Link 
             href="/"
-            className="mt-6 text-sm font-bold text-[#6366f1] bg-indigo-50 px-6 py-2 rounded-full"
+            className="mt-6 text-sm font-bold text-blue-600 bg-blue-50 px-6 py-2 rounded-full"
           >
             Volver al inicio
           </Link>
@@ -65,7 +65,7 @@ export default function SearchPage() {
     <main className="min-h-screen bg-[#f9fafb]">
       <Suspense fallback={
         <div className="flex items-center justify-center min-h-screen">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#6366f1]"></div>
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
         </div>
       }>
         <SearchResults />

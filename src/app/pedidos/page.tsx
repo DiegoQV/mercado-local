@@ -18,7 +18,7 @@ export default function PedidosPage() {
       </div>
 
       <div className="flex flex-col items-center justify-center py-20 text-center">
-        <div className="w-16 h-16 bg-indigo-50 rounded-full flex items-center justify-center text-[#6366f1] mb-4">
+        <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center text-blue-600 mb-4">
           <ClipboardList size={24} />
         </div>
         <h3 className="text-lg font-bold text-gray-900">Aún no tienes pedidos</h3>
@@ -27,7 +27,7 @@ export default function PedidosPage() {
         </p>
         <Link 
           href="/"
-          className="mt-6 text-sm font-bold text-white bg-[#6366f1] px-8 py-3 rounded-xl shadow-lg shadow-indigo-100 active:scale-95 transition-transform"
+          className="mt-6 text-sm font-bold text-white bg-blue-600 px-8 py-3 rounded-xl shadow-md active:scale-95 transition-transform"
         >
           Empezar a comprar
         </Link>

@@ -77,7 +77,7 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
         <p className="text-gray-500 mb-8 max-w-xs">Parece que aún no has seleccionado productos para comprar.</p>
         <Link 
           href="/" 
-          className="w-full bg-[#6366f1] text-white py-4 rounded-2xl font-bold transition-all active:scale-95"
+          className="w-full bg-blue-600 text-white py-4 rounded-2xl font-bold transition-all active:scale-95"
         >
           Explorar Tiendas
         </Link>
@@ -97,13 +97,13 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
 
       <div className="p-6 space-y-6">
         {/* Order Breakdown */}
-        <div className="bg-white p-6 rounded-[2.5rem] shadow-sm border border-gray-100">
+        <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100">
           <h3 className="text-lg font-bold text-gray-900 mb-4">Resumen del Pedido</h3>
           <div className="space-y-4">
             {items.map((item) => (
               <div key={item.product.id} className="flex justify-between items-center text-sm">
                 <div className="flex gap-3 items-center">
-                  <span className="text-indigo-600 font-bold bg-indigo-50 w-6 h-6 flex items-center justify-center rounded-lg text-[10px]">
+                  <span className="text-blue-600 font-bold bg-blue-50 w-6 h-6 flex items-center justify-center rounded-lg text-[10px]">
                     {item.quantity}
                   </span>
                   <span className="text-gray-700 font-medium">{item.product.name}</span>
@@ -128,13 +128,13 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
 
             <div className="flex justify-between items-center pt-4 border-t border-gray-100">
               <span className="text-lg font-bold text-gray-900">Total a Pagar</span>
-              <span className="text-2xl font-extrabold text-[#6366f1]">S/{total.toFixed(2)}</span>
+              <span className="text-2xl font-extrabold text-blue-600">S/{total.toFixed(2)}</span>
             </div>
           </div>
         </div>
 
         {/* Yape Section */}
-        <div className="bg-white p-8 rounded-[2.5rem] shadow-sm border border-gray-100 flex flex-col items-center">
+        <div className="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 flex flex-col items-center">
           <div className="mb-6 text-center">
             <div className="inline-flex items-center gap-2 bg-[#742484]/10 text-[#742484] px-4 py-1.5 rounded-full mb-3">
               <Smartphone size={16} fill="currentColor" />
@@ -159,18 +159,18 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
 
           <div className="w-full space-y-4">
             <div className="flex gap-4 items-start">
-              <div className="w-6 h-6 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">1</div>
+              <div className="w-6 h-6 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">1</div>
               <p className="text-sm text-gray-600 font-medium">Escanea el código QR o yapea directamente al número <strong>978 410 457</strong>.</p>
             </div>
             <div className="flex gap-4 items-start">
-              <div className="w-6 h-6 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">2</div>
+              <div className="w-6 h-6 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">2</div>
               <p className="text-sm text-gray-600 font-medium">Adjunta la captura de tu voucher de éxito aquí abajo.</p>
             </div>
           </div>
         </div>
 
         {/* Voucher Upload */}
-        <div className="bg-white p-6 rounded-[2.5rem] shadow-sm border border-gray-100">
+        <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100">
           <label className="block text-sm font-bold text-gray-900 mb-4">Sube tu Voucher</label>
           <div className="relative group">
             <input 
@@ -181,7 +181,7 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
             />
             <div className={cn(
               "border-2 border-dashed rounded-3xl p-8 flex flex-col items-center transition-all",
-              voucher ? "border-emerald-200 bg-emerald-50" : "border-gray-200 bg-gray-50 group-hover:border-indigo-300"
+              voucher ? "border-emerald-200 bg-emerald-50" : "border-gray-200 bg-gray-50 group-hover:border-blue-300"
             )}>
               {voucher ? (
                 <>
@@ -193,7 +193,7 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
                 </>
               ) : (
                 <>
-                  <div className="w-12 h-12 bg-indigo-600 text-white rounded-full flex items-center justify-center mb-3 shadow-lg shadow-indigo-200">
+                  <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center mb-3 shadow-md">
                     <Upload size={20} />
                   </div>
                   <p className="text-sm font-bold text-gray-900">Haz clic o arrastra aquí</p>
@@ -207,11 +207,11 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
 
       {/* Floating Confirm Action */}
       <div className="fixed bottom-0 left-0 right-0 p-6 bg-white border-t border-gray-100 z-50">
-        <div className="mb-4 flex items-start gap-3 bg-indigo-50/50 p-4 rounded-2xl border border-indigo-100/50">
-          <div className="w-5 h-5 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 shrink-0 mt-0.5">
+        <div className="mb-4 flex items-start gap-3 bg-blue-50/50 p-4 rounded-2xl border border-blue-100/50">
+          <div className="w-5 h-5 rounded-full bg-blue-100 flex items-center justify-center text-blue-600 shrink-0 mt-0.5">
             <Info size={12} />
           </div>
-          <p className="text-[11px] text-indigo-700 leading-relaxed font-medium">
+          <p className="text-[11px] text-blue-700 leading-relaxed font-medium">
             Al presionar el botón, se abrirá WhatsApp para enviar tu pedido. <span className="font-bold">Recuerda adjuntar la foto de tu comprobante de pago</span> en el chat de WhatsApp para validar tu compra.
           </p>
         </div>
@@ -219,9 +219,9 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
           onClick={handleConfirmPayment}
           disabled={isConfirming}
           className={cn(
-            "w-full py-5 rounded-[2rem] font-bold text-lg flex items-center justify-center gap-3 shadow-xl transition-all active:scale-95",
+            "w-full py-5 rounded-2xl font-bold text-lg flex items-center justify-center gap-3 shadow-lg transition-all active:scale-[0.98]",
             voucher && !isConfirming 
-              ? "bg-[#6366f1] text-white shadow-indigo-200" 
+              ? "bg-emerald-600 text-white shadow-emerald-50" 
               : "bg-gray-100 text-gray-400 cursor-not-allowed"
           )}
         >

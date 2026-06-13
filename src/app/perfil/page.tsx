@@ -53,7 +53,7 @@ export default function PerfilPage() {
       </div>
 
       <div className="px-5 mt-8">
-        <div className="bg-gradient-to-br from-indigo-600 to-violet-700 rounded-[2.5rem] p-6 text-white mb-8 shadow-lg shadow-indigo-100">
+        <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-3xl p-6 text-white mb-8 shadow-md">
           <h2 className="text-lg font-bold mb-1">Información de Envío</h2>
           <p className="text-sm opacity-80 leading-relaxed">
             Completa tus datos para que las tiendas puedan llevar tus pedidos directamente a tu puerta.
@@ -64,7 +64,7 @@ export default function PerfilPage() {
           {/* Nombre Completo */}
           <div className="space-y-2">
             <label className="text-xs font-bold text-gray-400 uppercase ml-2 flex items-center gap-2">
-              <User size={14} className="text-indigo-500" />
+              <User size={14} className="text-blue-500" />
               Nombre Completo
             </label>
             <input
@@ -73,7 +73,7 @@ export default function PerfilPage() {
               value={formData.fullName}
               onChange={handleChange}
               placeholder="Ej. Juan Pérez"
-              className="w-full bg-white border border-gray-100 rounded-2xl py-4 px-5 text-sm focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500/30 transition-all outline-none shadow-sm"
+              className="w-full bg-white border border-gray-100 rounded-2xl py-4 px-5 text-sm focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500/30 transition-all outline-none shadow-sm"
               required
             />
           </div>
@@ -90,7 +90,7 @@ export default function PerfilPage() {
               value={formData.phone}
               onChange={handleChange}
               placeholder="Ej. 987654321"
-              className="w-full bg-white border border-gray-100 rounded-2xl py-4 px-5 text-sm focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500/30 transition-all outline-none shadow-sm"
+              className="w-full bg-white border border-gray-100 rounded-2xl py-4 px-5 text-sm focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500/30 transition-all outline-none shadow-sm"
               required
             />
           </div>
@@ -107,7 +107,7 @@ export default function PerfilPage() {
               onChange={handleChange}
               placeholder="Ej. Jr. Ayacucho 123, frente a la Plaza de Armas"
               rows={3}
-              className="w-full bg-white border border-gray-100 rounded-2xl py-4 px-5 text-sm focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500/30 transition-all outline-none shadow-sm resize-none"
+              className="w-full bg-white border border-gray-100 rounded-2xl py-4 px-5 text-sm focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500/30 transition-all outline-none shadow-sm resize-none"
               required
             ></textarea>
           </div>
@@ -116,10 +116,10 @@ export default function PerfilPage() {
           <button
             type="submit"
             disabled={isSaved}
-            className={`w-full py-5 rounded-[2rem] font-bold text-lg flex items-center justify-center gap-3 shadow-xl transition-all active:scale-[0.98] ${
+            className={`w-full py-5 rounded-2xl font-bold text-lg flex items-center justify-center gap-3 shadow-md transition-all active:scale-[0.98] ${
               isSaved 
-                ? "bg-emerald-500 text-white shadow-emerald-100" 
-                : "bg-[#6366f1] text-white shadow-indigo-100"
+                ? "bg-emerald-500 text-white shadow-emerald-50" 
+                : "bg-emerald-600 text-white shadow-emerald-50"
             }`}
           >
             {isSaved ? (

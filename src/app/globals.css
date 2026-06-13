@@ -10,6 +10,18 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono);
+
+  /* New Brand Identity Colors */
+  --color-primary: #2563eb;
+  --color-action: #059669;
+  --color-offer: #f97316;
+
+  /* Neutrals for shadows and borders */
+  --color-neutral-soft: #f3f4f6;
+
+  /* Standardizing shadows */
+  --shadow-subtle: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --shadow-premium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
 }
 
 @media (prefers-color-scheme: dark) {

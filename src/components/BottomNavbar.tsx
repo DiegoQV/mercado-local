@@ -26,6 +26,7 @@ export default function BottomNavbar() {
           <Link
             key={item.name}
             href={item.href}
+            aria-label={item.name}
             className={cn(
               "flex flex-col items-center gap-1 transition-all active:scale-95",
               isActive ? "text-[#6366f1]" : "text-gray-400"

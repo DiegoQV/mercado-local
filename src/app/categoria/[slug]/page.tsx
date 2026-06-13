@@ -34,6 +34,7 @@ export default function CategoryPage({ params }: PageProps) {
       <header className="sticky top-0 z-40 bg-white/80 backdrop-blur-xl border-b border-gray-100 px-5 py-4 flex items-center justify-between">
         <Link 
           href="/" 
+          aria-label="Volver al inicio"
           className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-900 active:scale-90 transition-transform"
         >
           <ArrowLeft size={20} />

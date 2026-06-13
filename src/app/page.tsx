@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Search, ShoppingBag, Wrench, Shirt, Smartphone, MapPin, Home, ClipboardList, User, ChevronRight, Hammer, Pill, Utensils, Beer } from "lucide-react";
+import { Search, ShoppingBag, Wrench, Shirt, Smartphone, MapPin, ChevronRight, Hammer, Pill, Utensils, Beer } from "lucide-react";
 import { MOCK_PRODUCTS } from "@/lib/mockData";
 import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
@@ -49,6 +49,7 @@ export default function HomePage() {
           <input
             type="text"
             placeholder="¿Qué necesitas hoy?"
+            aria-label="Buscar productos"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full bg-gray-100/80 border border-transparent rounded-xl py-3 pl-11 pr-4 text-sm focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500/10 focus:bg-white transition-all outline-none"
@@ -89,7 +90,7 @@ export default function HomePage() {
       <section className="px-5 mt-4">
         <div className="flex items-center justify-between mb-3">
           <h2 className="text-lg font-bold tracking-tight">Explorar Categorías</h2>
-          <button className="text-sm font-semibold text-indigo-600 active:opacity-60 transition-opacity">Ver todas</button>
+          <Link href="/buscar" className="text-sm font-semibold text-indigo-600 active:opacity-60 transition-opacity">Ver todas</Link>
         </div>
         
         <div className="grid grid-cols-2 gap-3 pb-4">
@@ -163,7 +164,7 @@ export default function HomePage() {
       <section className="mt-8">
         <div className="flex items-center justify-between px-5 mb-4">
           <h2 className="text-lg font-bold tracking-tight">Destacados hoy</h2>
-          <button className="text-sm font-semibold text-indigo-600 active:opacity-60 transition-opacity">Ver más</button>
+          <Link href="/buscar" className="text-sm font-semibold text-indigo-600 active:opacity-60 transition-opacity">Ver más</Link>
         </div>
         
         <div className="flex overflow-x-auto gap-4 px-5 pb-6 no-scrollbar snap-x snap-mandatory">

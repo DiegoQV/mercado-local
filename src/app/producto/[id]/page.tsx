@@ -57,6 +57,7 @@ export default function ProductDetailPage({ params }: PageProps) {
         {/* Back Button */}
         <Link 
           href={`/tienda/${product.storeId}`}
+          aria-label="Volver a la tienda"
           className="absolute top-6 left-6 w-12 h-12 rounded-full bg-white/80 backdrop-blur-md flex items-center justify-center text-gray-900 shadow-md active:scale-90 transition-transform"
         >
           <ArrowLeft size={24} />
@@ -206,14 +207,6 @@ export default function ProductDetailPage({ params }: PageProps) {
                   <span className="font-bold text-gray-900">{value}</span>
                 </div>
               ))}
-            </div>
-          )}
-
-          {/* Fallback for General Brand Attribute */}
-          {((product as any).attributes?.brand) && (
-            <div className="flex items-center justify-between py-3 border-b border-gray-50">
-              <span className="text-gray-500 text-sm">Marca</span>
-              <span className="font-bold text-gray-900">{(product as any).attributes.brand}</span>
             </div>
           )}
 

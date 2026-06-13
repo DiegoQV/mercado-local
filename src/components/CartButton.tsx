@@ -13,6 +13,7 @@ export default function CartButton() {
   return (
     <Link
       href="/checkout"
+      aria-label="Ver carrito de compras"
       className="fixed bottom-28 right-6 w-16 h-16 bg-[#6366f1] rounded-full flex items-center justify-center text-white shadow-2xl shadow-indigo-300 z-40 active:scale-95 transition-transform"
     >
       <div className="relative">

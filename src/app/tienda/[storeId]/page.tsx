@@ -2,8 +2,7 @@
 
 import React, { use } from "react";
 import Link from "next/link";
-import Image from "next/image";
-import { ArrowLeft, ShoppingBag, Store, MapPin, Search } from "lucide-react";
+import { ArrowLeft, Store, MapPin, Search } from "lucide-react";
 import { MOCK_PRODUCTS, STORES } from "@/lib/mockData";
 
 import { ProductCard } from "@/components/ProductCard";
@@ -37,6 +36,7 @@ export default function StorePage({ params }: PageProps) {
         </div>
         <Link 
           href={`/`}
+          aria-label="Volver al inicio"
           className="absolute top-6 left-6 w-12 h-12 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white shadow-md active:scale-90 transition-transform"
         >
           <ArrowLeft size={24} />

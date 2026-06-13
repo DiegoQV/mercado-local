@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, CreditCard, ChevronRight, Upload, CheckCircle, Smartphone } from "lucide-react";
+import { ArrowLeft, ChevronRight, Upload, CheckCircle, Smartphone, Info } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 import { cn } from "@/lib/utils";
 
@@ -89,7 +89,7 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
     <main className="min-h-screen bg-[#f9fafb] pb-40">
       {/* Header */}
       <div className="bg-white px-6 pt-12 pb-6 flex items-center gap-4 sticky top-0 z-30 shadow-sm shadow-gray-100">
-        <Link href="/" className="p-2 -ml-2 text-gray-900">
+        <Link href="/" className="p-2 -ml-2 text-gray-900" aria-label="Volver al inicio">
           <ArrowLeft size={24} />
         </Link>
         <h1 className="text-xl font-bold text-gray-900">Finalizar Pago</h1>
@@ -143,15 +143,18 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
             <h3 className="text-xl font-bold text-gray-900">Escanea el QR para Pagar</h3>
           </div>
 
-          {/* QR Placeholder */}
-          <div className="relative w-48 h-48 bg-gray-50 rounded-3xl mb-8 flex items-center justify-center border-2 border-gray-200 overflow-hidden shadow-inner">
+          {/* QR Placeholder (Using verified placeholder image) */}
+          <div className="relative w-48 h-48 bg-gray-50 rounded-3xl mb-8 flex items-center justify-center border-2 border-gray-200 overflow-hidden shadow-inner font-outfit">
             <Image
-              src="/yape_qr_placeholder_1781061600615.png"
+              src="/window.svg"
               alt="Yape QR Code"
               width={160}
               height={160}
-              className="rounded-xl"
+              className="rounded-xl opacity-20"
             />
+            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+              <span className="text-[10px] font-bold text-gray-400 text-center px-8 uppercase">Código QR Dinámico en desarrollo</span>
+            </div>
           </div>
 
           <div className="w-full space-y-4">
@@ -204,6 +207,14 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
 
       {/* Floating Confirm Action */}
       <div className="fixed bottom-0 left-0 right-0 p-6 bg-white border-t border-gray-100 z-50">
+        <div className="mb-4 flex items-start gap-3 bg-indigo-50/50 p-4 rounded-2xl border border-indigo-100/50">
+          <div className="w-5 h-5 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 shrink-0 mt-0.5">
+            <Info size={12} />
+          </div>
+          <p className="text-[11px] text-indigo-700 leading-relaxed font-medium">
+            Al presionar el botón, se abrirá WhatsApp para enviar tu pedido. <span className="font-bold">Recuerda adjuntar la foto de tu comprobante de pago</span> en el chat de WhatsApp para validar tu compra.
+          </p>
+        </div>
         <button
           onClick={handleConfirmPayment}
           disabled={isConfirming}

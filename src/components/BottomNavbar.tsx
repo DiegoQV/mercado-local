@@ -33,7 +33,7 @@ export default function BottomNavbar() {
             )}
           >
             <Icon size={22} className={cn(isActive && "stroke-[2.5]")} />
-            <span className={cn("text-[10px]", isActive ? "font-bold" : "font-medium")}>
+            <span className={cn("text-[11px] tracking-tight", isActive ? "font-bold" : "font-medium")}>
               {item.name}
             </span>
           </Link>

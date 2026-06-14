@@ -1,20 +1,37 @@
-"use client";
-
-import React, { use } from "react";
+import React from "react";
 import Link from "next/link";
 import { ArrowLeft, Store, MapPin, Search } from "lucide-react";
 import { MOCK_PRODUCTS, STORES } from "@/lib/mockData";
-
 import { ProductCard } from "@/components/ProductCard";
+import { Metadata } from "next";
 
 interface PageProps {
   params: Promise<{ storeId: string }>;
 }
 
-export default function StorePage({ params }: PageProps) {
-  const resolvedParams = use(params);
-  const storeId = resolvedParams.storeId;
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { storeId } = await params;
+  const store = STORES.find((s) => s.id === storeId);
 
+  if (!store) {
+    return {
+      title: "Tienda no encontrada | Mercado Digital",
+    };
+  }
+
+  return {
+    title: `${store.name} | Mercado Digital Chachapoyas`,
+    description: `Visita ${store.name} en Mercado Digital Chachapoyas. ${store.description}`,
+    openGraph: {
+      title: store.name,
+      description: store.description,
+      type: 'website'
+    },
+  };
+}
+
+export default async function StorePage({ params }: PageProps) {
+  const { storeId } = await params;
   const store = STORES.find((s) => s.id === storeId);
   const storeProducts = MOCK_PRODUCTS.filter((p) => p.storeId === storeId);
 
@@ -69,7 +86,7 @@ export default function StorePage({ params }: PageProps) {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           {storeProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}

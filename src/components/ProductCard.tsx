@@ -52,7 +52,15 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       </div>
 
       <div className="p-2 pt-3 flex flex-col flex-grow">
-        <h3 className="text-[11px] font-bold text-gray-900 line-clamp-2 leading-tight mb-2 min-h-[2.5rem]">
+        <div className="flex items-center justify-between mb-1">
+          <span className="text-[8px] font-bold text-gray-400 uppercase tracking-wider">{product.storeName}</span>
+          <div className="flex items-center gap-1">
+            <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></div>
+            <span className="text-[8px] font-bold text-emerald-600 uppercase">Stock</span>
+          </div>
+        </div>
+        
+        <h3 className="text-[11px] font-bold text-gray-900 line-clamp-2 leading-tight mb-2 min-h-[2rem]">
           {product.name}
         </h3>
         
@@ -66,9 +74,9 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           )}
         </div>
 
-        <div className="flex items-center justify-between mt-auto bg-gray-50 p-1.5 rounded-xl group-hover:bg-blue-50 transition-colors">
-          <span className="text-[9px] font-bold text-blue-600 uppercase pl-1">Ver detalle</span>
-          <div className="bg-blue-600 p-1 rounded-lg text-white group-hover:scale-110 transition-transform">
+        <div className="flex items-center justify-between mt-auto bg-gray-50 group-hover:bg-blue-600 p-1.5 rounded-xl transition-all duration-300">
+          <span className="text-[9px] font-bold text-blue-600 group-hover:text-white uppercase pl-1 transition-colors">Entrega Hoy</span>
+          <div className="bg-white p-1 rounded-lg text-blue-600 shadow-sm border border-blue-100 group-hover:scale-110 transition-transform">
             <ShoppingBag size={12} />
           </div>
         </div>

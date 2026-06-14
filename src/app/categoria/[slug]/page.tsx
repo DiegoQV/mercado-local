@@ -50,13 +50,13 @@ export default function CategoryPage({ params }: PageProps) {
           <p className="text-gray-500 text-sm mt-1">Selecciona un establecimiento para ver sus productos.</p>
         </div>
 
-        <div className="space-y-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {filteredStores.length > 0 ? (
             filteredStores.map((store) => (
               <Link 
                 key={store.id} 
                 href={`/tienda/${store.id}`}
-                className="block bg-white rounded-3xl p-6 shadow-sm border border-gray-100 active:scale-[0.98] transition-all group"
+                className="block bg-white rounded-3xl p-6 shadow-sm border border-gray-100 active:scale-[0.98] transition-all group h-full"
               >
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-4">

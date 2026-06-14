@@ -9,8 +9,16 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Mercado Digital | Compra Local",
-  description: "La plataforma unificada de comercio local para tu ciudad. Abarrotes, Repuestos, Moda y Tecnología en un solo lugar.",
+  title: "Mercado Digital Chachapoyas | Compra Local Online",
+  description: "Accede a las mejores tiendas locales de Chachapoyas. Abarrotes, repuestos, moda y más con entrega rápida y pago seguro vía Yape.",
+  keywords: ["Chachapoyas", "Marketplace local", "Abarrotes Chachapoyas", "Repuestos Chachapoyas", "Compra online Chachapoyas"],
+  openGraph: {
+    title: "Mercado Digital Chachapoyas | Compra Local",
+    description: "Tu mercado local en un solo lugar. Compra en Comercial Collantes y establecimientos favoritos de Chachapoyas.",
+    type: "website",
+    locale: "es_PE",
+    siteName: "Mercado Digital",
+  },
 };
 
 import { CartProvider } from "@/context/CartContext";
@@ -27,11 +35,15 @@ export default function RootLayout({
       lang="es"
       className={`${outfit.variable} font-sans h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-[#f9fafb]">
+      <body className="min-h-full flex flex-col bg-[#f9fafb] antialiased">
         <CartProvider>
-          {children}
+          <div className="flex-grow w-full max-w-md md:max-w-4xl lg:max-w-6xl mx-auto bg-white md:shadow-xl md:shadow-blue-900/5 min-h-screen relative overflow-x-hidden">
+            {children}
+          </div>
           <CartButton />
-          <BottomNavbar />
+          <div className="md:hidden">
+            <BottomNavbar />
+          </div>
         </CartProvider>
       </body>
     </html>

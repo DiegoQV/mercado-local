@@ -27,7 +27,7 @@ export default function HomePage() {
       {/* Header & Search Bar */}
       <header className="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-gray-100 px-5 pt-6 pb-4">
         <div className="flex items-center justify-between mb-5">
-          <div className="flex flex-col">
+          <div className="flex flex-col text-left">
             <h1 className="text-xl font-bold tracking-tight text-blue-600">
               Mercado<span className="text-gray-900">Digital</span>
             </h1>
@@ -36,6 +36,15 @@ export default function HomePage() {
               <span>📍 Chachapoyas <span className="text-[10px] ml-0.5 opacity-50">▼</span></span>
             </div>
           </div>
+          
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex items-center gap-8">
+            <Link href="/" className="text-sm font-bold text-blue-600">Inicio</Link>
+            <Link href="/buscar" className="text-sm font-medium text-gray-500 hover:text-blue-600 transition-colors">Explorar</Link>
+            <Link href="/pedidos" className="text-sm font-medium text-gray-500 hover:text-blue-600 transition-colors">Mis Pedidos</Link>
+            <Link href="/perfil" className="text-sm font-medium text-gray-500 hover:text-blue-600 transition-colors">Perfil</Link>
+          </nav>
+
           <div className="w-9 h-9 rounded-full bg-blue-50 flex items-center justify-center text-blue-600">
             <ShoppingBag size={18} />
           </div>
@@ -60,29 +69,33 @@ export default function HomePage() {
       {/* Promotional Banners Slider */}
       <section className="mt-4 px-5">
         <div className="flex overflow-x-auto gap-4 snap-x snap-mandatory no-scrollbar pb-2">
-          {/* Banner 1: Bienvenida */}
-          <div className="flex-shrink-0 w-full snap-start relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 p-6 text-white shadow-md">
-            <div className="relative z-10">
-              <h3 className="text-xl font-bold mb-2 leading-tight">Tu mercado local en un solo lugar 🛒</h3>
-              <p className="text-sm opacity-90 leading-snug max-w-[80%] mb-4">Compra en tiendas locales con entrega directa a tu WhatsApp.</p>
-              <button className="bg-white/20 backdrop-blur-md border border-white/30 text-white px-4 py-1.5 rounded-full text-xs font-bold flex items-center gap-2">
-                Explorar Ahora <ChevronRight size={14} />
-              </button>
+          {/* Banner 1: Bienvenida -> Abarrotes */}
+          <Link href="/categoria/abarrotes" className="flex-shrink-0 w-full md:w-[60%] snap-start relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 p-8 text-white shadow-md group">
+            <div className="relative z-10 h-full flex flex-col justify-between">
+              <div>
+                <h3 className="text-2xl font-bold mb-2 leading-tight">Tu mercado local en un solo lugar 🛒</h3>
+                <p className="text-sm opacity-90 leading-snug max-w-[80%]">Compra en tiendas locales como Comercial Collantes con entrega directa.</p>
+              </div>
+              <div className="bg-white/20 backdrop-blur-md border border-white/30 text-white w-fit px-5 py-2 rounded-full text-xs font-bold flex items-center gap-2 group-hover:bg-white group-hover:text-blue-600 transition-all">
+                Explorar Abarrotes <ChevronRight size={14} />
+              </div>
             </div>
             <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-white/10 rounded-full blur-3xl"></div>
-          </div>
+          </Link>
 
-          {/* Banner 2: Motor */}
-          <div className="flex-shrink-0 w-full snap-start relative overflow-hidden rounded-3xl bg-gradient-to-br from-orange-500 to-rose-600 p-6 text-white shadow-md">
-            <div className="relative z-10">
-              <h3 className="text-xl font-bold mb-2 leading-tight">¿Buscas repuestos para tu moto? 🔧</h3>
-              <p className="text-sm opacity-90 leading-snug max-w-[80%] mb-4">Filtra por marca y año al instante en toda la ciudad.</p>
-              <button className="bg-white/20 backdrop-blur-md border border-white/30 text-white px-4 py-1.5 rounded-full text-xs font-bold flex items-center gap-2">
+          {/* Banner 2: Motor -> Repuestos */}
+          <Link href="/categoria/motor" className="flex-shrink-0 w-full md:w-[60%] snap-start relative overflow-hidden rounded-3xl bg-gradient-to-br from-orange-500 to-rose-600 p-8 text-white shadow-md group">
+            <div className="relative z-10 h-full flex flex-col justify-between">
+              <div>
+                <h3 className="text-2xl font-bold mb-2 leading-tight">¿Buscas repuestos para tu moto? 🔧</h3>
+                <p className="text-sm opacity-90 leading-snug max-w-[80%]">Filtra por marca y año al instante en toda la ciudad.</p>
+              </div>
+              <div className="bg-white/20 backdrop-blur-md border border-white/30 text-white w-fit px-5 py-2 rounded-full text-xs font-bold flex items-center gap-2 group-hover:bg-white group-hover:text-orange-600 transition-all">
                 Ver Repuestos <ChevronRight size={14} />
-              </button>
+              </div>
             </div>
             <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-white/10 rounded-full blur-3xl"></div>
-          </div>
+          </Link>
         </div>
       </section>
 
@@ -93,7 +106,8 @@ export default function HomePage() {
           <Link href="/buscar" className="text-sm font-semibold text-blue-600 active:opacity-60 transition-opacity">Ver todas</Link>
         </div>
         
-        <div className="grid grid-cols-2 gap-3 pb-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-3 pb-4">
+          {/* Categorías... */}
           {/* Supermercado */}
           <Link href="/categoria/abarrotes" className="group relative overflow-hidden rounded-2xl bg-emerald-50/50 aspect-[16/9] p-3 flex flex-col items-center justify-center text-center active:scale-95 transition-transform cursor-pointer border border-emerald-100/50 shadow-sm">
             <div className="bg-white w-10 h-10 rounded-xl flex items-center justify-center text-emerald-600 shadow-sm mb-2">
@@ -167,9 +181,9 @@ export default function HomePage() {
           <Link href="/buscar" className="text-sm font-semibold text-blue-600 active:opacity-60 transition-opacity">Ver más</Link>
         </div>
         
-        <div className="flex overflow-x-auto gap-4 px-5 pb-6 no-scrollbar snap-x snap-mandatory">
-          {MOCK_PRODUCTS.slice(0, 15).map((product) => (
-            <div key={product.id} className="flex-shrink-0 w-44 snap-start">
+        <div className="flex md:grid md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 overflow-x-auto md:overflow-x-visible gap-4 px-5 pb-6 no-scrollbar snap-x snap-mandatory">
+          {MOCK_PRODUCTS.slice(0, 12).map((product) => (
+            <div key={product.id} className="flex-shrink-0 w-44 md:w-full snap-start">
               <ProductCard product={product} />
             </div>
           ))}

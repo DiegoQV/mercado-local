@@ -1,28 +1,21 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { ChevronLeft, MapPin, User, Phone, Save, CheckCircle2 } from "lucide-react";
 import Link from "next/link";
 
 export default function PerfilPage() {
-  const [formData, setFormData] = useState({
-    fullName: "",
-    phone: "",
-    address: "",
+  const defaultForm = { fullName: "", phone: "", address: "" };
+  const [formData, setFormData] = useState<{ fullName: string; phone: string; address: string }>(() => {
+    if (typeof window === "undefined") return defaultForm;
+    try {
+      const saved = localStorage.getItem("mercado_digital_user");
+      return saved ? JSON.parse(saved) : defaultForm;
+    } catch {
+      return defaultForm;
+    }
   });
   const [isSaved, setIsSaved] = useState(false);
-
-  // Load from localStorage on mount
-  useEffect(() => {
-    const savedData = localStorage.getItem("mercado_digital_user");
-    if (savedData) {
-      try {
-        setFormData(JSON.parse(savedData));
-      } catch (e) {
-        console.error("Error parsing saved data", e);
-      }
-    }
-  }, []);
 
   const handleSave = (e: React.FormEvent) => {
     e.preventDefault();

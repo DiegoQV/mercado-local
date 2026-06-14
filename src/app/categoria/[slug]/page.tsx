@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ArrowLeft, Store, ChevronRight, MapPin } from "lucide-react";
 import { STORES } from "@/lib/mockData";
 import { Category } from "@/types/product";
-import { cn } from "@/lib/utils";
+
 
 interface PageProps {
   params: Promise<{ slug: string }>;

@@ -2,10 +2,8 @@
 
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Search, ShoppingBag, Wrench, Shirt, Smartphone, MapPin, ChevronRight, Hammer, Pill, Utensils, Beer } from "lucide-react";
 import { MOCK_PRODUCTS } from "@/lib/mockData";
-import { cn } from "@/lib/utils";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 

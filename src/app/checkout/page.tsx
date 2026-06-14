@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, ChevronRight, Upload, CheckCircle, Smartphone, Info, User, Phone, MapPin, AlertCircle, ShoppingBag } from "lucide-react";
@@ -12,43 +12,32 @@ export default function CheckoutPage() {
   const [isConfirming, setIsConfirming] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // User Delivery Data
-  const [userData, setUserData] = useState({
-    fullName: "",
-    phone: "",
-    address: "",
-  });
-
-  // Admin Info
-  const ADMIN_WHATSAPP = "978410457";
-
-  // Load from localStorage on mount
-  useEffect(() => {
-    const savedData = localStorage.getItem("mercado_digital_user");
-    if (savedData) {
-      try {
-        const parsed = JSON.parse(savedData);
-        setUserData({
+  // User Delivery Data — initialized from localStorage
+  const defaultUserData = { fullName: "", phone: "", address: "" };
+  const [userData, setUserData] = useState<{ fullName: string; phone: string; address: string }>(() => {
+    if (typeof window === "undefined") return defaultUserData;
+    try {
+      const saved = localStorage.getItem("mercado_digital_user");
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        return {
           fullName: parsed.fullName || "",
           phone: parsed.phone || "",
           address: parsed.address || "",
-        });
-      } catch (e) {
-        console.error("Error parsing user data", e);
+        };
       }
+    } catch {
+      // ignore
     }
-  }, []);
-
-  const sanitizeInput = (text: string) => {
-    return text.replace(/<[^>]*>?/gm, '').trim();
-  };
+    return defaultUserData;
+  });
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
-    // Basic sanitization on input
-    const sanitizedValue = value.replace(/[<>]/g, '');
+    // Strip < > to prevent basic XSS injections
+    const sanitizedValue = value.replace(/[<>]/g, "");
     setUserData(prev => ({ ...prev, [name]: sanitizedValue }));
-    setError(null); 
+    setError(null);
   };
 
   const handleVoucherUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -74,6 +63,7 @@ export default function CheckoutPage() {
   };
 
   const handleConfirmPayment = () => {
+    const ADMIN_WHATSAPP = "978410457";
     // 1. Validate Delivery Data
     if (!userData.fullName.trim() || !userData.phone.trim() || !userData.address.trim()) {
       setError("Por favor, completa todos tus datos de entrega antes de continuar.");

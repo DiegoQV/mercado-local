@@ -2,12 +2,13 @@
 
 import React from "react";
 import Link from "next/link";
-import { Search, ShoppingBag, Wrench, Shirt, Smartphone, MapPin, ChevronRight, Hammer, Pill, Utensils, Beer } from "lucide-react";
+import { Search, ShoppingBag, Wrench, Shirt, Smartphone, MapPin, Hammer, Pill, Utensils, Beer } from "lucide-react";
 import { MOCK_PRODUCTS } from "@/lib/mockData";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 import { ProductCard } from "@/components/ProductCard";
+import { HeroSlider } from "@/components/HeroSlider";
 
 export default function HomePage() {
   const router = useRouter();
@@ -64,37 +65,9 @@ export default function HomePage() {
         </form>
       </header>
 
-      {/* Promotional Banners Slider */}
+      {/* Hero Slider */}
       <section className="mt-4 px-5">
-        <div className="flex overflow-x-auto gap-4 snap-x snap-mandatory no-scrollbar pb-2">
-          {/* Banner 1: Bienvenida -> Abarrotes */}
-          <Link href="/categoria/abarrotes" className="flex-shrink-0 w-full md:w-[60%] snap-start relative overflow-hidden rounded-3xl bg-gradient-to-br from-blue-600 to-blue-800 p-8 text-white shadow-md group">
-            <div className="relative z-10 h-full flex flex-col justify-between">
-              <div>
-                <h3 className="text-2xl font-bold mb-2 leading-tight">Tu mercado local en un solo lugar 🛒</h3>
-                <p className="text-sm opacity-90 leading-snug max-w-[80%]">Compra en tiendas locales como Comercial Collantes con entrega directa.</p>
-              </div>
-              <div className="bg-white/20 backdrop-blur-md border border-white/30 text-white w-fit px-5 py-2 rounded-full text-xs font-bold flex items-center gap-2 group-hover:bg-white group-hover:text-blue-600 transition-all">
-                Explorar Abarrotes <ChevronRight size={14} />
-              </div>
-            </div>
-            <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-white/10 rounded-full blur-3xl"></div>
-          </Link>
-
-          {/* Banner 2: Motor -> Repuestos */}
-          <Link href="/categoria/motor" className="flex-shrink-0 w-full md:w-[60%] snap-start relative overflow-hidden rounded-3xl bg-gradient-to-br from-orange-500 to-rose-600 p-8 text-white shadow-md group">
-            <div className="relative z-10 h-full flex flex-col justify-between">
-              <div>
-                <h3 className="text-2xl font-bold mb-2 leading-tight">¿Buscas repuestos para tu moto? 🔧</h3>
-                <p className="text-sm opacity-90 leading-snug max-w-[80%]">Filtra por marca y año al instante en toda la ciudad.</p>
-              </div>
-              <div className="bg-white/20 backdrop-blur-md border border-white/30 text-white w-fit px-5 py-2 rounded-full text-xs font-bold flex items-center gap-2 group-hover:bg-white group-hover:text-orange-600 transition-all">
-                Ver Repuestos <ChevronRight size={14} />
-              </div>
-            </div>
-            <div className="absolute -right-4 -bottom-4 w-32 h-32 bg-white/10 rounded-full blur-3xl"></div>
-          </Link>
-        </div>
+        <HeroSlider />
       </section>
 
       {/* Hero Section / Categories Grid */}

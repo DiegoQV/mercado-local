@@ -24,6 +24,7 @@ export const metadata: Metadata = {
 import { CartProvider } from "@/context/CartContext";
 import CartButton from "@/components/CartButton";
 import BottomNavbar from "@/components/BottomNavbar";
+import { AnnouncementBar } from "@/components/AnnouncementBar";
 
 export default function RootLayout({
   children,
@@ -38,6 +39,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col bg-[#f9fafb] antialiased">
         <CartProvider>
           <div className="flex-grow w-full max-w-md md:max-w-4xl lg:max-w-6xl mx-auto bg-white md:shadow-xl md:shadow-blue-900/5 min-h-screen relative overflow-x-hidden">
+            <AnnouncementBar />
             {children}
           </div>
           <CartButton />

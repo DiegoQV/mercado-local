@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import { ChevronLeft, MapPin, User, Phone, Save, CheckCircle2 } from "lucide-react";
-import Link from "next/link";
+import { MapPin, User, Phone, Save, CheckCircle2 } from "lucide-react";
+import { SimpleHeader } from "@/components/SimpleHeader";
 
 export default function PerfilPage() {
   const defaultForm = { fullName: "", phone: "", address: "" };
@@ -31,19 +31,9 @@ export default function PerfilPage() {
   };
 
   return (
-    <main className="min-h-screen bg-[#f9fafb] pb-32">
+    <div className="min-h-screen bg-[#f9fafb] pb-32">
       {/* Header */}
-      <div className="bg-white px-5 pt-6 pb-6 border-b border-gray-100 sticky top-0 z-20">
-        <div className="flex items-center gap-3">
-          <Link 
-            href="/" 
-            className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-600 active:scale-95 transition-transform"
-          >
-            <ChevronLeft size={20} />
-          </Link>
-          <h1 className="text-xl font-bold">Datos de Entrega</h1>
-        </div>
-      </div>
+      <SimpleHeader title="Datos de Entrega" showBackButton={true} />
 
       <div className="px-5 mt-8">
         <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-3xl p-6 text-white mb-8 shadow-md">
@@ -133,6 +123,6 @@ export default function PerfilPage() {
           Tus datos se guardan solo en este dispositivo para tu comodidad.
         </p>
       </div>
-    </main>
+    </div>
   );
 }

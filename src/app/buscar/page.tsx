@@ -4,8 +4,9 @@ import React, { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { MOCK_PRODUCTS } from "@/lib/mockData";
 import { ProductCard } from "@/components/ProductCard";
-import { Search, ChevronLeft } from "lucide-react";
+import { Search } from "lucide-react";
 import Link from "next/link";
+import { Header } from "@/components/Header";
 
 function SearchResults() {
   const searchParams = useSearchParams();
@@ -21,17 +22,11 @@ function SearchResults() {
 
   return (
     <div className="px-5 pt-6 pb-28">
-      <div className="flex items-center gap-3 mb-6">
-        <Link 
-          href="/" 
-          className="w-10 h-10 rounded-full bg-white border border-gray-100 flex items-center justify-center text-gray-600 active:scale-95 transition-transform"
-        >
-          <ChevronLeft size={20} />
-        </Link>
-        <h1 className="text-xl font-bold">
-          {query ? `Resultados para "${query}"` : "Explorar Productos"}
+      {query && (
+        <h1 className="text-xl font-bold mb-6">
+          Resultados para "{query}"
         </h1>
-      </div>
+      )}
 
       {filteredProducts.length > 0 ? (
         <div className="grid grid-cols-2 gap-4">
@@ -62,7 +57,8 @@ function SearchResults() {
 
 export default function SearchPage() {
   return (
-    <main className="min-h-screen bg-[#f9fafb]">
+    <div className="min-h-screen bg-[#f9fafb]">
+      <Header />
       <Suspense fallback={
         <div className="flex items-center justify-center min-h-screen">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
@@ -70,6 +66,6 @@ export default function SearchPage() {
       }>
         <SearchResults />
       </Suspense>
-    </main>
+    </div>
   );
 }

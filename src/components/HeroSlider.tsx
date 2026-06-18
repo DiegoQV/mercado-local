@@ -69,7 +69,7 @@ export const HeroSlider: React.FC = () => {
 
   return (
     <div
-      className="relative w-full overflow-hidden rounded-3xl"
+      className="relative w-full overflow-hidden"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
       onTouchStart={() => setIsPaused(true)}
@@ -85,14 +85,13 @@ export const HeroSlider: React.FC = () => {
             key={slide.id}
             className="min-w-full relative"
           >
-            <div className="relative w-full">
+            <div className="relative w-full overflow-hidden bg-blue-900" style={{ aspectRatio: '16/9' }}>
               <Image
                 src={slide.src}
                 alt={slide.alt}
-                width={1500}
-                height={800}
+                fill
                 priority={slide.priority}
-                className="w-full h-auto"
+                className="object-contain"
                 sizes="100vw"
               />
             </div>

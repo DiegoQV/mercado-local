@@ -1,21 +1,15 @@
 "use client";
 
 import React from "react";
-import { ClipboardList, ChevronLeft } from "lucide-react";
+import { ClipboardList } from "lucide-react";
 import Link from "next/link";
+import { SimpleHeader } from "@/components/SimpleHeader";
 
 export default function PedidosPage() {
   return (
-    <main className="min-h-screen bg-[#f9fafb] px-5 pt-6 pb-28">
-      <div className="flex items-center gap-3 mb-8">
-        <Link 
-          href="/" 
-          className="w-10 h-10 rounded-full bg-white border border-gray-100 flex items-center justify-center text-gray-600 active:scale-95 transition-transform"
-        >
-          <ChevronLeft size={20} />
-        </Link>
-        <h1 className="text-xl font-bold">Mis Pedidos</h1>
-      </div>
+    <div className="min-h-screen bg-[#f9fafb] pb-28">
+      <SimpleHeader title="Mis Pedidos" showBackButton={true} />
+      <div className="px-5">
 
       <div className="flex flex-col items-center justify-center py-20 text-center">
         <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center text-blue-600 mb-4">
@@ -32,6 +26,7 @@ export default function PedidosPage() {
           Empezar a comprar
         </Link>
       </div>
-    </main>
+      </div>
+    </div>
   );
 }

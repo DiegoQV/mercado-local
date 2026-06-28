@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import { Outfit } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const outfit = Outfit({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
+const outfit = localFont({
+  src: "./fonts/Outfit-Variable.ttf",
+  weight: "100 900",
   variable: "--font-outfit",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +26,6 @@ import { CartProvider } from "@/context/CartContext";
 import CartButton from "@/components/CartButton";
 import BottomNavbar from "@/components/BottomNavbar";
 import { AnnouncementBar } from "@/components/AnnouncementBar";
-import { Header } from "@/components/Header";
 
 export default function RootLayout({
   children,

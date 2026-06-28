@@ -1,32 +1,28 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useMemo, useState, useSyncExternalStore } from "react";
 import { MapPin, User, Phone, Save, CheckCircle2 } from "lucide-react";
 import { SimpleHeader } from "@/components/SimpleHeader";
+import { DeliveryData, getServerUserSnapshot, getUserSnapshot, parseUserData, saveUserData, subscribeUserData } from "@/lib/userStorage";
 
 export default function PerfilPage() {
-  const defaultForm = { fullName: "", phone: "", address: "" };
-  const [formData, setFormData] = useState<{ fullName: string; phone: string; address: string }>(() => {
-    if (typeof window === "undefined") return defaultForm;
-    try {
-      const saved = localStorage.getItem("mercado_digital_user");
-      return saved ? JSON.parse(saved) : defaultForm;
-    } catch {
-      return defaultForm;
-    }
-  });
+  const serializedUser = useSyncExternalStore(subscribeUserData, getUserSnapshot, getServerUserSnapshot);
+  const storedData = useMemo(() => parseUserData(serializedUser), [serializedUser]);
+  const [draft, setDraft] = useState<Partial<DeliveryData>>({});
+  const formData = { ...storedData, ...draft };
   const [isSaved, setIsSaved] = useState(false);
 
   const handleSave = (e: React.FormEvent) => {
     e.preventDefault();
-    localStorage.setItem("mercado_digital_user", JSON.stringify(formData));
+    saveUserData(formData);
+    setDraft({});
     setIsSaved(true);
     setTimeout(() => setIsSaved(false), 3000);
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    setDraft((prev) => ({ ...prev, [name]: value }));
     setIsSaved(false);
   };
 

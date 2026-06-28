@@ -24,7 +24,7 @@ function SearchResults() {
     <div className="px-5 pt-6 pb-28">
       {query && (
         <h1 className="text-xl font-bold mb-6">
-          Resultados para "{query}"
+          Resultados para &ldquo;{query}&rdquo;
         </h1>
       )}
 

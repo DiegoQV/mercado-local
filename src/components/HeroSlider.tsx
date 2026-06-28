@@ -14,7 +14,7 @@ interface Slide {
 const slides: Slide[] = [
   {
     id: 1,
-    src: "/images/banner-abarrotes-supermercado.png",
+    src: "/images/banner-mercado-digital-v2.png",
     alt: "Banner de abarrotes y supermercado",
     priority: true,
   },
@@ -80,7 +80,7 @@ export const HeroSlider: React.FC = () => {
         className="flex transition-transform duration-700 ease-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
-        {slides.map((slide, index) => (
+        {slides.map((slide) => (
           <div
             key={slide.id}
             className="min-w-full relative"
@@ -91,7 +91,7 @@ export const HeroSlider: React.FC = () => {
                 alt={slide.alt}
                 fill
                 priority={slide.priority}
-                className="object-contain"
+                className={slide.id === 1 ? "object-cover object-center" : "object-contain"}
                 sizes="100vw"
               />
             </div>

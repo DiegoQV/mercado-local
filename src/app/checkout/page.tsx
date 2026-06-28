@@ -1,10 +1,11 @@
 "use client";
-import React, { useState } from "react";
+import React, { useMemo, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, ChevronRight, Upload, CheckCircle, Smartphone, Info, User, Phone, MapPin, AlertCircle, ShoppingBag } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 import { cn } from "@/lib/utils";
+import { DeliveryData, getServerUserSnapshot, getUserSnapshot, parseUserData, subscribeUserData } from "@/lib/userStorage";
 
 export default function CheckoutPage() {
   const { items, subtotal, commission, total, storeName, clearCart } = useCart();
@@ -12,31 +13,16 @@ export default function CheckoutPage() {
   const [isConfirming, setIsConfirming] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  // User Delivery Data — initialized from localStorage
-  const defaultUserData = { fullName: "", phone: "", address: "" };
-  const [userData, setUserData] = useState<{ fullName: string; phone: string; address: string }>(() => {
-    if (typeof window === "undefined") return defaultUserData;
-    try {
-      const saved = localStorage.getItem("mercado_digital_user");
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        return {
-          fullName: parsed.fullName || "",
-          phone: parsed.phone || "",
-          address: parsed.address || "",
-        };
-      }
-    } catch {
-      // ignore
-    }
-    return defaultUserData;
-  });
+  const serializedUser = useSyncExternalStore(subscribeUserData, getUserSnapshot, getServerUserSnapshot);
+  const storedUser = useMemo(() => parseUserData(serializedUser), [serializedUser]);
+  const [userDraft, setUserDraft] = useState<Partial<DeliveryData>>({});
+  const userData = { ...storedUser, ...userDraft };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     // Strip < > to prevent basic XSS injections
     const sanitizedValue = value.replace(/[<>]/g, "");
-    setUserData(prev => ({ ...prev, [name]: sanitizedValue }));
+    setUserDraft(prev => ({ ...prev, [name]: sanitizedValue }));
     setError(null);
   };
 

@@ -36,3 +36,27 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ── Cart microanimations ───────────────────────────────────────────── */
+
+/* Selector de cantidad: aparece con spring bounce al agregar al carrito */
+@keyframes cart-pop {
+  0%   { transform: scale(0.75); opacity: 0; }
+  60%  { transform: scale(1.06); }
+  100% { transform: scale(1);    opacity: 1; }
+}
+
+/* Check de confirmación al presionar + */
+@keyframes check-in {
+  0%   { transform: scale(0.4) rotate(-15deg); opacity: 0; }
+  65%  { transform: scale(1.25) rotate(5deg);  opacity: 1; }
+  100% { transform: scale(1)    rotate(0deg);  opacity: 1; }
+}
+
+.animate-cart-pop {
+  animation: cart-pop 0.28s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+.animate-check-in {
+  animation: check-in 0.22s ease-out both;
+}

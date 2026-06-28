@@ -81,11 +81,8 @@ export const HeroSlider: React.FC = () => {
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {slides.map((slide) => (
-          <div
-            key={slide.id}
-            className="min-w-full relative"
-          >
-            <div className="relative w-full overflow-hidden bg-blue-900" style={{ aspectRatio: '16/9' }}>
+          <div key={slide.id} className="min-w-full relative">
+            <div className="relative w-full overflow-hidden bg-blue-900" style={{ aspectRatio: "16/9" }}>
               <Image
                 src={slide.src}
                 alt={slide.alt}

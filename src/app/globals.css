@@ -60,3 +60,43 @@ body {
 .animate-check-in {
   animation: check-in 0.22s ease-out both;
 }
+
+/* ── Checkout animations ───────────────────────────────────────────── */
+
+/* Card slide-up and fade-in entry */
+@keyframes slide-up-fade {
+  0% { transform: translateY(8px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fade-in-up {
+  animation: slide-up-fade 220ms cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+/* Stagger delays for cards */
+.delay-100 { animation-delay: 100ms; }
+.delay-150 { animation-delay: 150ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-250 { animation-delay: 250ms; }
+
+/* Scale up for checkmarks or success state pop */
+@keyframes scale-up {
+  0% { transform: scale(0.92); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.animate-scale-up {
+  animation: scale-up 180ms cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
+/* Shake animation for validation errors */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+.animate-shake {
+  animation: shake 200ms ease-in-out;
+}
+

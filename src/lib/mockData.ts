@@ -26,6 +26,29 @@ export const CATEGORY_STOCK_IMAGES: Record<Category, string> = {
   bebidas: "https://images.unsplash.com/photo-1544145945-f904253d0c7b?q=80&w=800"
 };
 
+const OUTFIT_PRODUCT_IMAGES: Record<string, string> = {
+  "Polo Algodón Pima": "/images/Moda-Ropa/polo-algodon-pima.jpg",
+  "Jeans Slim Fit": "/images/Moda-Ropa/jeans-slim-fit.jpg",
+  "Zapatillas Urbanas": "/images/Moda-Ropa/zapatillas-urbanas.jpg",
+  "Casaca Cortavientos": "/images/Moda-Ropa/casaca-cortavientos.jpg",
+  "Camisa Manga Larga": "/images/Moda-Ropa/camisa-manga-larga.jpg",
+  "Short de Verano": "/images/Moda-Ropa/short-de-verano.jpg",
+  "Vestido de Noche": "/images/Moda-Ropa/vestido-de-noche.jpg",
+  "Blusa de Seda": "/images/Moda-Ropa/blusa-de-seda.jpg",
+  "Falda Plisada": "/images/Moda-Ropa/falda-plisada.jpg",
+  "Casaca de Cuero Sintético": "/images/Moda-Ropa/casaca-de-cuero-sintetico.jpg",
+  "Gorra Amazon View": "/images/Moda-Ropa/gorra-amazon-view.jpg",
+  "Lentes de Sol Polarizados": "/images/Moda-Ropa/lentes-de-sol-polarizados.jpg",
+  "Reloj de Pulsera Análogo": "/images/Moda-Ropa/reloj-de-pulsera-analogo.jpg",
+  "Cinturón de Cuero": "/images/Moda-Ropa/cinturon-de-cuero.jpg",
+  "Medias Deportivas x3": "/images/Moda-Ropa/medias-deportivasx3.jpg",
+  "Zapatos de Vestir": "/images/Moda-Ropa/zapatos-de-vestir.jpg",
+  "Mocasines Casuales": "/images/Moda-Ropa/mocasines-casuales.jpg",
+  "Cartera de Mano": "/images/Moda-Ropa/cartera-de-mano.jpg",
+  "Mochila Urbana": "/images/Moda-Ropa/mochila-urbana.jpg",
+  "Billetera de Cuero": "/images/Moda-Ropa/billetera-de-cuero.jpg"
+};
+
 export const STORES: StoreDefinition[] = [
   {
     "id": "comercial-collantes",
@@ -253,7 +276,7 @@ export const STORES: StoreDefinition[] = [
   }
 ];
 
-export const MOCK_PRODUCTS: Product[] = [
+const RAW_MOCK_PRODUCTS: Product[] = [
   {
     "id": "prod-comer-aceite-vegetal--0",
     "name": "Aceite Vegetal Primor",
@@ -8394,7 +8417,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "price": 70,
     "originalPrice": 88,
     "description": "Kit de Embrague Toyota de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/kit-de-embrague-toyota.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8412,7 +8435,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Pastillas de Freno Delanteras",
     "price": 12,
     "description": "Pastillas de Freno Delanteras de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/pastillas-de-freno-delanteras.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8431,7 +8454,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "price": 53,
     "originalPrice": 67,
     "description": "Amortiguadores Traseros x2 de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/amortiguadores-traserosx2.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8449,7 +8472,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Filtro de Aire Original",
     "price": 85,
     "description": "Filtro de Aire Original de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/filtro-de-aire-original.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8467,7 +8490,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Filtro de Aceite",
     "price": 19,
     "description": "Filtro de Aceite de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/filtro-de-aceite.png",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8485,7 +8508,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Bujías de Iridium x4",
     "price": 27,
     "description": "Bujías de Iridium x4 de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/bujias-de-iridiumx4.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8504,7 +8527,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "price": 60,
     "originalPrice": 76,
     "description": "Batería 13 Placas de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/bateria-13-placas.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8523,7 +8546,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "price": 49,
     "originalPrice": 62,
     "description": "Aceite Multigrado 20W-50 de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/aceite-multigrado-20w.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8541,7 +8564,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Refrigerante Premium",
     "price": 76,
     "description": "Refrigerante Premium de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/refrigerante-premium.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8559,7 +8582,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Líquido de Frenos Dot4",
     "price": 46,
     "description": "Líquido de Frenos Dot4 de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/liquido-de-frenos-dot4.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8578,7 +8601,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "price": 30,
     "originalPrice": 38,
     "description": "Faro Delantero Derecho de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/faro-delantero-derecho.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8596,7 +8619,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Espejo Retrovisor Lateral",
     "price": 53,
     "description": "Espejo Retrovisor Lateral de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/espejo-retrovisor-lateral.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8614,7 +8637,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Bomba de Agua",
     "price": 29,
     "description": "Bomba de Agua de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/bomba-de-agua.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8633,7 +8656,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "price": 47,
     "originalPrice": 59,
     "description": "Correa de Distribución de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/correa-de-distribucion.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8651,7 +8674,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Rodaje de Rueda",
     "price": 72,
     "description": "Rodaje de Rueda de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/rodaje-de-rueda.webp",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8669,7 +8692,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Empaque de Culata",
     "price": 64,
     "description": "Empaque de Culata de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/empaque-de-culata.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8687,7 +8710,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Sensor de Oxígeno",
     "price": 20,
     "description": "Sensor de Oxígeno de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/sensor-de-oxigeno.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8705,7 +8728,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Radiador de Aluminio",
     "price": 17,
     "description": "Radiador de Aluminio de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/radiador-de-aluminio.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8723,7 +8746,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Arrancador Eléctrico",
     "price": 58,
     "description": "Arrancador Eléctrico de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/arrancador-electrico.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -8741,7 +8764,7 @@ export const MOCK_PRODUCTS: Product[] = [
     "name": "Alternador 90A",
     "price": 85,
     "description": "Alternador 90A de alta calidad, disponible para entrega inmediata en Repuestos El Cholo.",
-    "image": "https://images.unsplash.com/photo-1486006920555-c77dcf18193b?q=80&w=800",
+    "image": "/images/Repuestos/repuestos-el-cholo/alternador-90a.jpg",
     "category": "motor",
     "storeName": "Repuestos El Cholo",
     "storeId": "repuestos-el-cholo",
@@ -10329,3 +10352,10 @@ export const MOCK_PRODUCTS: Product[] = [
     }
   }
 ];
+
+export const MOCK_PRODUCTS: Product[] = RAW_MOCK_PRODUCTS.map((product) => ({
+  ...product,
+  image: product.category === "outfit"
+    ? OUTFIT_PRODUCT_IMAGES[product.name] ?? product.image
+    : product.image
+}));

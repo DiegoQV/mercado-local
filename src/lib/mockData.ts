@@ -49,6 +49,104 @@ const OUTFIT_PRODUCT_IMAGES: Record<string, string> = {
   "Billetera de Cuero": "/images/Moda-Ropa/billetera-de-cuero.jpg"
 };
 
+const AMAZONAS_TECH_PRODUCT_IMAGES: Record<string, string> = {
+  "Smartphone Android 128GB": "/images/Tecnologia/amazonas-tech/smartphone-android-128gb.jpg",
+  "Audífonos Bluetooth Pro": "/images/Tecnologia/amazonas-tech/audifonos-bluetooth-pro.jpg",
+  "Smartwatch Serie 7": "/images/Tecnologia/amazonas-tech/smartwatch-serie7.jpg",
+  "Laptop Core i5 8GB": "/images/Tecnologia/amazonas-tech/laptop-core-i5.jpg",
+  "Tablet 10 Pulgadas": "/images/Tecnologia/amazonas-tech/tablet-10-pulgadas.jpg",
+  "Mouse Inalámbrico": "/images/Tecnologia/amazonas-tech/mouse-inalambrico.jpg",
+  "Teclado Mecánico RGB": "/images/Tecnologia/amazonas-tech/teclado-mecanico-rgb.png",
+  "Cámara Web Full HD": "/images/Tecnologia/amazonas-tech/camara-web-full-hd.jpg",
+  "Router WiFi 6": "/images/Tecnologia/amazonas-tech/router-wifi6.jpg",
+  "Disco Duro Externo 1TB": "/images/Tecnologia/amazonas-tech/disco-duro-externo-1tb.jpg",
+  "Parlante Bluetooth WaterProof": "/images/Tecnologia/amazonas-tech/parlante-bluetooth-waterproof.jpg",
+  "Cargador Rápido 20W": "/images/Tecnologia/amazonas-tech/cargador-rapido-20w.jpg",
+  "Power Bank 10000mAh": "/images/Tecnologia/amazonas-tech/power-bank-10000mah.png",
+  "Funda para Laptop": "/images/Tecnologia/amazonas-tech/funda-para-laptop.jpg",
+  "Monitor 24\" IPS": "/images/Tecnologia/amazonas-tech/monitor-24-ips.jpg",
+  "Soporte para Celular": "/images/Tecnologia/amazonas-tech/soporte-para-celular.jpg",
+  "Aro de Luz LED": "/images/Tecnologia/amazonas-tech/aro-de-luz-led.jpg",
+  "Micrófono para Streaming": "/images/Tecnologia/amazonas-tech/microfono-para-streaming.jpg",
+  "Adaptador USB-C Hub": "/images/Tecnologia/amazonas-tech/adaptador-usb-c-hub.jpg",
+  "Cable HDMI 4K": "/images/Tecnologia/amazonas-tech/cable-hdmi-4k.jpg"
+};
+
+const FERRETERIA_EL_PROGRESO_PRODUCT_IMAGES: Record<string, string> = {
+  "Martillo de Carpintero": "/images/Ferreteria/ferreteria-el-progreso/martillo-de-carpintero.jpg",
+  "Juego de Destornilladores": "/images/Ferreteria/ferreteria-el-progreso/juego-de-destornilladores.jpg",
+  "Taladro Percutor 600W": "/images/Ferreteria/ferreteria-el-progreso/taladro-percutor-600w.jpg",
+  "Alicate Universal": "/images/Ferreteria/ferreteria-el-progreso/alicate-universal.jpg",
+  "Cinta Métrica 5m": "/images/Ferreteria/ferreteria-el-progreso/cinta-metrica-5m.jpg",
+  "Pintura Látex Blanca 1gal": "/images/Ferreteria/ferreteria-el-progreso/pintura-latex-blanca-1gal.jpg",
+  "Brocha de 3 pulgadas": "/images/Ferreteria/ferreteria-el-progreso/brocha-3-pulgadas.jpg",
+  "Sierra para Metales": "/images/Ferreteria/ferreteria-el-progreso/sierra-para-metales.jpg",
+  "Llave Inglesa 10\"": "/images/Ferreteria/ferreteria-el-progreso/llave-inglesa-10.jpg",
+  "Nivel de Burbuja": "/images/Ferreteria/ferreteria-el-progreso/nivel-de-burbuja.jpg",
+  "Lija de Agua Nro 80": "/images/Ferreteria/ferreteria-el-progreso/lija-de-agua-nro-80.jpg",
+  "Pegamento PVC": "/images/Ferreteria/ferreteria-el-progreso/pegamento-pvc.jpg",
+  "Tornillos para Madera x100": "/images/Ferreteria/ferreteria-el-progreso/tornillos-para-madera-x100.jpg",
+  "Clavos de 2 pulgadas x1kg": "/images/Ferreteria/ferreteria-el-progreso/clavos-de-2-pulgadas-x1kg.jpg",
+  "Candado de Seguridad": "/images/Ferreteria/ferreteria-el-progreso/candado-de-seguridad.jpg",
+  "Manguera de Riego 15m": "/images/Ferreteria/ferreteria-el-progreso/manguera-de-riego-15m.jpg",
+  "Escalera de Aluminio": "/images/Ferreteria/ferreteria-el-progreso/escalera-de-aluminio.jpg",
+  "Guantes de Protección": "/images/Ferreteria/ferreteria-el-progreso/guantes-de-proteccion.jpg",
+  "Casco de Obra": "/images/Ferreteria/ferreteria-el-progreso/casco-de-obra.jpg",
+  "Linterna LED Potente": "/images/Ferreteria/ferreteria-el-progreso/linterna-led-potente.jpg"
+};
+
+const BOTICA_AMAZONAS_PRODUCT_IMAGES: Record<string, string> = {
+  "Paracetamol 500mg": "/images/Farmacia/botica-amazonas/paracetamol-500mg.jpg",
+  "Ibuprofeno 400mg": "/images/Farmacia/botica-amazonas/ibuprofeno-400mg.jpg",
+  "Amoxicilina 500mg": "/images/Farmacia/botica-amazonas/amoxicilina-500mg.jpg",
+  "Loratadina 10mg": "/images/Farmacia/botica-amazonas/loratadina-10mg.jpg",
+  "Vitamina C Redoxon": "/images/Farmacia/botica-amazonas/vitamina-c-redoxon.jpg",
+  "Alcohol en Gel 500ml": "/images/Farmacia/botica-amazonas/alcohol-en-gel-500ml.jpg",
+  "Mascarillas KN95 x10": "/images/Farmacia/botica-amazonas/mascarillas-kn95-x10.jpg",
+  "Termómetro Digital": "/images/Farmacia/botica-amazonas/termometro-digital.jpg",
+  "Gasas Estériles": "/images/Farmacia/botica-amazonas/gasas-esteriles.jpg",
+  "Panadol Antigripal": "/images/Farmacia/botica-amazonas/panadol-antigripal.jpg",
+  "Omeprazol 20mg": "/images/Farmacia/botica-amazonas/omeprazol-20mg.jpg",
+  "Simvastatina 20mg": "/images/Farmacia/botica-amazonas/simvastatina-20mg.jpg",
+  "Metformina 850mg": "/images/Farmacia/botica-amazonas/metformina-850mg.jpg",
+  "Diclofenaco Gel": "/images/Farmacia/botica-amazonas/diclofenaco-gel.jpg",
+  "Suero Fisiológico": "/images/Farmacia/botica-amazonas/suero-fisiologico.jpg",
+  "Multivitamínico Centrum": "/images/Farmacia/botica-amazonas/multivitaminico-centrum.jpg",
+  "Colirio Ocular": "/images/Farmacia/botica-amazonas/colirio-ocular.jpg",
+  "Crema Hidratante Cerave": "/images/Farmacia/botica-amazonas/crema-hidratante-cerave.jpg",
+  "Bloqueador Solar FPS50": "/images/Farmacia/botica-amazonas/bloqueador-solar-fps50.jpg",
+  "Jabón Líquido Neutro": "/images/Farmacia/botica-amazonas/jabon-liquido-neutro.jpg"
+};
+
+const EL_HORNO_POLLERIA_PRODUCT_IMAGES: Record<string, string> = {
+  "1/4 de Pollo a la Brasa": "/images/Comidas/el-horno-polleria/1-4-de-pollo-a-la-brasa.jpg",
+  "Lomo Saltado Criollo": "/images/Comidas/el-horno-polleria/lomo-saltado-criollo.jpg",
+  "Arroz con Pollo Chachapoyano": "/images/Comidas/el-horno-polleria/arroz-con-pollo-chachapoyano.jpg",
+  "Arroz Chaufa de Pollo": "/images/Comidas/el-horno-polleria/arroz-chaufa-de-pollo.jpg"
+};
+
+const LICORERIA_EL_BRINDIS_PRODUCT_IMAGES: Record<string, string> = {
+  "Cerveza Cusqueña Dorada 620ml": "/images/Bebidas/licoreria-el-brindis/cerveza-cusquena-dorada-620ml.jpg",
+  "Inka Kola 2 Litros": "/images/Bebidas/licoreria-el-brindis/inka-kola-2-litros.jpg",
+  "Pisco Portón Mosto Verde": "/images/Bebidas/licoreria-el-brindis/pisco-porton-mosto-verde.jpg",
+  "Agua San Mateo 2.5L": "/images/Bebidas/licoreria-el-brindis/agua-san-mateo-2-5l.jpg"
+};
+
+const STORE_PRODUCT_IMAGES: Record<string, Record<string, string>> = {
+  "amazonas-tech": AMAZONAS_TECH_PRODUCT_IMAGES,
+  "ferreteria-el-progreso": FERRETERIA_EL_PROGRESO_PRODUCT_IMAGES,
+  "botica-amazonas": BOTICA_AMAZONAS_PRODUCT_IMAGES,
+  "el-horno-pollerya": EL_HORNO_POLLERIA_PRODUCT_IMAGES,
+  "licorerya-el-brindis": LICORERIA_EL_BRINDIS_PRODUCT_IMAGES
+};
+
+function resolveProductImage(product: Product): string {
+  const storeImage = STORE_PRODUCT_IMAGES[product.storeId]?.[product.name];
+  if (storeImage) return storeImage;
+  if (product.category === "outfit") return OUTFIT_PRODUCT_IMAGES[product.name] ?? product.image;
+  return product.image;
+}
+
 export const STORES: StoreDefinition[] = [
   {
     "id": "comercial-collantes",
@@ -10355,7 +10453,5 @@ const RAW_MOCK_PRODUCTS: Product[] = [
 
 export const MOCK_PRODUCTS: Product[] = RAW_MOCK_PRODUCTS.map((product) => ({
   ...product,
-  image: product.category === "outfit"
-    ? OUTFIT_PRODUCT_IMAGES[product.name] ?? product.image
-    : product.image
+  image: resolveProductImage(product)
 }));

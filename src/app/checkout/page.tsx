@@ -2,17 +2,27 @@
 import React, { useMemo, useState, useSyncExternalStore } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowLeft, ChevronRight, Upload, CheckCircle, Smartphone, Info, User, Phone, MapPin, AlertCircle, ShoppingBag, ShieldCheck } from "lucide-react";
+import { ArrowLeft, ChevronRight, Upload, CheckCircle, Smartphone, Info, User, Phone, MapPin, AlertCircle, ShoppingBag, ShieldCheck, Store, Truck } from "lucide-react";
 import { useCart } from "@/context/CartContext";
 import { cn } from "@/lib/utils";
 import { DeliveryData, getServerUserSnapshot, getUserSnapshot, parseUserData, subscribeUserData, saveUserData } from "@/lib/userStorage";
 
+type DeliveryMethod = "pickup" | "delivery";
+
+const DELIVERY_FEE = 3;
+
 export default function CheckoutPage() {
-  const { items, subtotal, commission, total, storeName, clearCart } = useCart();
+  const { items, subtotal, storeName, clearCart } = useCart();
   const [voucher, setVoucher] = useState<File | null>(null);
   const [isConfirming, setIsConfirming] = useState(false);
   const [isCompleted, setIsCompleted] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [deliveryMethod, setDeliveryMethod] = useState<DeliveryMethod>("pickup");
+
+  const deliveryFee = deliveryMethod === "delivery" ? DELIVERY_FEE : 0;
+  const total = subtotal + deliveryFee;
+  const deliveryMethodLabel = deliveryMethod === "delivery" ? "Delivery" : "Recojo en tienda";
+  const deliveryCostLabel = deliveryFee === 0 ? "Gratis" : `S/${deliveryFee.toFixed(2)}`;
 
   const serializedUser = useSyncExternalStore(subscribeUserData, getUserSnapshot, getServerUserSnapshot);
   const storedUser = useMemo(() => parseUserData(serializedUser), [serializedUser]);
@@ -82,7 +92,9 @@ export default function CheckoutPage() {
     const message = `¡Nuevo Pago Registrado!
 📦 Pedido #${orderId}
 🏪 Tienda: ${storeName}
-💰 Total Pago: S/. ${total.toFixed(2)}
+🚚 Método de entrega: ${deliveryMethodLabel}
+Costo de entrega: ${deliveryCostLabel}
+💰 Total: S/${total.toFixed(2)}
 
 👤 CLIENTE:
 Nombre: ${fullNameVal}
@@ -213,7 +225,41 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
             </div>
             
             <hr className="border-gray-100 my-3" />
-            
+
+            <div className="space-y-2">
+              <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider pl-1">Método de entrega</p>
+              <div className="grid grid-cols-2 gap-1.5 bg-gray-100 p-1 rounded-xl" role="group" aria-label="Método de entrega">
+                <button
+                  type="button"
+                  aria-pressed={deliveryMethod === "pickup"}
+                  onClick={() => setDeliveryMethod("pickup")}
+                  className={cn(
+                    "min-h-11 px-3 rounded-lg flex items-center justify-center gap-2 text-xs font-bold transition-all duration-200 active:scale-[0.98]",
+                    deliveryMethod === "pickup"
+                      ? "bg-blue-600 text-white shadow-sm"
+                      : "text-gray-600 hover:bg-white/70"
+                  )}
+                >
+                  <Store size={15} />
+                  <span>Recojo en tienda</span>
+                </button>
+                <button
+                  type="button"
+                  aria-pressed={deliveryMethod === "delivery"}
+                  onClick={() => setDeliveryMethod("delivery")}
+                  className={cn(
+                    "min-h-11 px-3 rounded-lg flex items-center justify-center gap-2 text-xs font-bold transition-all duration-200 active:scale-[0.98]",
+                    deliveryMethod === "delivery"
+                      ? "bg-blue-600 text-white shadow-sm"
+                      : "text-gray-600 hover:bg-white/70"
+                  )}
+                >
+                  <Truck size={15} />
+                  <span>Delivery</span>
+                </button>
+              </div>
+            </div>
+              
             <div className="space-y-3">
               <div className="flex justify-between items-center text-sm">
                 <span className="text-gray-500 font-medium">Subtotal</span>
@@ -221,13 +267,12 @@ Adjunto envío el voucher de verificación. Por favor procesar mi pedido.`;
               </div>
               
               <div className="flex justify-between items-center text-sm">
-                <span className="text-gray-500 font-medium uppercase text-[10px] tracking-wider">Costo de Envío (Delivery)</span>
-                <span className="text-emerald-600 font-bold bg-emerald-50 px-2 py-0.5 rounded-lg text-[11px] border border-emerald-100/50">Gratis</span>
-              </div>
-              
-              <div className="flex justify-between items-center text-sm">
-                <span className="text-gray-500 font-medium">Comisión M. Digital (3%)</span>
-                <span className="text-gray-900 font-bold tabular-nums">+ S/{commission.toFixed(2)}</span>
+                <span className="text-gray-500 font-medium">Costo de entrega</span>
+                {deliveryFee === 0 ? (
+                  <span className="text-emerald-600 font-bold bg-emerald-50 px-2 py-0.5 rounded-lg text-[11px] border border-emerald-100/50">Gratis</span>
+                ) : (
+                  <span className="text-gray-900 font-bold tabular-nums">S/{deliveryFee.toFixed(2)}</span>
+                )}
               </div>
             </div>
 
